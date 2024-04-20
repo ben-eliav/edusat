@@ -158,7 +158,6 @@ inline void Solver::reset_iterators(double where) {
 	else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
 		lrb_Score2Vars_it = (where == 0) ? lrb_Score2Vars.begin() : lrb_Score2Vars.lower_bound(where);
 		Assert(lrb_Score2Vars_it != lrb_Score2Vars.end());
-
 	}
 }
 
@@ -319,6 +318,20 @@ SolverState Solver::decide(){
 	}
 
 	case VAR_DEC_HEURISTIC::LRB: {
+		if (m_should_reset_iterators) reset_iterators(m_curr_activity);  // Save current top core for some reason.
+		if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;
+
+		while (true) {
+			for (auto v : lrb_Score2Vars_it->second) {  // iterate over variables with the top score
+				if (state[v] == VarState::V_UNASSIGNED) {
+					best_lit = getVal(v);  // use heuristic to decide true / false
+					goto Apply_decision;  // done.
+				}
+			}
+			++lrb_Score2Vars_it;  // there were no unassigned variables with this score, go to next highest score.
+			if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;  // no more scores to check.
+		}
+
 		// TODO: implement LRB
 		break;
 	}
@@ -327,7 +340,7 @@ SolverState Solver::decide(){
 		
 	assert(!best_lit);
 	S.print_state(Assignment_file);
-	return SolverState::SAT;
+	return SolverState::SAT;  // all variables are assigned!
 
 
 Apply_decision:	
