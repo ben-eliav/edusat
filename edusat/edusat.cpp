@@ -98,12 +98,12 @@ void Solver::read_cnf(ifstream& in) {
 	}	
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) reset_iterators();
 	cout << "Read " << cnf_size() << " clauses in " << cpuTime() - begin_time << " secs." << endl << "Solving..." << endl;
-	for (Clause c : cnf) { // Remove everything from here to the end of the function. Just wanted to see the output.
-		c.print();
-		cout << endl;
-	}
-	int x;
-	cin >> x;
+	//for (Clause c : cnf) { // Remove everything from here to the end of the function. Just wanted to see the output.
+	//	c.print();
+	//	cout << endl;
+	//}
+	//int x;
+	//cin >> x;
 }
 
 #pragma endregion readCNF
@@ -143,6 +143,9 @@ void Solver::initialize() {
 	for (unsigned int v = 0; v <= nvars; ++v) {			
 		m_activity[v] = 0;		
 	}
+
+
+
 	reset();
 }
 
@@ -269,6 +272,11 @@ SolverState Solver::decide(){
 			if (m_Score2Vars_it == m_Score2Vars.end()) break;
 			m_VarsSameScore_it = m_Score2Vars_it->second.begin();
 		}
+		break;
+	}
+
+	case VAR_DEC_HEURISTIC::LRB: {
+		// TODO: implement LRB
 		break;
 	}
 	default: Assert(0);
@@ -489,6 +497,11 @@ int Solver::analyze(const Clause conflicting) {
 	if (verbose >= 1 && !(num_learned % 1000)) {
 		cout << "Learned: "<< num_learned <<" clauses" << endl;		
 	}	
+	/*for (Lit l : trail) {
+		cout << l << " " << l2v(l) << " " << get_varstate(state[l2v(l)]) << endl;
+	}
+	int x;
+	std::cin >> x;*/
 	return bktrk; 
 }
 

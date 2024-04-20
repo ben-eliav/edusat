@@ -31,9 +31,10 @@ typedef vector<Lit> trail_t;
 #define Max_bring_forward 10
 #define var_decay 0.99
 #define Rescale_threshold 1e100
+#define Alpha 0.4
 #define Assignment_file "assignment.txt"
 
-int verbose = 1;
+int verbose = 0;
 double begin_time;
 double timeout = 0.0;
 
@@ -76,6 +77,10 @@ enum class VarState {
 	V_TRUE,
 	V_UNASSIGNED
 };
+
+string get_varstate(VarState s) {
+	return (s == VarState::V_FALSE ? "false" : s == VarState::V_TRUE ? "true" : "unassigned");
+}
 
 enum class ClauseState {
 	C_UNSAT,
@@ -212,6 +217,18 @@ class Solver {
 	double			m_curr_activity;
 	bool			m_should_reset_iterators;
 
+	// Used by VAR_DH_LRB, we want to use completely different variables to not accidentally mix them up with the ones used by VAR_DH_MINISAT:
+	vector<double> lrb_Var2Score;  // Save the score of each variable	
+	vector<double> lrb_VarParticipated; // How many times the variable was on the participation side of a conflict
+	vector<double> lrb_VarReasoned; // How many times the variable was on the reason side of a conflict
+	vector<double> lrb_VarAssigned; // When the variable was last assigned
+
+	map<double, unordered_set<Var>, greater<double>> lrb_Score2Vars; // Opposite map - how we will choose the top variable to branch from
+	map<double, unordered_set<Var>, greater<double>>::iterator lrb_Score2Vars_it;
+	vector<double>	lrb_activity;  // Var => activity
+	double			lrb_alpha;  // Starts at 0.4, decreases over time.
+
+
 	unsigned int 
 		nvars,			// # vars
 		nclauses, 		// # clauses
@@ -268,7 +285,7 @@ class Solver {
 public:
 	Solver(): 
 		nvars(0), nclauses(0), num_learned(0), num_decisions(0), num_assignments(0), 
-		num_restarts(0), m_var_inc(1.0), qhead(0), 
+		num_restarts(0), m_var_inc(1.0), qhead(0), lrb_alpha(Alpha),
 		restart_threshold(Restart_lower), restart_lower(Restart_lower), 
 		restart_upper(Restart_upper), restart_multiplier(Restart_multiplier)	 {};
 	
@@ -278,6 +295,8 @@ public:
 		return var_state == VarState::V_UNASSIGNED ? LitState::L_UNASSIGNED : (Neg(l) && var_state == VarState::V_FALSE || !Neg(l) && var_state == VarState::V_TRUE) ? LitState::L_SAT : LitState::L_UNSAT;
 	}
 	inline LitState lit_state(Lit l, VarState var_state) {
+		throw runtime_error("This is a test");
+
 		return var_state == VarState::V_UNASSIGNED ? LitState::L_UNASSIGNED : (Neg(l) && var_state == VarState::V_FALSE || !Neg(l) && var_state == VarState::V_TRUE) ? LitState::L_SAT : LitState::L_UNSAT;
 	}
 	void read_cnf(ifstream& in);
@@ -305,7 +324,7 @@ public:
 
 	void print_state(const char *file_name) {
 		ofstream out;
-		out.open(file_name);		
+		out.open(file_name);	
 		out << "State: "; 
 		for (vector<VarState>::iterator it = state.begin() + 1; it != state.end(); ++it) {
 			char sign = (*it) == VarState::V_FALSE ? -1 : (*it) == VarState::V_TRUE ? 1 : 0;
