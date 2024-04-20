@@ -212,16 +212,16 @@ class Solver {
 	map<double, unordered_set<Var>, greater<double>> m_Score2Vars; // 'greater' forces an order from large to small of the keys
 	map<double, unordered_set<Var>, greater<double>>::iterator m_Score2Vars_it;
 	unordered_set<Var>::iterator m_VarsSameScore_it;
-	vector<double>	m_activity; // Var => activity
+	vector<double>	m_activity; // Var => activity. This is basically the reverse of Score2Vars
 	double			m_var_inc;	// current increment of var score (it increases over time)
 	double			m_curr_activity;
 	bool			m_should_reset_iterators;
 
 	// Used by VAR_DH_LRB, we want to use completely different variables to not accidentally mix them up with the ones used by VAR_DH_MINISAT:
-	vector<double>	lrb_Var2Score,		// Save the score of each variable	
-					lrb_VarParticipated, // How many times the variable was on the participation side of a conflict
-					lrb_VarReasoned,		// How many times the variable was on the reason side of a conflict
-					lrb_VarAssigned;		// When the variable was last assigned
+	vector<double> lrb_Var2Score;		// Save the score of each variable	
+	vector<int>    lrb_participated,	// How many times the variable was on the participation side of a conflict
+				   lrb_reasoned,		// How many times the variable was on the reason side of a conflict
+			       lrb_assigned;		// When the variable was last assigned
 
 	map<double, unordered_set<Var>, greater<double>> lrb_Score2Vars; // Opposite map - how we will choose the top variable to branch from
 	map<double, unordered_set<Var>, greater<double>>::iterator lrb_Score2Vars_it;
@@ -283,9 +283,10 @@ class Solver {
 	inline void bumpLitScore(int lit_idx);
 
 	// learning rate branching
-	inline void onAssign(Var v);
-	inline void onUnassign(Var v);
-	inline void afterAnalyze();
+	inline void lrb_update_score(Var v, double new_reward);  // Changes the score of a variable based on the new reward received
+	inline void lrb_onAssign(Var v);  // Based on pseudocode from the paper
+	inline void lrb_onUnassign(Var v);  // Based on pseudocode from the paper
+	inline void lrb_afterAnalyze();  // Based on pseudocode from the paper
 
 
 public:

@@ -118,15 +118,32 @@ void Solver::reset() { // invoked initially + every restart
 	conflicts_at_dl.push_back(0);
 }
 
-inline void Solver::onAssign(Var v) {
-	cout << "onAssign" << endl;
+inline void Solver::lrb_update_score(Var v, double r) {
+	double prev_score = lrb_Var2Score[v];
+	double new_score = (1 - lrb_alpha) * prev_score + lrb_alpha * r;
+	lrb_Var2Score[v] = new_score;
+	lrb_Score2Vars[prev_score].erase(v);
+	if (lrb_Score2Vars[prev_score].size() == 0) lrb_Score2Vars.erase(prev_score);
+	lrb_Score2Vars[new_score].insert(v);
+
 }
 
-inline void Solver::onUnassign(Var v) {
-	cout << "unUnassign" << endl;
+inline void Solver::lrb_onAssign(Var v) {
+	lrb_assigned[v] = num_learned;
+	lrb_participated[v] = 0;
 }
 
-inline void Solver::afterAnalyze() {
+inline void Solver::lrb_onUnassign(Var v) {
+	double interval = num_learned - lrb_assigned[v];
+	if (interval > 0) {
+		double r = lrb_participated[v] / interval;
+		lrb_update_score(v, r);
+	}
+}
+
+inline void Solver::lrb_afterAnalyze() {
+	// This will be the most difficult part to implement.
+	// We have to find all of the variables that were on the participation side / reason side of the conflict clause.
 	cout << "afterAnalyze" << endl;
 }
 
@@ -163,9 +180,9 @@ void Solver::initialize() {
 
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
 		lrb_Var2Score.resize(nvars + 1, 0);
-		lrb_VarParticipated.resize(nvars + 1, 0);
-		lrb_VarReasoned.resize(nvars + 1, 0);
-		lrb_VarAssigned.resize(nvars + 1, 0);
+		lrb_participated.resize(nvars + 1, 0);
+		lrb_reasoned.resize(nvars + 1, 0);
+		lrb_assigned.resize(nvars + 1, 0);
 	}
 
 
@@ -202,6 +219,7 @@ void Solver::m_rescaleScores(double& new_score) {
 }
 
 void Solver::bumpVarScore(int var_idx) {
+	// This is only relevant for Minisat heuristic.
 	double new_score;
 	double score = m_activity[var_idx];		
 
