@@ -1,0 +1,10140 @@
+C:\Users\adame\Documents\Ben Files\edusat\edusat\test\easy_cnf_instances\aim-200-6_0-yes1-4.cnf
+This is edusat
+vars: 200 clauses: 1200
+0
+Read 1200 clauses in 0.044 secs.
+Solving...
+BCP
+qhead = 0 trail-size = 0
+decide
+-84 @ 1
+BCP
+qhead = 0 trail-size = 1
+propagating -84
+next_not_false
+(84 -136 160 ) now watched by 160
+next_not_false
+(84 113 200 ) now watched by 200
+next_not_false
+(-37 84 97 ) now watched by 97
+next_not_false
+(-83 84 -99 ) now watched by -99
+next_not_false
+(20 84 -177 ) now watched by -177
+next_not_false
+(-16 84 135 ) now watched by 135
+next_not_false
+(84 121 -137 ) now watched by -137
+next_not_false
+(84 -153 183 ) now watched by 183
+next_not_false
+(45 84 158 ) now watched by 158
+decide
+-108 @ 2
+BCP
+qhead = 1 trail-size = 2
+propagating -108
+next_not_false
+(-6 108 198 ) now watched by 198
+next_not_false
+(108 127 -183 ) now watched by -183
+next_not_false
+(108 -162 190 ) now watched by 190
+next_not_false
+(108 135 179 ) now watched by 179
+next_not_false
+(108 -169 -181 ) now watched by -181
+next_not_false
+(96 108 169 ) now watched by 169
+next_not_false
+(108 113 158 ) now watched by 158
+decide
+-49 @ 3
+BCP
+qhead = 2 trail-size = 3
+propagating -49
+next_not_false
+(49 -123 151 ) now watched by 151
+next_not_false
+(49 66 -114 ) now watched by -114
+next_not_false
+(19 49 125 ) now watched by 125
+next_not_false
+(49 -83 187 ) now watched by 187
+next_not_false
+(49 -58 -150 ) now watched by -150
+next_not_false
+(-28 49 -117 ) now watched by -117
+next_not_false
+(-27 49 169 ) now watched by 169
+next_not_false
+(13 49 169 ) now watched by 169
+decide
+-113 @ 4
+BCP
+qhead = 3 trail-size = 4
+propagating -113
+next_not_false
+propagating: 200 @ 4
+new implication <- 200
+next_not_false
+(113 -123 -161 ) now watched by -161
+next_not_false
+(-56 113 134 ) now watched by 134
+next_not_false
+(113 145 -156 ) now watched by -156
+next_not_false
+(113 -130 174 ) now watched by 174
+next_not_false
+(113 -115 118 ) now watched by 118
+next_not_false
+(113 115 125 ) now watched by 125
+next_not_false
+(113 158 -165 ) now watched by -165
+next_not_false
+propagating: 158 @ 4
+new implication <- 158
+propagating 200
+propagating 158
+next_not_false
+(-158 175 -179 ) now watched by -179
+next_not_false
+(61 -158 176 ) now watched by 176
+decide
+-94 @ 5
+BCP
+qhead = 6 trail-size = 7
+propagating -94
+next_not_false
+(-90 94 157 ) now watched by 157
+next_not_false
+(-78 94 190 ) now watched by 190
+next_not_false
+(55 94 196 ) now watched by 196
+next_not_false
+(36 94 150 ) now watched by 150
+next_not_false
+(28 94 96 ) now watched by 96
+decide
+-30 @ 6
+BCP
+qhead = 7 trail-size = 8
+propagating -30
+next_not_false
+(30 97 -112 ) now watched by -112
+next_not_false
+(30 -134 182 ) now watched by 182
+next_not_false
+(30 43 -68 ) now watched by -68
+next_not_false
+(16 30 168 ) now watched by 168
+next_not_false
+(30 -39 -169 ) now watched by -169
+next_not_false
+(30 50 178 ) now watched by 178
+next_not_false
+(30 50 178 ) now watched by 178
+next_not_false
+(30 144 178 ) now watched by 178
+decide
+-197 @ 7
+BCP
+qhead = 8 trail-size = 9
+propagating -197
+decide
+-133 @ 8
+BCP
+qhead = 9 trail-size = 10
+propagating -133
+next_not_false
+propagating: 45 @ 8
+new implication <- 45
+propagating 45
+next_not_false
+(29 -45 98 ) now watched by 98
+next_not_false
+(-45 -131 -151 ) now watched by -151
+next_not_false
+(-33 -45 97 ) now watched by 97
+next_not_false
+(-45 57 106 ) now watched by 106
+next_not_false
+(-8 -45 59 ) now watched by 59
+next_not_false
+(-45 -57 -184 ) now watched by -184
+next_not_false
+(15 -45 -57 ) now watched by -57
+next_not_false
+(-15 -45 -141 ) now watched by -141
+decide
+-109 @ 9
+BCP
+qhead = 11 trail-size = 12
+propagating -109
+next_not_false
+(-30 109 143 ) now watched by 143
+next_not_false
+(7 109 111 ) now watched by 111
+next_not_false
+(-44 109 136 ) now watched by 136
+next_not_false
+(60 109 170 ) now watched by 170
+next_not_false
+(96 109 -117 ) now watched by -117
+next_not_false
+(109 132 154 ) now watched by 154
+next_not_false
+(-94 109 120 ) now watched by 120
+decide
+-165 @ 10
+BCP
+qhead = 12 trail-size = 13
+propagating -165
+next_not_false
+(85 165 -194 ) now watched by -194
+decide
+-88 @ 11
+BCP
+qhead = 13 trail-size = 14
+propagating -88
+next_not_false
+(-44 88 144 ) now watched by 144
+next_not_false
+(-31 88 -193 ) now watched by -193
+next_not_false
+(75 88 -182 ) now watched by -182
+next_not_false
+(-14 88 -157 ) now watched by -157
+next_not_false
+(50 88 121 ) now watched by 121
+next_not_false
+(-36 88 -195 ) now watched by -195
+next_not_false
+(88 95 111 ) now watched by 111
+next_not_false
+(88 -113 158 ) now watched by 158
+next_not_false
+(45 88 158 ) now watched by 158
+decide
+-36 @ 12
+BCP
+qhead = 14 trail-size = 15
+propagating -36
+next_not_false
+(33 36 104 ) now watched by 104
+next_not_false
+(36 100 126 ) now watched by 126
+next_not_false
+(36 -124 -156 ) now watched by -156
+next_not_false
+(36 39 -89 ) now watched by -89
+next_not_false
+(36 -49 -70 ) now watched by -70
+next_not_false
+(36 55 -157 ) now watched by -157
+next_not_false
+(36 -125 -189 ) now watched by -189
+next_not_false
+(36 125 -189 ) now watched by -189
+next_not_false
+propagating: 150 @ 12
+new implication <- 150
+propagating 150
+next_not_false
+propagating: -58 @ 12
+new implication <- -58
+next_not_false
+(-1 -150 -199 ) now watched by -199
+next_not_false
+(-32 -150 185 ) now watched by 185
+next_not_false
+(96 -150 -173 ) now watched by -173
+next_not_false
+(-38 -150 180 ) now watched by 180
+propagating -58
+next_not_false
+(58 -135 -140 ) now watched by -140
+next_not_false
+(-57 58 75 ) now watched by 75
+next_not_false
+(-40 58 -149 ) now watched by -149
+next_not_false
+(21 58 132 ) now watched by 132
+next_not_false
+propagating: 81 @ 12
+new implication <- 81
+next_not_false
+(58 -72 143 ) now watched by 143
+next_not_false
+(-21 58 -129 ) now watched by -129
+next_not_false
+(-21 58 129 ) now watched by 129
+propagating 81
+next_not_false
+(38 -81 -164 ) now watched by -164
+next_not_false
+(-63 -81 191 ) now watched by 191
+next_not_false
+(-55 -81 184 ) now watched by 184
+next_not_false
+(-41 -81 92 ) now watched by 92
+next_not_false
+(-75 -81 161 ) now watched by 161
+next_not_false
+(34 -81 179 ) now watched by 179
+next_not_false
+(34 -81 156 ) now watched by 156
+decide
+-100 @ 13
+BCP
+qhead = 18 trail-size = 19
+propagating -100
+next_not_false
+propagating: 126 @ 13
+new implication <- 126
+next_not_false
+(-68 100 116 ) now watched by 116
+next_not_false
+(66 100 -192 ) now watched by -192
+next_not_false
+(-62 100 -120 ) now watched by -120
+next_not_false
+clause is sat
+propagating 126
+next_not_false
+propagating: 102 @ 13
+new implication <- 102
+next_not_false
+(90 -126 -138 ) now watched by -138
+next_not_false
+(64 -126 -140 ) now watched by -140
+next_not_false
+(-126 158 -174 ) now watched by -174
+next_not_false
+(-126 -159 174 ) now watched by 174
+next_not_false
+(-126 147 161 ) now watched by 161
+propagating 102
+next_not_false
+propagating: -185 @ 13
+new implication <- -185
+next_not_false
+(-102 -104 -128 ) now watched by -128
+next_not_false
+(56 -102 -167 ) now watched by -167
+next_not_false
+(-67 -102 142 ) now watched by 142
+next_not_false
+(21 -102 -109 ) now watched by -109
+next_not_false
+(33 -102 -161 ) now watched by -161
+next_not_false
+(-102 132 193 ) now watched by 193
+propagating -185
+next_not_false
+propagating: -32 @ 13
+new implication <- -32
+next_not_false
+(99 185 199 ) now watched by 199
+propagating -32
+next_not_false
+(32 64 130 ) now watched by 130
+next_not_false
+(32 81 -95 ) now watched by -95
+next_not_false
+(32 80 89 ) now watched by 89
+next_not_false
+(32 86 98 ) now watched by 98
+next_not_false
+(32 -169 -189 ) now watched by -189
+next_not_false
+(4 32 155 ) now watched by 155
+next_not_false
+(32 -74 -145 ) now watched by -145
+next_not_false
+(32 -48 153 ) now watched by 153
+next_not_false
+(32 51 -125 ) now watched by -125
+decide
+-143 @ 14
+BCP
+qhead = 23 trail-size = 24
+propagating -143
+next_not_false
+propagating: -72 @ 14
+new implication <- -72
+next_not_false
+clause is sat
+next_not_false
+(140 143 -178 ) now watched by -178
+next_not_false
+(143 -146 -152 ) now watched by -152
+next_not_false
+(-135 143 -190 ) now watched by -190
+next_not_false
+(1 143 -169 ) now watched by -169
+propagating -72
+next_not_false
+(72 -87 -130 ) now watched by -130
+next_not_false
+(72 93 -136 ) now watched by -136
+next_not_false
+(72 95 -132 ) now watched by -132
+next_not_false
+(72 76 164 ) now watched by 164
+next_not_false
+(72 -110 -148 ) now watched by -148
+next_not_false
+(39 72 -105 ) now watched by -105
+next_not_false
+(72 105 -137 ) now watched by -137
+next_not_false
+(68 72 -85 ) now watched by -85
+next_not_false
+(68 72 172 ) now watched by 172
+decide
+-15 @ 15
+BCP
+qhead = 25 trail-size = 26
+propagating -15
+next_not_false
+(-8 15 -67 ) now watched by -67
+next_not_false
+(15 -30 -34 ) now watched by -34
+next_not_false
+(15 -28 -50 ) now watched by -50
+next_not_false
+(15 73 -87 ) now watched by -87
+next_not_false
+(15 60 -98 ) now watched by -98
+next_not_false
+(15 57 -178 ) now watched by -178
+next_not_false
+(13 15 -191 ) now watched by -191
+next_not_false
+(15 -49 93 ) now watched by 93
+next_not_false
+propagating: -57 @ 15
+new implication <- -57
+propagating -57
+next_not_false
+(-38 57 -119 ) now watched by -119
+next_not_false
+(57 189 -191 ) now watched by -191
+next_not_false
+(51 57 163 ) now watched by 163
+next_not_false
+(57 117 137 ) now watched by 137
+next_not_false
+propagating: 119 @ 15
+new implication <- 119
+next_not_false
+propagating: -178 @ 15
+new implication <- -178
+next_not_false
+(47 57 -106 ) now watched by -106
+next_not_false
+propagating: 106 @ 15
+new implication <- 106
+propagating 119
+next_not_false
+propagating: -38 @ 15
+new implication <- -38
+next_not_false
+(10 -119 -163 ) now watched by -163
+next_not_false
+(-38 -119 -143 ) now watched by -143
+next_not_false
+(5 -119 -178 ) now watched by -178
+next_not_false
+(-62 -119 -189 ) now watched by -189
+next_not_false
+(92 -119 -172 ) now watched by -172
+propagating -178
+next_not_false
+propagating: 144 @ 15
+new implication <- 144
+next_not_false
+propagating: 50 @ 15
+new implication <- 50
+next_not_false
+clause is sat
+next_not_false
+(-88 178 199 ) now watched by 199
+next_not_false
+(141 178 -188 ) now watched by -188
+propagating 106
+next_not_false
+propagating: 47 @ 15
+new implication <- 47
+next_not_false
+(-106 128 -129 ) now watched by -129
+next_not_false
+(95 -106 149 ) now watched by 149
+propagating -38
+next_not_false
+(38 82 200 ) now watched by 200
+next_not_false
+(-27 38 -175 ) now watched by -175
+next_not_false
+propagating: -164 @ 15
+new implication <- -164
+next_not_false
+propagating: 53 @ 15
+new implication <- 53
+next_not_false
+(38 -120 127 ) now watched by 127
+next_not_false
+(-6 38 83 ) now watched by 83
+next_not_false
+(38 -83 -182 ) now watched by -182
+next_not_false
+(38 -83 182 ) now watched by 182
+next_not_false
+(38 43 -83 ) now watched by -83
+propagating 144
+next_not_false
+(-139 -144 -181 ) now watched by -181
+next_not_false
+(-144 156 -177 ) now watched by -177
+next_not_false
+(-144 -168 -185 ) now watched by -185
+next_not_false
+propagating: 39 @ 15
+new implication <- 39
+propagating 50
+next_not_false
+propagating: -28 @ 15
+new implication <- -28
+next_not_false
+(-29 -50 90 ) now watched by 90
+next_not_false
+(-24 -50 160 ) now watched by 160
+next_not_false
+(-50 51 181 ) now watched by 181
+next_not_false
+(-50 86 149 ) now watched by 149
+next_not_false
+(-27 -50 -82 ) now watched by -82
+next_not_false
+(-50 -97 180 ) now watched by 180
+next_not_false
+(-47 -50 -100 ) now watched by -100
+next_not_false
+(-50 73 -197 ) now watched by -197
+propagating 47
+next_not_false
+(-47 98 152 ) now watched by 152
+next_not_false
+(-47 61 140 ) now watched by 140
+next_not_false
+(-47 117 148 ) now watched by 148
+next_not_false
+(-47 -137 148 ) now watched by 148
+next_not_false
+clause is sat
+next_not_false
+propagating: -13 @ 15
+new implication <- -13
+next_not_false
+clause is sat
+propagating -164
+next_not_false
+propagating: 76 @ 15
+new implication <- 76
+next_not_false
+(4 164 -180 ) now watched by -180
+next_not_false
+(123 164 181 ) now watched by 181
+next_not_false
+(26 164 -173 ) now watched by -173
+propagating 53
+next_not_false
+(20 -53 146 ) now watched by 146
+next_not_false
+(11 -53 -108 ) now watched by -108
+next_not_false
+propagating: -61 @ 15
+new implication <- -61
+next_not_false
+(-22 -53 -67 ) now watched by -67
+next_not_false
+(-22 -53 174 ) now watched by 174
+next_not_false
+propagating: -33 @ 15
+new implication <- -33
+next_not_false
+(-15 -53 141 ) now watched by 141
+next_not_false
+(-15 -53 141 ) now watched by 141
+propagating 39
+next_not_false
+(-39 76 -87 ) now watched by -87
+next_not_false
+(-39 103 194 ) now watched by 194
+next_not_false
+(-11 -39 -88 ) now watched by -88
+next_not_false
+(-28 -39 65 ) now watched by 65
+next_not_false
+(-39 -116 123 ) now watched by 123
+next_not_false
+(14 -39 102 ) now watched by 102
+next_not_false
+(-39 -92 137 ) now watched by 137
+next_not_false
+(-39 -87 134 ) now watched by 134
+next_not_false
+propagating: -169 @ 15
+new implication <- -169
+propagating -28
+next_not_false
+(28 -96 -198 ) now watched by -198
+next_not_false
+(-25 28 160 ) now watched by 160
+next_not_false
+(28 123 153 ) now watched by 153
+next_not_false
+(28 -52 -159 ) now watched by -159
+next_not_false
+(28 50 -122 ) now watched by -122
+next_not_false
+(28 -36 -180 ) now watched by -180
+next_not_false
+(-16 28 -195 ) now watched by -195
+next_not_false
+clause is sat
+next_not_false
+propagating: 96 @ 15
+new implication <- 96
+propagating -13
+next_not_false
+propagating: 11 @ 15
+new implication <- 11
+next_not_false
+(13 80 134 ) now watched by 134
+next_not_false
+(13 37 192 ) now watched by 192
+next_not_false
+(13 102 -157 ) now watched by -157
+next_not_false
+clause is sat
+next_not_false
+(13 -16 93 ) now watched by 93
+next_not_false
+(13 -169 -175 ) now watched by -175
+next_not_false
+propagating: -191 @ 15
+new implication <- -191
+next_not_false
+(13 49 169 ) is conflicting
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+11 
+0 
+-13 
+0 
+-15 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-28 
+0 
+-30 
+0 
+-32 
+-33 
+0 
+0 
+-36 
+0 
+-38 
+39 
+0 
+0 
+0 
+0 
+0 
+45 
+0 
+47 
+0 
+-49 
+50 
+0 
+0 
+53 
+0 
+0 
+0 
+-57 
+-58 
+0 
+0 
+-61 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-72 
+0 
+0 
+0 
+76 
+0 
+0 
+0 
+0 
+81 
+0 
+0 
+-84 
+0 
+0 
+0 
+-88 
+0 
+0 
+0 
+0 
+0 
+-94 
+0 
+96 
+0 
+0 
+0 
+-100 
+0 
+102 
+0 
+0 
+0 
+106 
+0 
+-108 
+-109 
+0 
+0 
+0 
+-113 
+0 
+0 
+0 
+0 
+0 
+119 
+0 
+0 
+0 
+0 
+0 
+0 
+126 
+0 
+0 
+0 
+0 
+0 
+0 
+-133 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-143 
+144 
+0 
+0 
+0 
+0 
+0 
+150 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 
+0 
+0 
+0 
+0 
+0 
+-164 
+-165 
+0 
+0 
+0 
+-169 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-178 
+0 
+0 
+0 
+0 
+0 
+0 
+-185 
+0 
+0 
+0 
+0 
+0 
+-191 
+0 
+0 
+0 
+0 
+0 
+-197 
+0 
+0 
+200 
+(13 49 169 )conflict
+analyze
+Learned clause #1201. (49 30 -150 -45 15 )
+ learnt clauses:  1 Backtracking to level 12
+backtrack
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-30 
+0 
+0 
+0 
+0 
+0 
+-36 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+45 
+0 
+0 
+0 
+-49 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-58 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+81 
+0 
+0 
+-84 
+0 
+0 
+0 
+-88 
+0 
+0 
+0 
+0 
+0 
+-94 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-108 
+-109 
+0 
+0 
+0 
+-113 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-133 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+150 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 
+0 
+0 
+0 
+0 
+0 
+0 
+-165 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-197 
+0 
+0 
+200 
+15 @ 12
+BCP
+qhead = 18 trail-size = 19
+propagating 15
+next_not_false
+(-15 -69 -120 ) now watched by -120
+next_not_false
+(-15 -100 -103 ) now watched by -103
+next_not_false
+(-15 93 135 ) now watched by 135
+next_not_false
+(-2 -15 -141 ) now watched by -141
+next_not_false
+propagating: -141 @ 12
+new implication <- -141
+next_not_false
+(-15 -33 -53 ) now watched by -53
+next_not_false
+(-15 -53 141 ) now watched by -53
+next_not_false
+(-15 -53 141 ) now watched by -53
+next_not_false
+propagating: 53 @ 12
+new implication <- 53
+propagating -141
+next_not_false
+(-15 -53 141 ) is conflicting
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+15 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-30 
+0 
+0 
+0 
+0 
+0 
+-36 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+45 
+0 
+0 
+0 
+-49 
+0 
+0 
+0 
+53 
+0 
+0 
+0 
+0 
+-58 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+81 
+0 
+0 
+-84 
+0 
+0 
+0 
+-88 
+0 
+0 
+0 
+0 
+0 
+-94 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-108 
+-109 
+0 
+0 
+0 
+-113 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-133 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-141 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+150 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 
+0 
+0 
+0 
+0 
+0 
+0 
+-165 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-197 
+0 
+0 
+200 
+(-15 -53 141 )conflict
+analyze
+Learned clause #1202. (-45 -15 )
+ learnt clauses:  2 Backtracking to level 8
+backtrack
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-30 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+45 
+0 
+0 
+0 
+-49 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-94 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-108 
+0 
+0 
+0 
+0 
+-113 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-133 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-197 
+0 
+0 
+200 
+-15 @ 8
+BCP
+qhead = 11 trail-size = 12
+propagating -15
+next_not_false
+propagating: -150 @ 8
+new implication <- -150
+next_not_false
+propagating: -57 @ 8
+new implication <- -57
+propagating -150
+next_not_false
+propagating: 36 @ 8
+new implication <- 36
+next_not_false
+(104 150 169 ) now watched by 169
+next_not_false
+(11 150 -172 ) now watched by -172
+next_not_false
+(150 -171 174 ) now watched by 174
+propagating -57
+next_not_false
+(57 119 165 ) now watched by 165
+next_not_false
+propagating: -178 @ 8
+new implication <- -178
+next_not_false
+propagating: 106 @ 8
+new implication <- 106
+propagating 36
+next_not_false
+(-36 -79 -186 ) now watched by -186
+next_not_false
+(28 -36 -180 ) now watched by 28
+next_not_false
+(34 -36 129 ) now watched by 129
+next_not_false
+(-36 -49 -144 ) now watched by -144
+next_not_false
+propagating: 186 @ 8
+new implication <- 186
+next_not_false
+(-36 88 -195 ) now watched by 88
+next_not_false
+(-36 -66 -157 ) now watched by -157
+next_not_false
+(-36 85 86 ) now watched by 86
+next_not_false
+propagating: 28 @ 8
+new implication <- 28
+propagating -178
+next_not_false
+propagating: 144 @ 8
+new implication <- 144
+next_not_false
+propagating: 50 @ 8
+new implication <- 50
+next_not_false
+clause is sat
+propagating 106
+next_not_false
+propagating: 47 @ 8
+new implication <- 47
+propagating 186
+next_not_false
+propagating: -79 @ 8
+new implication <- -79
+propagating 28
+next_not_false
+(7 -28 -75 ) now watched by -75
+next_not_false
+(6 -28 105 ) now watched by 105
+next_not_false
+(-28 -87 -146 ) now watched by -146
+next_not_false
+(-28 42 54 ) now watched by 54
+next_not_false
+(-28 -39 65 ) now watched by -39
+next_not_false
+(11 -28 -105 ) now watched by -105
+next_not_false
+propagating: -117 @ 8
+new implication <- -117
+next_not_false
+(15 -28 -50 ) is conflicting
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-15 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+28 
+0 
+-30 
+0 
+0 
+0 
+0 
+0 
+36 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+45 
+0 
+47 
+0 
+-49 
+50 
+0 
+0 
+0 
+0 
+0 
+0 
+-57 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-79 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-94 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+106 
+0 
+-108 
+0 
+0 
+0 
+0 
+-113 
+0 
+0 
+0 
+-117 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-133 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+144 
+0 
+0 
+0 
+0 
+0 
+-150 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-178 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+186 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-197 
+0 
+0 
+200 
+(15 -28 -50 )conflict
+analyze
+Learned clause #1203. (30 94 49 -45 )
+ learnt clauses:  3 Backtracking to level 6
+backtrack
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-30 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-49 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-94 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-108 
+0 
+0 
+0 
+0 
+-113 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+200 
+-45 @ 6
+BCP
+qhead = 8 trail-size = 9
+propagating -45
+next_not_false
+(45 90 128 ) now watched by 128
+next_not_false
+(45 -167 191 ) now watched by 191
+next_not_false
+propagating: 121 @ 6
+new implication <- 121
+next_not_false
+(45 93 171 ) now watched by 171
+next_not_false
+(-35 45 97 ) now watched by 97
+next_not_false
+(45 -100 -133 ) now watched by -133
+next_not_false
+propagating: 133 @ 6
+new implication <- 133
+next_not_false
+clause is sat
+next_not_false
+(45 88 158 ) now watched by 88
+propagating 121
+next_not_false
+(73 -121 186 ) now watched by 186
+next_not_false
+(-121 -180 -198 ) now watched by -198
+next_not_false
+(-101 -121 136 ) now watched by 136
+next_not_false
+(-19 -121 150 ) now watched by 150
+next_not_false
+(-48 -121 168 ) now watched by 168
+next_not_false
+(78 -121 122 ) now watched by 122
+next_not_false
+(-121 -178 181 ) now watched by 181
+next_not_false
+(-12 -121 -181 ) now watched by -181
+next_not_false
+(34 -121 138 ) now watched by 138
+propagating 133
+next_not_false
+propagating: -100 @ 6
+new implication <- -100
+next_not_false
+(-72 -133 -173 ) now watched by -173
+next_not_false
+(-64 -133 -140 ) now watched by -140
+next_not_false
+(120 -133 -160 ) now watched by -160
+next_not_false
+(-133 138 144 ) now watched by 144
+next_not_false
+(120 -133 167 ) now watched by 167
+next_not_false
+(100 -133 -158 ) is conflicting
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-30 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-45 
+0 
+0 
+0 
+-49 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-94 
+0 
+0 
+0 
+0 
+0 
+-100 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-108 
+0 
+0 
+0 
+0 
+-113 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+121 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+133 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+200 
+(100 -133 -158 )conflict
+analyze
+Learned clause #1204. (-158 45 )
+ learnt clauses:  4 Backtracking to level 4
+backtrack
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-49 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-108 
+0 
+0 
+0 
+0 
+-113 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+200 
+45 @ 4
+BCP
+qhead = 6 trail-size = 7
+propagating 45
+next_not_false
+(30 94 49 -45 ) now watched by 94
+next_not_false
+propagating: -15 @ 4
+new implication <- -15
+propagating -15
+next_not_false
+(49 30 -150 -45 15 ) now watched by 30
+next_not_false
+propagating: -57 @ 4
+new implication <- -57
+propagating -57
+next_not_false
+propagating: -178 @ 4
+new implication <- -178
+next_not_false
+propagating: 106 @ 4
+new implication <- 106
+propagating -178
+next_not_false
+(30 144 178 ) now watched by 30
+next_not_false
+(30 50 178 ) now watched by 30
+next_not_false
+(30 50 178 ) now watched by 30
+propagating 106
+next_not_false
+propagating: 47 @ 4
+new implication <- 47
+propagating 47
+next_not_false
+(-47 -50 -100 ) now watched by -50
+next_not_false
+propagating: -13 @ 4
+new implication <- -13
+next_not_false
+clause is sat
+propagating -13
+next_not_false
+propagating: 11 @ 4
+new implication <- 11
+next_not_false
+propagating: -30 @ 4
+new implication <- -30
+next_not_false
+propagating: -191 @ 4
+new implication <- -191
+next_not_false
+propagating: 169 @ 4
+new implication <- 169
+propagating 11
+next_not_false
+(-11 131 -161 ) now watched by -161
+next_not_false
+(-11 75 146 ) now watched by 146
+next_not_false
+(-11 -39 -88 ) now watched by -39
+next_not_false
+(-11 -44 -126 ) now watched by -126
+next_not_false
+(-11 64 -78 ) now watched by -78
+next_not_false
+(-9 -11 -22 ) now watched by -22
+next_not_false
+(-11 91 -190 ) now watched by -190
+next_not_false
+(-11 134 -162 ) now watched by -162
+next_not_false
+(-11 -168 -185 ) now watched by -185
+propagating -30
+next_not_false
+propagating: 50 @ 4
+new implication <- 50
+next_not_false
+clause is sat
+next_not_false
+propagating: 144 @ 4
+new implication <- 144
+next_not_false
+propagating: -150 @ 4
+new implication <- -150
+next_not_false
+propagating: 94 @ 4
+new implication <- 94
+propagating -191
+next_not_false
+(45 -167 191 ) now watched by 45
+next_not_false
+(-63 -81 191 ) now watched by -81
+propagating 169
+next_not_false
+(1 143 -169 ) now watched by 143
+next_not_false
+propagating: -39 @ 4
+new implication <- -39
+next_not_false
+(139 -169 180 ) now watched by 180
+next_not_false
+(32 -169 -189 ) now watched by 32
+next_not_false
+(-112 -169 195 ) now watched by 195
+next_not_false
+propagating: -181 @ 4
+new implication <- -181
+next_not_false
+propagating: -175 @ 4
+new implication <- -175
+propagating 50
+next_not_false
+propagating: -100 @ 4
+new implication <- -100
+next_not_false
+propagating: -28 @ 4
+new implication <- -28
+propagating 144
+next_not_false
+(-36 -49 -144 ) now watched by -36
+next_not_false
+(39 -144 -150 ) now watched by -150
+propagating -150
+next_not_false
+(-19 -121 150 ) now watched by -121
+next_not_false
+(36 94 150 ) now watched by 94
+propagating 94
+next_not_false
+(-94 -115 144 ) now watched by 144
+next_not_false
+propagating: 24 @ 4
+new implication <- 24
+next_not_false
+(-3 -94 141 ) now watched by 141
+next_not_false
+(-62 -94 122 ) now watched by 122
+next_not_false
+(-62 -94 115 ) now watched by 115
+next_not_false
+(-94 109 120 ) now watched by 109
+next_not_false
+clause is sat
+next_not_false
+propagating: 62 @ 4
+new implication <- 62
+propagating -39
+next_not_false
+(39 67 -199 ) now watched by -199
+next_not_false
+(9 39 172 ) now watched by 172
+next_not_false
+(39 111 -143 ) now watched by -143
+next_not_false
+(36 39 -89 ) now watched by 36
+next_not_false
+(7 39 -172 ) now watched by -172
+next_not_false
+(39 -68 -147 ) now watched by -147
+next_not_false
+(39 72 -105 ) now watched by 72
+next_not_false
+(39 -59 -167 ) now watched by -167
+next_not_false
+clause is sat
+propagating -181
+next_not_false
+(-121 -178 181 ) now watched by -121
+next_not_false
+(123 164 181 ) now watched by 164
+next_not_false
+propagating: 51 @ 4
+new implication <- 51
+next_not_false
+(173 181 -185 ) now watched by -185
+propagating -175
+next_not_false
+propagating: -179 @ 4
+new implication <- -179
+next_not_false
+propagating: -26 @ 4
+new implication <- -26
+next_not_false
+propagating: -17 @ 4
+new implication <- -17
+propagating -100
+next_not_false
+(36 100 126 ) now watched by 36
+next_not_false
+propagating: -133 @ 4
+new implication <- -133
+propagating -28
+next_not_false
+(28 -36 -180 ) now watched by -36
+next_not_false
+(28 -36 94 ) now watched by 94
+next_not_false
+(28 94 96 ) now watched by 94
+propagating 24
+next_not_false
+propagating: 160 @ 4
+new implication <- 160
+next_not_false
+(-24 184 -187 ) now watched by -187
+next_not_false
+(-24 -62 177 ) now watched by 177
+next_not_false
+(-24 70 -145 ) now watched by -145
+next_not_false
+(-24 -103 152 ) now watched by 152
+next_not_false
+(19 -24 -186 ) now watched by -186
+next_not_false
+(-24 171 184 ) now watched by 184
+next_not_false
+(-24 65 -142 ) now watched by -142
+next_not_false
+(-24 -142 171 ) now watched by 171
+propagating 62
+next_not_false
+(-62 -114 164 ) now watched by 164
+next_not_false
+(-62 -119 -189 ) now watched by -119
+next_not_false
+propagating: 177 @ 4
+new implication <- 177
+next_not_false
+(-62 -113 -162 ) now watched by -162
+next_not_false
+propagating: -96 @ 4
+new implication <- -96
+next_not_false
+propagating: 99 @ 4
+new implication <- 99
+next_not_false
+propagating: 122 @ 4
+new implication <- 122
+next_not_false
+propagating: 115 @ 4
+new implication <- 115
+next_not_false
+propagating: -120 @ 4
+new implication <- -120
+propagating 51
+next_not_false
+(-51 75 187 ) now watched by 187
+next_not_false
+(-51 -61 -86 ) now watched by -86
+next_not_false
+(-34 -51 -131 ) now watched by -131
+next_not_false
+(-44 -51 60 ) now watched by 60
+next_not_false
+(-51 166 -184 ) now watched by -184
+next_not_false
+(-13 -51 -156 ) now watched by -156
+next_not_false
+(-51 -111 -173 ) now watched by -173
+next_not_false
+(-51 -168 185 ) now watched by 185
+next_not_false
+propagating: -143 @ 4
+new implication <- -143
+propagating -179
+next_not_false
+(34 -81 179 ) now watched by -81
+next_not_false
+propagating: 135 @ 4
+new implication <- 135
+next_not_false
+(-138 179 -191 ) now watched by -191
+next_not_false
+propagating: -138 @ 4
+new implication <- -138
+propagating -26
+next_not_false
+(26 -114 -139 ) now watched by -139
+next_not_false
+(26 -65 -80 ) now watched by -80
+next_not_false
+(-5 26 77 ) now watched by 77
+next_not_false
+(26 82 -145 ) now watched by -145
+next_not_false
+(26 59 190 ) now watched by 190
+next_not_false
+(26 164 -173 ) now watched by 164
+next_not_false
+(26 63 -164 ) now watched by -164
+next_not_false
+(26 -64 -127 ) now watched by -127
+next_not_false
+propagating: -127 @ 4
+new implication <- -127
+propagating -17
+next_not_false
+(17 -30 103 ) now watched by 103
+next_not_false
+(17 -80 -171 ) now watched by -171
+next_not_false
+(17 34 118 ) now watched by 118
+next_not_false
+(17 61 -117 ) now watched by -117
+next_not_false
+(-5 17 87 ) now watched by 87
+next_not_false
+(17 20 184 ) now watched by 184
+next_not_false
+clause is sat
+next_not_false
+(-2 17 149 ) now watched by 149
+next_not_false
+(17 56 149 ) now watched by 149
+propagating -133
+next_not_false
+clause is sat
+propagating 160
+next_not_false
+(120 -133 -160 ) now watched by -133
+next_not_false
+(-149 -160 173 ) now watched by 173
+next_not_false
+(79 -160 171 ) now watched by 171
+next_not_false
+(-160 171 182 ) now watched by 182
+propagating 177
+next_not_false
+propagating: 156 @ 4
+new implication <- 156
+next_not_false
+propagating: 20 @ 4
+new implication <- 20
+next_not_false
+(127 -177 -189 ) now watched by -189
+propagating -96
+next_not_false
+clause is sat
+next_not_false
+(96 109 -117 ) now watched by 109
+next_not_false
+(-69 96 110 ) now watched by 110
+next_not_false
+(96 -150 -173 ) now watched by -150
+next_not_false
+(96 148 186 ) now watched by 186
+next_not_false
+(96 129 -176 ) now watched by -176
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 99
+next_not_false
+propagating: -83 @ 4
+new implication <- -83
+next_not_false
+propagating: 66 @ 4
+new implication <- 66
+next_not_false
+(-46 -99 -163 ) now watched by -163
+next_not_false
+(7 -99 -165 ) now watched by -165
+next_not_false
+(7 -99 -119 ) now watched by -119
+next_not_false
+(33 -99 145 ) now watched by 145
+propagating 122
+next_not_false
+clause is sat
+next_not_false
+(-90 -122 148 ) now watched by 148
+next_not_false
+(103 -122 -143 ) now watched by -143
+next_not_false
+(-108 -122 -159 ) now watched by -159
+next_not_false
+(41 -122 -136 ) now watched by -136
+next_not_false
+(-109 -122 136 ) now watched by 136
+propagating 115
+next_not_false
+clause is sat
+next_not_false
+propagating: 53 @ 4
+new implication <- 53
+next_not_false
+(-95 -115 149 ) now watched by 149
+next_not_false
+(-67 -115 166 ) now watched by 166
+next_not_false
+(64 -115 -125 ) now watched by -125
+next_not_false
+(-115 118 -141 ) now watched by -141
+next_not_false
+(-115 118 188 ) now watched by 188
+next_not_false
+propagating: 118 @ 4
+new implication <- 118
+propagating -120
+next_not_false
+propagating: 109 @ 4
+new implication <- 109
+next_not_false
+(91 120 136 ) now watched by 136
+next_not_false
+(14 120 -139 ) now watched by -139
+next_not_false
+(-80 120 -172 ) now watched by -172
+next_not_false
+(-100 120 146 ) now watched by 146
+next_not_false
+clause is sat
+next_not_false
+(120 -130 -191 ) now watched by -191
+next_not_false
+(120 -133 167 ) now watched by -133
+propagating -143
+next_not_false
+propagating: 1 @ 4
+new implication <- 1
+next_not_false
+(58 -72 143 ) now watched by 58
+next_not_false
+(-30 109 143 ) now watched by 109
+propagating 135
+next_not_false
+(-135 -155 -188 ) now watched by -188
+next_not_false
+(58 -135 -140 ) now watched by 58
+next_not_false
+(-135 168 -171 ) now watched by -171
+next_not_false
+propagating: -190 @ 4
+new implication <- -190
+next_not_false
+(-135 171 -193 ) now watched by -193
+next_not_false
+(51 -135 153 ) now watched by 153
+next_not_false
+(69 -135 -172 ) now watched by -172
+propagating -138
+next_not_false
+(34 -121 138 ) now watched by -121
+next_not_false
+(-133 138 144 ) now watched by -133
+next_not_false
+(-66 138 164 ) now watched by 164
+next_not_false
+(-5 138 162 ) now watched by 162
+next_not_false
+(-43 138 182 ) now watched by 182
+propagating -127
+next_not_false
+(38 -120 127 ) now watched by 38
+next_not_false
+(25 127 -130 ) now watched by -130
+next_not_false
+(-37 127 -151 ) now watched by -151
+next_not_false
+(78 127 -192 ) now watched by -192
+next_not_false
+(-88 127 -192 ) now watched by -192
+next_not_false
+propagating: -183 @ 4
+new implication <- -183
+next_not_false
+propagating: -189 @ 4
+new implication <- -189
+next_not_false
+(-18 127 200 ) now watched by 200
+propagating 156
+next_not_false
+clause is sat
+next_not_false
+(36 -124 -156 ) now watched by 36
+next_not_false
+propagating: 145 @ 4
+new implication <- 145
+next_not_false
+(79 -156 163 ) now watched by 163
+next_not_false
+(37 -156 -191 ) now watched by -191
+next_not_false
+(78 -156 171 ) now watched by 171
+propagating 20
+next_not_false
+(8 -20 -75 ) now watched by -75
+next_not_false
+(-20 -42 -43 ) now watched by -43
+next_not_false
+(-20 137 169 ) now watched by 169
+next_not_false
+(-20 59 97 ) now watched by 97
+next_not_false
+(-20 105 -147 ) now watched by -147
+next_not_false
+(-20 112 147 ) now watched by 147
+next_not_false
+(-20 54 105 ) now watched by 105
+next_not_false
+(-20 112 131 ) now watched by 131
+propagating -83
+next_not_false
+(-6 38 83 ) now watched by 38
+next_not_false
+(4 83 -197 ) now watched by -197
+next_not_false
+(-67 83 -183 ) now watched by -183
+next_not_false
+(-23 83 122 ) now watched by 122
+next_not_false
+(-76 83 136 ) now watched by 136
+next_not_false
+(6 83 199 ) now watched by 199
+next_not_false
+(25 83 -128 ) now watched by -128
+propagating 66
+next_not_false
+(62 -66 166 ) now watched by 166
+next_not_false
+propagating: -69 @ 4
+new implication <- -69
+next_not_false
+(-66 119 -163 ) now watched by -163
+next_not_false
+(-66 129 168 ) now watched by 168
+next_not_false
+propagating: 164 @ 4
+new implication <- 164
+next_not_false
+(-36 -66 -157 ) now watched by -36
+next_not_false
+(31 -66 -157 ) now watched by -157
+next_not_false
+propagating: -4 @ 4
+new implication <- -4
+propagating 53
+next_not_false
+(-15 -53 141 ) now watched by -15
+next_not_false
+(-15 -53 141 ) now watched by -15
+next_not_false
+(-15 -33 -53 ) now watched by -15
+next_not_false
+(-53 -61 164 ) now watched by 164
+next_not_false
+(-33 -53 -81 ) now watched by -81
+propagating 118
+next_not_false
+(-118 136 -146 ) now watched by -146
+next_not_false
+(-10 -118 -133 ) now watched by -133
+next_not_false
+(80 -118 -150 ) now watched by -150
+next_not_false
+(-74 -118 -132 ) now watched by -132
+next_not_false
+(95 -118 -159 ) now watched by -159
+next_not_false
+(-21 -118 125 ) now watched by 125
+next_not_false
+(21 -118 125 ) now watched by 125
+propagating 109
+next_not_false
+(21 -102 -109 ) now watched by -102
+next_not_false
+(44 -109 -112 ) now watched by -112
+next_not_false
+(44 -109 200 ) now watched by 200
+next_not_false
+propagating: 42 @ 4
+new implication <- 42
+next_not_false
+(73 -109 -128 ) now watched by -128
+next_not_false
+propagating: -12 @ 4
+new implication <- -12
+next_not_false
+(-21 -109 -142 ) now watched by -142
+next_not_false
+propagating: 136 @ 4
+new implication <- 136
+propagating 1
+next_not_false
+(-1 -150 -199 ) now watched by -150
+next_not_false
+(-1 167 -183 ) now watched by -183
+next_not_false
+(-1 -100 140 ) now watched by 140
+next_not_false
+(-1 81 131 ) now watched by 131
+next_not_false
+(-1 -95 -174 ) now watched by -174
+next_not_false
+(-1 116 -175 ) now watched by -175
+next_not_false
+propagating: -124 @ 4
+new implication <- -124
+next_not_false
+(-1 -154 187 ) now watched by 187
+next_not_false
+(-1 -107 -114 ) now watched by -114
+propagating -190
+next_not_false
+propagating: 59 @ 4
+new implication <- 59
+next_not_false
+(-78 94 190 ) now watched by 94
+next_not_false
+propagating: -162 @ 4
+new implication <- -162
+propagating -183
+next_not_false
+propagating: -153 @ 4
+new implication <- -153
+next_not_false
+(-74 183 -188 ) now watched by -188
+propagating -189
+next_not_false
+clause is sat
+next_not_false
+(41 189 -192 ) now watched by -192
+next_not_false
+(-93 189 192 ) now watched by 192
+propagating 145
+next_not_false
+propagating: 82 @ 4
+new implication <- 82
+next_not_false
+propagating: 70 @ 4
+new implication <- 70
+next_not_false
+(32 -74 -145 ) now watched by 32
+next_not_false
+propagating: 35 @ 4
+new implication <- 35
+next_not_false
+(131 -145 155 ) now watched by 155
+next_not_false
+propagating: -80 @ 4
+new implication <- -80
+next_not_false
+clause is sat
+propagating -69
+next_not_false
+(16 69 -197 ) now watched by -197
+next_not_false
+propagating: -172 @ 4
+new implication <- -172
+next_not_false
+propagating: 37 @ 4
+new implication <- 37
+next_not_false
+(69 135 -153 ) now watched by -153
+next_not_false
+(69 -163 170 ) now watched by 170
+next_not_false
+(69 135 -163 ) now watched by -163
+next_not_false
+(-68 69 74 ) now watched by 74
+next_not_false
+(69 76 -198 ) now watched by -198
+propagating 164
+next_not_false
+propagating: 63 @ 4
+new implication <- 63
+next_not_false
+(38 -81 -164 ) now watched by -81
+next_not_false
+(27 -164 -170 ) now watched by -170
+next_not_false
+clause is sat
+propagating -4
+next_not_false
+clause is sat
+next_not_false
+(4 -46 52 ) now watched by 52
+next_not_false
+(4 29 -117 ) now watched by -117
+next_not_false
+(4 80 140 ) now watched by 140
+next_not_false
+propagating: -197 @ 4
+new implication <- -197
+next_not_false
+(4 164 -180 ) now watched by 164
+next_not_false
+(4 32 155 ) now watched by 32
+next_not_false
+(4 55 -197 ) now watched by -197
+propagating 42
+next_not_false
+(-42 65 104 ) now watched by 104
+next_not_false
+(2 -42 -105 ) now watched by -105
+next_not_false
+propagating: -43 @ 4
+new implication <- -43
+next_not_false
+propagating: 3 @ 4
+new implication <- 3
+next_not_false
+(-27 -42 -179 ) now watched by -179
+next_not_false
+(-42 77 177 ) now watched by 177
+next_not_false
+(-14 -42 79 ) now watched by 79
+propagating -12
+next_not_false
+(12 -14 107 ) now watched by 107
+next_not_false
+(12 44 -112 ) now watched by -112
+next_not_false
+(12 -77 -119 ) now watched by -119
+next_not_false
+(12 -125 -139 ) now watched by -139
+next_not_false
+(-4 12 193 ) now watched by 193
+next_not_false
+(12 -38 187 ) now watched by 187
+next_not_false
+(12 -97 196 ) now watched by 196
+next_not_false
+(12 -105 196 ) now watched by 196
+next_not_false
+(12 -110 -165 ) now watched by -165
+propagating 136
+next_not_false
+propagating: 41 @ 4
+new implication <- 41
+next_not_false
+(72 93 -136 ) now watched by 72
+next_not_false
+clause is sat
+next_not_false
+(-134 -136 -190 ) now watched by -190
+next_not_false
+clause is sat
+next_not_false
+(-108 -136 -190 ) now watched by -190
+propagating -124
+next_not_false
+(-90 124 -129 ) now watched by -129
+next_not_false
+(98 124 -147 ) now watched by -147
+next_not_false
+(77 124 -154 ) now watched by -154
+next_not_false
+(124 144 -181 ) now watched by -181
+next_not_false
+(-96 124 151 ) now watched by 151
+next_not_false
+(124 -182 188 ) now watched by 188
+propagating 59
+next_not_false
+clause is sat
+next_not_false
+(-59 -139 -155 ) now watched by -155
+next_not_false
+clause is sat
+next_not_false
+propagating: 40 @ 4
+new implication <- 40
+next_not_false
+(-59 -89 154 ) now watched by 154
+next_not_false
+(42 -59 -187 ) now watched by -187
+next_not_false
+(-59 98 -124 ) now watched by -124
+next_not_false
+propagating: -167 @ 4
+new implication <- -167
+propagating -162
+next_not_false
+propagating: -5 @ 4
+new implication <- -5
+next_not_false
+(162 172 -190 ) now watched by -190
+propagating -153
+next_not_false
+clause is sat
+next_not_false
+propagating: 123 @ 4
+new implication <- 123
+next_not_false
+(32 -48 153 ) now watched by 32
+next_not_false
+(-26 153 -161 ) now watched by -161
+propagating 82
+next_not_false
+propagating: -27 @ 4
+new implication <- -27
+next_not_false
+(6 -82 193 ) now watched by 193
+next_not_false
+(23 -82 -131 ) now watched by -131
+next_not_false
+(-82 -84 -148 ) now watched by -148
+next_not_false
+(-82 129 151 ) now watched by 151
+next_not_false
+clause is sat
+next_not_false
+(55 -82 196 ) now watched by 196
+next_not_false
+(71 -82 103 ) now watched by 103
+propagating 70
+next_not_false
+(36 -49 -70 ) now watched by 36
+next_not_false
+(-70 -98 -101 ) now watched by -101
+next_not_false
+(-10 -70 89 ) now watched by 89
+next_not_false
+(-69 -70 -129 ) now watched by -129
+next_not_false
+clause is sat
+next_not_false
+(31 -70 -96 ) now watched by -96
+next_not_false
+(-70 114 -181 ) now watched by -181
+next_not_false
+(-70 -138 182 ) now watched by 182
+propagating 35
+next_not_false
+(-5 -35 -167 ) now watched by -167
+next_not_false
+(-35 -141 168 ) now watched by 168
+next_not_false
+(31 -35 -197 ) now watched by -197
+next_not_false
+(-5 -35 -131 ) now watched by -131
+next_not_false
+clause is sat
+next_not_false
+(-35 80 82 ) now watched by 82
+next_not_false
+(-35 45 97 ) now watched by 45
+next_not_false
+(-33 -35 -103 ) now watched by -103
+propagating -80
+next_not_false
+propagating: 140 @ 4
+new implication <- 140
+next_not_false
+(-14 80 -127 ) now watched by -127
+next_not_false
+(22 80 106 ) now watched by 106
+next_not_false
+(32 80 89 ) now watched by 32
+next_not_false
+propagating: 134 @ 4
+new implication <- 134
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -172
+next_not_false
+propagating: 9 @ 4
+new implication <- 9
+next_not_false
+(68 72 172 ) now watched by 72
+next_not_false
+(18 172 -191 ) now watched by -191
+next_not_false
+(8 172 -182 ) now watched by -182
+next_not_false
+(-111 172 177 ) now watched by 177
+next_not_false
+clause is sat
+propagating 37
+next_not_false
+(-37 -123 152 ) now watched by 152
+next_not_false
+(-37 -46 -101 ) now watched by -101
+next_not_false
+propagating: 97 @ 4
+new implication <- 97
+next_not_false
+(-3 -37 62 ) now watched by 62
+next_not_false
+(-37 126 -149 ) now watched by -149
+next_not_false
+propagating: -151 @ 4
+new implication <- -151
+next_not_false
+(-13 -37 92 ) now watched by 92
+next_not_false
+clause is sat
+next_not_false
+(-37 -84 -197 ) now watched by -197
+propagating 63
+next_not_false
+(-4 -63 -114 ) now watched by -114
+next_not_false
+(-63 -73 -176 ) now watched by -176
+next_not_false
+propagating: -81 @ 4
+new implication <- -81
+next_not_false
+(5 -63 144 ) now watched by 144
+next_not_false
+(-63 -75 -170 ) now watched by -170
+next_not_false
+clause is sat
+next_not_false
+(-38 -63 111 ) now watched by 111
+next_not_false
+(-63 -111 -170 ) now watched by -170
+next_not_false
+(31 -63 -86 ) now watched by -86
+propagating -197
+propagating -43
+next_not_false
+(43 50 185 ) now watched by 185
+next_not_false
+propagating: -68 @ 4
+new implication <- -68
+next_not_false
+(43 -58 115 ) now watched by 115
+next_not_false
+(43 155 -195 ) now watched by -195
+next_not_false
+(38 43 -83 ) now watched by 38
+next_not_false
+(43 107 -194 ) now watched by -194
+next_not_false
+propagating: 90 @ 4
+new implication <- 90
+next_not_false
+(43 47 177 ) now watched by 177
+next_not_false
+(-31 43 92 ) now watched by 92
+propagating 3
+next_not_false
+(-3 24 -196 ) now watched by -196
+next_not_false
+(-3 60 161 ) now watched by 161
+next_not_false
+(-3 19 -120 ) now watched by -120
+next_not_false
+clause is sat
+next_not_false
+(-3 10 194 ) now watched by 194
+next_not_false
+(-3 171 185 ) now watched by 185
+next_not_false
+propagating: 141 @ 4
+new implication <- 141
+next_not_false
+(-3 8 94 ) now watched by 94
+next_not_false
+(-3 -97 180 ) now watched by 180
+propagating 41
+next_not_false
+(-41 -81 92 ) now watched by -81
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(37 -41 -124 ) now watched by -124
+next_not_false
+(-27 -41 163 ) now watched by 163
+next_not_false
+(-5 -41 163 ) now watched by 163
+next_not_false
+(27 -41 163 ) now watched by 163
+next_not_false
+(-41 74 163 ) now watched by 163
+propagating 40
+next_not_false
+propagating: 60 @ 4
+new implication <- 60
+next_not_false
+(-40 58 -149 ) now watched by 58
+next_not_false
+clause is sat
+next_not_false
+(-40 51 -81 ) now watched by -81
+next_not_false
+(-40 -54 -152 ) now watched by -152
+next_not_false
+propagating: -116 @ 4
+new implication <- -116
+next_not_false
+(-40 -89 -191 ) now watched by -191
+next_not_false
+propagating: -89 @ 4
+new implication <- -89
+next_not_false
+clause is sat
+propagating -167
+next_not_false
+clause is sat
+next_not_false
+(167 -193 198 ) now watched by 198
+next_not_false
+(149 167 -186 ) now watched by -186
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-155 167 -188 ) now watched by -188
+propagating -5
+next_not_false
+(5 123 -152 ) now watched by -152
+next_not_false
+(5 89 -179 ) now watched by -179
+next_not_false
+(5 -119 -178 ) now watched by -119
+next_not_false
+clause is sat
+next_not_false
+(5 -134 146 ) now watched by 146
+next_not_false
+(5 -110 -151 ) now watched by -151
+next_not_false
+(5 73 -124 ) now watched by -124
+next_not_false
+(5 -123 -147 ) now watched by -147
+next_not_false
+(5 -123 147 ) now watched by 147
+propagating 123
+next_not_false
+propagating: 10 @ 4
+new implication <- 10
+next_not_false
+propagating: 152 @ 4
+new implication <- 152
+next_not_false
+(91 -123 -196 ) now watched by -196
+next_not_false
+(49 -123 151 ) is conflicting
+State: 1 
+0 
+3 
+-4 
+-5 
+0 
+0 
+0 
+9 
+10 
+11 
+-12 
+-13 
+0 
+-15 
+0 
+-17 
+0 
+0 
+20 
+0 
+0 
+0 
+24 
+0 
+-26 
+-27 
+-28 
+0 
+-30 
+0 
+0 
+0 
+0 
+35 
+0 
+37 
+0 
+-39 
+40 
+41 
+42 
+-43 
+0 
+45 
+0 
+47 
+0 
+-49 
+50 
+51 
+0 
+53 
+0 
+0 
+0 
+-57 
+0 
+59 
+60 
+0 
+62 
+63 
+0 
+0 
+66 
+0 
+-68 
+-69 
+70 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-80 
+-81 
+82 
+-83 
+-84 
+0 
+0 
+0 
+0 
+-89 
+90 
+0 
+0 
+0 
+94 
+0 
+-96 
+97 
+0 
+99 
+-100 
+0 
+0 
+0 
+0 
+0 
+106 
+0 
+-108 
+109 
+0 
+0 
+0 
+-113 
+0 
+115 
+-116 
+0 
+118 
+0 
+-120 
+0 
+122 
+123 
+-124 
+0 
+0 
+-127 
+0 
+0 
+0 
+0 
+0 
+-133 
+134 
+135 
+136 
+0 
+-138 
+0 
+140 
+141 
+0 
+-143 
+144 
+145 
+0 
+0 
+0 
+0 
+-150 
+-151 
+152 
+-153 
+0 
+0 
+156 
+0 
+158 
+0 
+160 
+0 
+-162 
+0 
+164 
+0 
+0 
+-167 
+0 
+169 
+0 
+0 
+-172 
+0 
+0 
+-175 
+0 
+177 
+-178 
+-179 
+0 
+-181 
+0 
+-183 
+0 
+0 
+0 
+0 
+0 
+-189 
+-190 
+-191 
+0 
+0 
+0 
+0 
+0 
+-197 
+0 
+0 
+200 
+(49 -123 151 )conflict
+analyze
+Learned clause #1205. (49 84 108 -158 )
+ learnt clauses:  5 Backtracking to level 3
+backtrack
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-49 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-108 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-158 @ 3
+BCP
+qhead = 3 trail-size = 4
+propagating -158
+next_not_false
+(45 88 158 ) now watched by 45
+next_not_false
+(88 -113 158 ) now watched by 88
+next_not_false
+propagating: 113 @ 3
+new implication <- 113
+next_not_false
+propagating: 45 @ 3
+new implication <- 45
+next_not_false
+(-126 158 -174 ) now watched by -126
+next_not_false
+(113 158 -165 ) now watched by 113
+next_not_false
+(-108 158 165 ) now watched by 165
+propagating 113
+next_not_false
+(66 -113 126 ) now watched by 126
+next_not_false
+(-65 -113 154 ) now watched by 154
+next_not_false
+(-62 -113 -162 ) now watched by -62
+next_not_false
+(-94 -113 150 ) now watched by 150
+next_not_false
+propagating: -88 @ 3
+new implication <- -88
+next_not_false
+(88 -113 158 ) is conflicting
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+45 
+0 
+0 
+0 
+-49 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+-88 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-108 
+0 
+0 
+0 
+0 
+113 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-158 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+(88 -113 158 )conflict
+analyze
+Learned clause #1206. (108 158 )
+ learnt clauses:  6 Backtracking to level 2
+backtrack
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-108 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 @ 2
+BCP
+qhead = 2 trail-size = 3
+propagating 158
+next_not_false
+propagating: 49 @ 2
+new implication <- 49
+next_not_false
+propagating: 45 @ 2
+new implication <- 45
+propagating 49
+next_not_false
+(18 -49 140 ) now watched by 140
+next_not_false
+(-6 -49 -160 ) now watched by -160
+next_not_false
+(-49 -78 107 ) now watched by 107
+next_not_false
+(-49 -52 131 ) now watched by 131
+next_not_false
+(-36 -49 -144 ) now watched by -144
+next_not_false
+(36 -49 -70 ) now watched by -70
+next_not_false
+(-49 -91 112 ) now watched by 112
+next_not_false
+(-49 -168 -179 ) now watched by -179
+next_not_false
+(15 -49 93 ) now watched by 15
+propagating 45
+next_not_false
+propagating: -15 @ 2
+new implication <- -15
+propagating -15
+next_not_false
+propagating: 93 @ 2
+new implication <- 93
+next_not_false
+propagating: -57 @ 2
+new implication <- -57
+propagating 93
+next_not_false
+(-88 -93 155 ) now watched by 155
+next_not_false
+(-93 105 -126 ) now watched by -126
+next_not_false
+(-32 -93 -193 ) now watched by -193
+next_not_false
+(-93 189 192 ) now watched by 189
+next_not_false
+(-48 -93 189 ) now watched by 189
+next_not_false
+(-54 -93 -106 ) now watched by -106
+next_not_false
+(-54 -93 -106 ) now watched by -106
+next_not_false
+(54 -93 -106 ) now watched by -106
+propagating -57
+next_not_false
+propagating: -178 @ 2
+new implication <- -178
+next_not_false
+propagating: 106 @ 2
+new implication <- 106
+propagating -178
+propagating 106
+next_not_false
+propagating: 54 @ 2
+new implication <- 54
+next_not_false
+(-54 -93 -106 ) is conflicting
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-15 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+45 
+0 
+0 
+0 
+49 
+0 
+0 
+0 
+0 
+54 
+0 
+0 
+-57 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+93 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+106 
+0 
+-108 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-178 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+(-54 -93 -106 )conflict
+analyze
+Learned clause #1207. (84 108 )
+ learnt clauses:  7 Backtracking to level 1
+backtrack
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+108 @ 1
+BCP
+qhead = 1 trail-size = 2
+propagating 108
+next_not_false
+(11 -53 -108 ) now watched by -53
+next_not_false
+(-108 -122 -159 ) now watched by -122
+next_not_false
+(-26 -108 160 ) now watched by 160
+next_not_false
+(48 -108 -117 ) now watched by -117
+next_not_false
+(-108 110 -152 ) now watched by -152
+next_not_false
+(80 -108 191 ) now watched by 191
+next_not_false
+(-108 -136 -190 ) now watched by -136
+next_not_false
+(-72 -108 -179 ) now watched by -179
+next_not_false
+(-108 158 165 ) now watched by 158
+decide
+0
+49 @ 2
+BCP
+qhead = 2 trail-size = 3
+propagating 49
+decide
+113 @ 3
+BCP
+qhead = 3 trail-size = 4
+propagating 113
+next_not_false
+(-88 -113 158 ) now watched by 158
+next_not_false
+(88 -113 158 ) now watched by 158
+decide
+94 @ 4
+BCP
+qhead = 4 trail-size = 5
+propagating 94
+next_not_false
+(24 -94 108 ) now watched by 108
+next_not_false
+propagating: 150 @ 4
+new implication <- 150
+next_not_false
+(62 -94 100 ) now watched by 100
+propagating 150
+next_not_false
+(-1 -150 -199 ) now watched by -1
+next_not_false
+(80 -118 -150 ) now watched by -118
+next_not_false
+(96 -150 -173 ) now watched by 96
+next_not_false
+(39 -144 -150 ) now watched by -144
+next_not_false
+(49 30 -150 -45 15 ) now watched by 49
+next_not_false
+(49 -58 -150 ) now watched by 49
+decide
+-30 @ 5
+BCP
+qhead = 6 trail-size = 7
+propagating -30
+next_not_false
+(30 50 178 ) now watched by 178
+next_not_false
+(30 50 178 ) now watched by 178
+next_not_false
+(30 144 178 ) now watched by 178
+next_not_false
+(49 30 -150 -45 15 ) now watched by -45
+next_not_false
+(30 94 49 -45 ) now watched by 49
+decide
+158 @ 6
+BCP
+qhead = 7 trail-size = 8
+propagating 158
+next_not_false
+(49 84 108 -158 ) now watched by 108
+next_not_false
+propagating: 45 @ 6
+new implication <- 45
+propagating 45
+next_not_false
+(49 30 -150 -45 15 ) now watched by 15
+next_not_false
+propagating: -15 @ 6
+new implication <- -15
+propagating -15
+next_not_false
+clause is sat
+next_not_false
+propagating: 93 @ 6
+new implication <- 93
+next_not_false
+propagating: -57 @ 6
+new implication <- -57
+propagating 93
+propagating -57
+next_not_false
+propagating: -178 @ 6
+new implication <- -178
+next_not_false
+propagating: 106 @ 6
+new implication <- 106
+propagating -178
+next_not_false
+propagating: 144 @ 6
+new implication <- 144
+next_not_false
+propagating: 50 @ 6
+new implication <- 50
+next_not_false
+clause is sat
+propagating 106
+next_not_false
+propagating: 54 @ 6
+new implication <- 54
+next_not_false
+(-54 -93 -106 ) is conflicting
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-15 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-30 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+45 
+0 
+0 
+0 
+49 
+50 
+0 
+0 
+0 
+54 
+0 
+0 
+-57 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+93 
+94 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+106 
+0 
+108 
+0 
+0 
+0 
+0 
+113 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+144 
+0 
+0 
+0 
+0 
+0 
+150 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-178 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+(-54 -93 -106 )conflict
+analyze
+Learned clause #1208. (-49 -45 )
+ learnt clauses:  8 Backtracking to level 2
+backtrack
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+49 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+108 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-45 @ 2
+BCP
+qhead = 3 trail-size = 4
+propagating -45
+next_not_false
+(45 88 158 ) now watched by 158
+next_not_false
+(-35 45 97 ) now watched by -35
+next_not_false
+(45 -167 191 ) now watched by 191
+next_not_false
+propagating: -158 @ 2
+new implication <- -158
+next_not_false
+(45 121 -158 ) now watched by -158
+next_not_false
+(45 133 -158 ) now watched by -158
+next_not_false
+(45 84 158 ) is conflicting
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-45 
+0 
+0 
+0 
+49 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+108 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-158 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+(45 84 158 )conflict
+analyze
+Learned clause #1209. (84 45 )
+ learnt clauses:  9 Backtracking to level 1
+backtrack
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+108 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+45 @ 1
+BCP
+qhead = 2 trail-size = 3
+propagating 45
+next_not_false
+propagating: -49 @ 1
+new implication <- -49
+next_not_false
+propagating: -15 @ 1
+new implication <- -15
+propagating -49
+next_not_false
+(30 94 49 -45 ) now watched by 30
+next_not_false
+(49 -58 -150 ) now watched by -150
+next_not_false
+(49 30 -150 -45 15 ) now watched by 30
+next_not_false
+(49 84 108 -158 ) now watched by -158
+propagating -15
+next_not_false
+(49 30 -150 -45 15 ) now watched by -150
+next_not_false
+(15 -49 93 ) now watched by -49
+next_not_false
+propagating: -57 @ 1
+new implication <- -57
+propagating -57
+next_not_false
+propagating: -178 @ 1
+new implication <- -178
+next_not_false
+propagating: 106 @ 1
+new implication <- 106
+propagating -178
+next_not_false
+(30 144 178 ) now watched by 30
+next_not_false
+(30 50 178 ) now watched by 30
+next_not_false
+(30 50 178 ) now watched by 30
+propagating 106
+next_not_false
+(54 -93 -106 ) now watched by -93
+next_not_false
+(-54 -93 -106 ) now watched by -93
+next_not_false
+(-54 -93 -106 ) now watched by -93
+next_not_false
+propagating: 47 @ 1
+new implication <- 47
+propagating 47
+next_not_false
+propagating: -13 @ 1
+new implication <- -13
+next_not_false
+clause is sat
+propagating -13
+next_not_false
+propagating: 11 @ 1
+new implication <- 11
+next_not_false
+propagating: -30 @ 1
+new implication <- -30
+next_not_false
+propagating: -191 @ 1
+new implication <- -191
+next_not_false
+propagating: 169 @ 1
+new implication <- 169
+propagating 11
+propagating -30
+next_not_false
+propagating: 50 @ 1
+new implication <- 50
+next_not_false
+clause is sat
+next_not_false
+propagating: 144 @ 1
+new implication <- 144
+next_not_false
+propagating: -150 @ 1
+new implication <- -150
+next_not_false
+propagating: 94 @ 1
+new implication <- 94
+propagating -191
+next_not_false
+(45 -167 191 ) now watched by 45
+next_not_false
+propagating: 80 @ 1
+new implication <- 80
+propagating 169
+next_not_false
+propagating: -39 @ 1
+new implication <- -39
+next_not_false
+(108 -169 -181 ) now watched by 108
+next_not_false
+propagating: -175 @ 1
+new implication <- -175
+propagating 50
+next_not_false
+propagating: -100 @ 1
+new implication <- -100
+next_not_false
+propagating: -28 @ 1
+new implication <- -28
+propagating 144
+next_not_false
+(39 -144 -150 ) now watched by -150
+next_not_false
+(-36 -49 -144 ) now watched by -49
+propagating -150
+next_not_false
+(-94 -113 150 ) now watched by -113
+propagating 94
+next_not_false
+propagating: -113 @ 1
+new implication <- -113
+propagating 80
+next_not_false
+(26 -65 -80 ) now watched by 26
+next_not_false
+(23 -80 -178 ) now watched by -178
+next_not_false
+(17 -80 -171 ) now watched by 17
+next_not_false
+(-80 161 168 ) now watched by 168
+next_not_false
+(-80 120 -172 ) now watched by 120
+next_not_false
+(60 -80 -93 ) now watched by -93
+next_not_false
+(-80 -145 183 ) now watched by 183
+next_not_false
+(-80 -134 183 ) now watched by 183
+propagating -39
+next_not_false
+clause is sat
+propagating -175
+next_not_false
+(-158 175 -179 ) now watched by -158
+next_not_false
+(-26 175 179 ) now watched by 179
+next_not_false
+(-17 175 -200 ) now watched by -200
+propagating -100
+next_not_false
+propagating: 62 @ 1
+new implication <- 62
+next_not_false
+(100 -133 -158 ) now watched by -158
+propagating -28
+propagating -113
+next_not_false
+(113 158 -165 ) now watched by 158
+next_not_false
+propagating: 200 @ 1
+new implication <- 200
+next_not_false
+(108 113 158 ) now watched by 108
+propagating 62
+next_not_false
+(-62 -113 -162 ) now watched by -113
+next_not_false
+(-24 -62 177 ) now watched by -24
+next_not_false
+(-62 -96 133 ) now watched by 133
+next_not_false
+(-62 99 133 ) now watched by 133
+next_not_false
+propagating: 122 @ 1
+new implication <- 122
+next_not_false
+propagating: 115 @ 1
+new implication <- 115
+next_not_false
+propagating: -120 @ 1
+new implication <- -120
+propagating 200
+next_not_false
+propagating: -17 @ 1
+new implication <- -17
+propagating 122
+next_not_false
+propagating: -159 @ 1
+new implication <- -159
+next_not_false
+clause is sat
+propagating 115
+next_not_false
+clause is sat
+next_not_false
+(53 -115 181 ) now watched by 181
+next_not_false
+propagating: 118 @ 1
+new implication <- 118
+propagating -120
+next_not_false
+propagating: -172 @ 1
+new implication <- -172
+next_not_false
+propagating: 109 @ 1
+new implication <- 109
+next_not_false
+(120 -133 -160 ) now watched by -160
+propagating -17
+next_not_false
+propagating: -171 @ 1
+new implication <- -171
+next_not_false
+clause is sat
+propagating -159
+next_not_false
+(137 159 -198 ) now watched by -198
+next_not_false
+(159 -181 -192 ) now watched by -192
+next_not_false
+(-60 159 186 ) now watched by 186
+next_not_false
+(159 -171 -172 ) now watched by -172
+next_not_false
+(60 159 -171 ) now watched by -171
+next_not_false
+propagating: 60 @ 1
+new implication <- 60
+next_not_false
+(-120 159 189 ) now watched by 189
+next_not_false
+(-71 159 189 ) now watched by 189
+propagating 118
+next_not_false
+(80 -118 -150 ) now watched by -150
+propagating -172
+next_not_false
+propagating: 9 @ 1
+new implication <- 9
+next_not_false
+(162 172 -190 ) now watched by 162
+propagating 109
+next_not_false
+(42 -109 -160 ) now watched by -160
+next_not_false
+(-12 -109 181 ) now watched by 181
+next_not_false
+propagating: 136 @ 1
+new implication <- 136
+propagating -171
+next_not_false
+(78 -156 171 ) now watched by -156
+next_not_false
+(79 -160 171 ) now watched by -160
+next_not_false
+(-24 -142 171 ) now watched by -24
+next_not_false
+(45 93 171 ) now watched by 45
+next_not_false
+(-135 171 -193 ) now watched by -135
+next_not_false
+(-3 171 185 ) now watched by -3
+next_not_false
+(-160 171 182 ) now watched by -160
+next_not_false
+(-24 171 184 ) now watched by -24
+propagating 60
+next_not_false
+(11 -60 157 ) now watched by 157
+next_not_false
+(46 -60 -132 ) now watched by -132
+next_not_false
+(-60 86 -113 ) now watched by -113
+next_not_false
+(-60 -77 -153 ) now watched by -153
+next_not_false
+propagating: -52 @ 1
+new implication <- -52
+next_not_false
+(-33 -60 105 ) now watched by 105
+next_not_false
+(-30 -60 176 ) now watched by 176
+next_not_false
+(-60 -104 176 ) now watched by 176
+next_not_false
+propagating: 186 @ 1
+new implication <- 186
+propagating 9
+next_not_false
+(-9 -58 137 ) now watched by 137
+next_not_false
+propagating: -22 @ 1
+new implication <- -22
+next_not_false
+(-9 18 -172 ) now watched by -172
+next_not_false
+(-9 -140 161 ) now watched by 161
+next_not_false
+(-9 -89 101 ) now watched by 101
+next_not_false
+propagating: 27 @ 1
+new implication <- 27
+next_not_false
+(-9 -74 76 ) now watched by 76
+next_not_false
+(-9 31 -56 ) now watched by -56
+next_not_false
+(-9 -67 115 ) now watched by 115
+propagating 136
+next_not_false
+propagating: -190 @ 1
+new implication <- -190
+next_not_false
+propagating: 41 @ 1
+new implication <- 41
+next_not_false
+propagating: 160 @ 1
+new implication <- 160
+next_not_false
+(106 -136 162 ) now watched by 162
+propagating -52
+next_not_false
+(4 -46 52 ) now watched by 4
+next_not_false
+(46 52 -124 ) now watched by -124
+next_not_false
+(52 -157 -180 ) now watched by -180
+next_not_false
+(14 52 102 ) now watched by 102
+next_not_false
+clause is sat
+next_not_false
+propagating: 105 @ 1
+new implication <- 105
+next_not_false
+(52 -129 174 ) now watched by 174
+next_not_false
+(6 52 -55 ) now watched by -55
+propagating 186
+next_not_false
+(149 167 -186 ) now watched by 167
+next_not_false
+(19 -24 -186 ) now watched by -24
+next_not_false
+(-36 -79 -186 ) now watched by -36
+propagating -22
+next_not_false
+(22 54 -125 ) now watched by -125
+next_not_false
+(-5 22 142 ) now watched by 142
+next_not_false
+(22 80 106 ) now watched by 80
+next_not_false
+(-18 22 -185 ) now watched by -185
+next_not_false
+(22 95 129 ) now watched by 129
+next_not_false
+(22 -159 174 ) now watched by 174
+next_not_false
+(-17 22 -166 ) now watched by -166
+next_not_false
+(22 31 63 ) now watched by 63
+next_not_false
+(22 31 63 ) now watched by 63
+propagating 27
+next_not_false
+(-27 38 -175 ) now watched by 38
+next_not_false
+(-27 79 -183 ) now watched by -183
+next_not_false
+propagating: -82 @ 1
+new implication <- -82
+next_not_false
+(-27 -42 -179 ) now watched by -42
+next_not_false
+(-27 -182 188 ) now watched by 188
+next_not_false
+(-27 -175 188 ) now watched by 188
+next_not_false
+propagating: 163 @ 1
+new implication <- 163
+next_not_false
+(-27 74 163 ) now watched by 163
+next_not_false
+clause is sat
+propagating -190
+next_not_false
+(26 59 190 ) now watched by 26
+next_not_false
+(108 -162 190 ) now watched by 108
+propagating 41
+next_not_false
+(-41 115 133 ) now watched by 133
+next_not_false
+(37 -41 69 ) now watched by 69
+propagating 160
+next_not_false
+propagating: 182 @ 1
+new implication <- 182
+next_not_false
+propagating: 79 @ 1
+new implication <- 79
+next_not_false
+propagating: 42 @ 1
+new implication <- 42
+next_not_false
+propagating: -133 @ 1
+new implication <- -133
+next_not_false
+(-6 -49 -160 ) now watched by -49
+propagating 105
+next_not_false
+propagating: 2 @ 1
+new implication <- 2
+next_not_false
+(11 -28 -105 ) now watched by -28
+next_not_false
+propagating: 72 @ 1
+new implication <- 72
+next_not_false
+(27 -105 123 ) now watched by 123
+next_not_false
+(12 -105 196 ) now watched by 12
+next_not_false
+(54 -105 -112 ) now watched by -112
+next_not_false
+(54 -105 112 ) now watched by 112
+next_not_false
+propagating: -12 @ 1
+new implication <- -12
+propagating -82
+next_not_false
+(-35 80 82 ) now watched by -35
+next_not_false
+(82 -142 -146 ) now watched by -146
+next_not_false
+(26 82 -145 ) now watched by 26
+next_not_false
+(38 82 200 ) now watched by 38
+next_not_false
+(82 -182 195 ) now watched by 195
+next_not_false
+(50 82 -104 ) now watched by -104
+next_not_false
+(-79 82 -194 ) now watched by -194
+next_not_false
+(82 -97 194 ) now watched by 194
+propagating 163
+next_not_false
+(69 135 -163 ) now watched by 69
+next_not_false
+(-66 119 -163 ) now watched by -66
+next_not_false
+(-46 -99 -163 ) now watched by -99
+next_not_false
+(10 -119 -163 ) now watched by -119
+next_not_false
+(-128 -163 170 ) now watched by 170
+next_not_false
+(69 -163 170 ) now watched by 69
+propagating 182
+next_not_false
+propagating: 8 @ 1
+new implication <- 8
+next_not_false
+(38 -83 -182 ) now watched by 38
+next_not_false
+(75 88 -182 ) now watched by 88
+next_not_false
+clause is sat
+next_not_false
+(56 -182 195 ) now watched by 195
+next_not_false
+propagating: 195 @ 1
+new implication <- 195
+next_not_false
+propagating: 188 @ 1
+new implication <- 188
+next_not_false
+(124 -182 188 ) now watched by 124
+propagating 79
+next_not_false
+(-79 -180 184 ) now watched by 184
+next_not_false
+propagating: -36 @ 1
+new implication <- -36
+next_not_false
+(-79 196 -199 ) now watched by -199
+next_not_false
+clause is sat
+next_not_false
+(-79 -100 -187 ) now watched by -187
+next_not_false
+(47 -79 -173 ) now watched by -173
+next_not_false
+(-79 81 110 ) now watched by 110
+next_not_false
+(-79 114 161 ) now watched by 161
+next_not_false
+propagating: -194 @ 1
+new implication <- -194
+propagating 42
+next_not_false
+propagating: -179 @ 1
+new implication <- -179
+next_not_false
+(-20 -42 -43 ) now watched by -20
+next_not_false
+(3 -42 -145 ) now watched by -145
+propagating -133
+next_not_false
+clause is sat
+next_not_false
+propagating: 99 @ 1
+new implication <- 99
+next_not_false
+propagating: -96 @ 1
+new implication <- -96
+next_not_false
+(45 133 -158 ) now watched by 45
+propagating 2
+next_not_false
+(-2 44 70 ) now watched by 70
+next_not_false
+(-2 24 139 ) now watched by 139
+next_not_false
+(-2 20 -110 ) now watched by -110
+next_not_false
+propagating: 177 @ 1
+new implication <- 177
+next_not_false
+(-2 -127 162 ) now watched by 162
+next_not_false
+(-2 74 183 ) now watched by 183
+next_not_false
+(-2 42 -180 ) now watched by -180
+next_not_false
+propagating: 149 @ 1
+new implication <- 149
+next_not_false
+(-2 -15 -141 ) now watched by -15
+propagating 72
+next_not_false
+(-72 -133 -173 ) now watched by -133
+next_not_false
+(23 -72 153 ) now watched by 153
+next_not_false
+(6 -72 200 ) now watched by 200
+next_not_false
+(-72 -87 -91 ) now watched by -91
+next_not_false
+(-46 -72 186 ) now watched by 186
+next_not_false
+(-72 76 -162 ) now watched by -162
+next_not_false
+propagating: -161 @ 1
+new implication <- -161
+next_not_false
+(58 -72 143 ) now watched by 143
+next_not_false
+clause is sat
+propagating -12
+next_not_false
+propagating: 196 @ 1
+new implication <- 196
+propagating 8
+next_not_false
+propagating: -67 @ 1
+new implication <- -67
+next_not_false
+(-8 -153 -156 ) now watched by -156
+next_not_false
+(-8 -58 180 ) now watched by 180
+next_not_false
+(-8 -33 73 ) now watched by 73
+next_not_false
+(-8 77 -176 ) now watched by -176
+next_not_false
+(-8 42 77 ) now watched by 77
+next_not_false
+(-8 -57 -59 ) now watched by -59
+next_not_false
+propagating: 59 @ 1
+new implication <- 59
+next_not_false
+propagating: 14 @ 1
+new implication <- 14
+propagating 195
+next_not_false
+(43 155 -195 ) now watched by 43
+next_not_false
+propagating: -16 @ 1
+new implication <- -16
+next_not_false
+(-36 88 -195 ) now watched by -36
+propagating 188
+next_not_false
+(-155 167 -188 ) now watched by 167
+next_not_false
+(-74 183 -188 ) now watched by 183
+next_not_false
+(-135 -155 -188 ) now watched by -135
+next_not_false
+propagating: 141 @ 1
+new implication <- 141
+next_not_false
+(1 -188 -198 ) now watched by -198
+next_not_false
+(128 -188 192 ) now watched by 192
+propagating -36
+next_not_false
+(36 -49 -70 ) now watched by -49
+next_not_false
+(36 -124 -156 ) now watched by -156
+next_not_false
+propagating: 126 @ 1
+new implication <- 126
+next_not_false
+propagating: -89 @ 1
+new implication <- -89
+next_not_false
+clause is sat
+propagating -194
+next_not_false
+propagating: -97 @ 1
+new implication <- -97
+next_not_false
+(-3 10 194 ) now watched by -3
+next_not_false
+(-39 103 194 ) now watched by -39
+next_not_false
+(-55 194 198 ) now watched by 198
+propagating -179
+next_not_false
+propagating: -26 @ 1
+new implication <- -26
+next_not_false
+(108 135 179 ) now watched by 108
+next_not_false
+propagating: -138 @ 1
+new implication <- -138
+propagating 99
+next_not_false
+propagating: -46 @ 1
+new implication <- -46
+next_not_false
+propagating: -83 @ 1
+new implication <- -83
+next_not_false
+propagating: 66 @ 1
+new implication <- 66
+propagating -96
+next_not_false
+(96 -150 -173 ) now watched by -150
+next_not_false
+clause is sat
+next_not_false
+(96 108 169 ) now watched by 108
+next_not_false
+clause is sat
+propagating 177
+next_not_false
+propagating: 156 @ 1
+new implication <- 156
+next_not_false
+propagating: 20 @ 1
+new implication <- 20
+propagating 149
+next_not_false
+(-37 126 -149 ) now watched by -37
+next_not_false
+(-40 58 -149 ) now watched by -40
+next_not_false
+propagating: 173 @ 1
+new implication <- 173
+next_not_false
+(-149 166 -184 ) now watched by -184
+next_not_false
+(106 -149 170 ) now watched by 170
+next_not_false
+(91 -149 -153 ) now watched by -153
+propagating -161
+next_not_false
+propagating: 114 @ 1
+new implication <- 114
+next_not_false
+propagating: -140 @ 1
+new implication <- -140
+next_not_false
+(-3 60 161 ) now watched by -3
+next_not_false
+propagating: 147 @ 1
+new implication <- 147
+next_not_false
+(-75 -81 161 ) now watched by -81
+next_not_false
+propagating: 168 @ 1
+new implication <- 168
+next_not_false
+(-25 161 195 ) now watched by 195
+next_not_false
+propagating: -154 @ 1
+new implication <- -154
+propagating 196
+next_not_false
+(91 -123 -196 ) now watched by -123
+next_not_false
+(-3 24 -196 ) now watched by -3
+next_not_false
+propagating: -85 @ 1
+new implication <- -85
+propagating -67
+next_not_false
+clause is sat
+next_not_false
+propagating: -199 @ 1
+new implication <- -199
+next_not_false
+propagating: -6 @ 1
+new implication <- -6
+next_not_false
+(67 -184 195 ) now watched by 195
+next_not_false
+(9 67 132 ) now watched by 132
+next_not_false
+(20 67 -137 ) now watched by -137
+next_not_false
+(67 -120 160 ) now watched by 160
+next_not_false
+propagating: -58 @ 1
+new implication <- -58
+next_not_false
+clause is sat
+propagating 59
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-59 66 197 ) now watched by 197
+next_not_false
+(40 -59 189 ) now watched by 189
+next_not_false
+propagating: -167 @ 1
+new implication <- -167
+propagating 14
+next_not_false
+propagating: 107 @ 1
+new implication <- 107
+next_not_false
+(-14 88 -157 ) now watched by 88
+next_not_false
+(-14 80 -127 ) now watched by 80
+next_not_false
+clause is sat
+next_not_false
+(-14 60 109 ) now watched by 109
+next_not_false
+(-14 -86 -154 ) now watched by -154
+next_not_false
+(-14 -84 165 ) now watched by 165
+next_not_false
+(-14 -97 -171 ) now watched by -171
+next_not_false
+clause is sat
+propagating -16
+next_not_false
+propagating: -78 @ 1
+new implication <- -78
+next_not_false
+(16 186 198 ) now watched by 198
+next_not_false
+(16 -117 149 ) now watched by 149
+next_not_false
+(9 16 -135 ) now watched by -135
+next_not_false
+(16 -71 180 ) now watched by 180
+next_not_false
+(16 -76 81 ) now watched by 81
+next_not_false
+(16 69 -197 ) now watched by 69
+next_not_false
+clause is sat
+next_not_false
+propagating: -25 @ 1
+new implication <- -25
+propagating 141
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(65 -141 160 ) now watched by 160
+next_not_false
+(-35 -141 168 ) now watched by -35
+next_not_false
+(-92 -141 -187 ) now watched by -187
+next_not_false
+(-4 -141 192 ) now watched by 192
+next_not_false
+(77 -141 156 ) now watched by 156
+propagating 126
+next_not_false
+(-93 105 -126 ) now watched by -93
+next_not_false
+(-126 158 -174 ) now watched by 158
+next_not_false
+propagating: -44 @ 1
+new implication <- -44
+next_not_false
+(102 -126 -150 ) now watched by -150
+propagating -89
+next_not_false
+(-10 -70 89 ) now watched by -70
+next_not_false
+(32 80 89 ) now watched by 80
+next_not_false
+(5 89 -179 ) now watched by 5
+next_not_false
+(85 89 -172 ) now watched by -172
+next_not_false
+(-71 89 145 ) now watched by 145
+propagating -97
+next_not_false
+clause is sat
+next_not_false
+(-35 45 97 ) now watched by 45
+next_not_false
+propagating: -33 @ 1
+new implication <- -33
+next_not_false
+propagating: -37 @ 1
+new implication <- -37
+next_not_false
+(-7 97 102 ) now watched by 102
+next_not_false
+(-55 97 -146 ) now watched by -146
+next_not_false
+clause is sat
+next_not_false
+propagating: -112 @ 1
+new implication <- -112
+next_not_false
+propagating: -18 @ 1
+new implication <- -18
+propagating -26
+next_not_false
+propagating: -145 @ 1
+new implication <- -145
+next_not_false
+clause is sat
+next_not_false
+propagating: -65 @ 1
+new implication <- -65
+next_not_false
+propagating: -127 @ 1
+new implication <- -127
+propagating -138
+propagating -46
+next_not_false
+propagating: -4 @ 1
+new implication <- -4
+next_not_false
+propagating: -124 @ 1
+new implication <- -124
+next_not_false
+(46 102 122 ) now watched by 122
+next_not_false
+propagating: -132 @ 1
+new implication <- -132
+next_not_false
+(46 125 183 ) now watched by 183
+next_not_false
+clause is sat
+next_not_false
+(46 47 -73 ) now watched by -73
+next_not_false
+(46 -100 197 ) now watched by 197
+next_not_false
+clause is sat
+propagating -83
+propagating 66
+next_not_false
+propagating: 119 @ 1
+new implication <- 119
+next_not_false
+(-66 -69 -135 ) now watched by -135
+next_not_false
+propagating: 164 @ 1
+new implication <- 164
+next_not_false
+clause is sat
+propagating 156
+next_not_false
+clause is sat
+next_not_false
+propagating: -153 @ 1
+new implication <- -153
+next_not_false
+(78 -156 171 ) is conflicting
+State: 0 
+2 
+0 
+-4 
+0 
+-6 
+0 
+8 
+9 
+0 
+11 
+-12 
+-13 
+14 
+-15 
+-16 
+-17 
+-18 
+0 
+20 
+0 
+-22 
+0 
+0 
+-25 
+-26 
+27 
+-28 
+0 
+-30 
+0 
+0 
+-33 
+0 
+0 
+-36 
+-37 
+0 
+-39 
+0 
+41 
+42 
+0 
+-44 
+45 
+-46 
+47 
+0 
+-49 
+50 
+0 
+-52 
+0 
+0 
+0 
+0 
+-57 
+-58 
+59 
+60 
+0 
+62 
+0 
+0 
+-65 
+66 
+-67 
+0 
+0 
+0 
+0 
+72 
+0 
+0 
+0 
+0 
+0 
+-78 
+79 
+80 
+0 
+-82 
+-83 
+-84 
+-85 
+0 
+0 
+0 
+-89 
+0 
+0 
+0 
+0 
+94 
+0 
+-96 
+-97 
+0 
+99 
+-100 
+0 
+0 
+0 
+0 
+105 
+106 
+107 
+108 
+109 
+0 
+0 
+-112 
+-113 
+114 
+115 
+0 
+0 
+118 
+119 
+-120 
+0 
+122 
+0 
+-124 
+0 
+126 
+-127 
+0 
+0 
+0 
+0 
+-132 
+-133 
+0 
+0 
+136 
+0 
+-138 
+0 
+-140 
+141 
+0 
+0 
+144 
+-145 
+0 
+147 
+0 
+149 
+-150 
+0 
+0 
+-153 
+-154 
+0 
+156 
+0 
+0 
+-159 
+160 
+-161 
+0 
+163 
+164 
+0 
+0 
+-167 
+168 
+169 
+0 
+-171 
+-172 
+173 
+0 
+-175 
+0 
+177 
+-178 
+-179 
+0 
+0 
+182 
+0 
+0 
+0 
+186 
+0 
+188 
+0 
+-190 
+-191 
+0 
+0 
+-194 
+195 
+196 
+0 
+0 
+-199 
+200 
+(78 -156 171 )conflict
+analyze
+Learned clause #1210. (84 )
+ learnt clauses:  10 Backtracking to level 0
+backtrack
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+84 @ 0
+BCP
+qhead = 0 trail-size = 1
+propagating 84
+next_not_false
+(-82 -84 -148 ) now watched by -82
+next_not_false
+(-17 -84 -180 ) now watched by -180
+next_not_false
+(-61 -84 -174 ) now watched by -174
+next_not_false
+(-84 -110 127 ) now watched by 127
+next_not_false
+(-37 -84 -197 ) now watched by -37
+next_not_false
+(-14 -84 165 ) now watched by -14
+next_not_false
+(-78 -84 165 ) now watched by 165
+next_not_false
+(78 -84 165 ) now watched by 165
+next_not_false
+(-84 -145 183 ) now watched by 183
+decide
+0
+108 @ 1
+BCP
+qhead = 1 trail-size = 2
+propagating 108
+decide
+-49 @ 2
+BCP
+qhead = 2 trail-size = 3
+propagating -49
+decide
+-113 @ 3
+BCP
+qhead = 3 trail-size = 4
+propagating -113
+next_not_false
+(84 113 200 ) now watched by 84
+decide
+94 @ 4
+BCP
+qhead = 4 trail-size = 5
+propagating 94
+next_not_false
+(-94 -113 150 ) now watched by 150
+decide
+-30 @ 5
+BCP
+qhead = 5 trail-size = 6
+propagating -30
+next_not_false
+(30 50 178 ) now watched by 178
+next_not_false
+(30 50 178 ) now watched by 178
+next_not_false
+(30 144 178 ) now watched by 178
+next_not_false
+(49 30 -150 -45 15 ) now watched by -45
+next_not_false
+(30 94 49 -45 ) now watched by -45
+decide
+-158 @ 6
+BCP
+qhead = 6 trail-size = 7
+propagating -158
+next_not_false
+(-126 158 -174 ) now watched by -126
+next_not_false
+propagating: -165 @ 6
+new implication <- -165
+next_not_false
+(45 88 158 ) now watched by 45
+next_not_false
+(88 -113 158 ) now watched by -113
+next_not_false
+(-88 -113 158 ) now watched by -113
+next_not_false
+(-108 158 165 ) is conflicting
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-30 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-49 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+94 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+108 
+0 
+0 
+0 
+0 
+-113 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-158 
+0 
+0 
+0 
+0 
+0 
+0 
+-165 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+(-108 158 165 )conflict
+analyze
+Learned clause #1211. (-108 113 158 )
+ learnt clauses:  11 Backtracking to level 3
+backtrack
+State: 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-49 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+84 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+108 
+0 
+0 
+0 
+0 
+-113 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+158 @ 3
+BCP
+qhead = 4 trail-size = 5
+propagating 158
+next_not_false
+(100 -133 -158 ) now watched by 100
+next_not_false
+(-158 175 -179 ) now watched by 175
+next_not_false
+(49 84 108 -158 ) now watched by 84
+next_not_false
+(45 133 -158 ) now watched by 133
+next_not_false
+(45 121 -158 ) now watched by 45
+next_not_false
+propagating: 45 @ 3
+new implication <- 45
+propagating 45
+next_not_false
+(30 94 49 -45 ) now watched by 30
+next_not_false
+(49 30 -150 -45 15 ) now watched by 30
+next_not_false
+clause is sat
+next_not_false
+propagating: -15 @ 3
+new implication <- -15
+propagating -15
+next_not_false
+propagating: -57 @ 3
+new implication <- -57
+propagating -57
+next_not_false
+propagating: -178 @ 3
+new implication <- -178
+next_not_false
+propagating: 106 @ 3
+new implication <- 106
+propagating -178
+next_not_false
+(30 144 178 ) now watched by 30
+next_not_false
+(30 50 178 ) now watched by 30
+next_not_false
+(30 50 178 ) now watched by 30
+propagating 106
+next_not_false
+propagating: 47 @ 3
+new implication <- 47
+propagating 47
+next_not_false
+propagating: -13 @ 3
+new implication <- -13
+next_not_false
+clause is sat
+propagating -13
+next_not_false
+propagating: 11 @ 3
+new implication <- 11
+next_not_false
+propagating: -30 @ 3
+new implication <- -30
+next_not_false
+propagating: -191 @ 3
+new implication <- -191
+next_not_false
+propagating: 169 @ 3
+new implication <- 169
+propagating 11
+propagating -30
+next_not_false
+propagating: 50 @ 3
+new implication <- 50
+next_not_false
+clause is sat
+next_not_false
+propagating: 144 @ 3
+new implication <- 144
+next_not_false
+propagating: -150 @ 3
+new implication <- -150
+next_not_false
+propagating: 94 @ 3
+new implication <- 94
+propagating -191
+next_not_false
+propagating: 80 @ 3
+new implication <- 80
+propagating 169
+next_not_false
+propagating: -39 @ 3
+new implication <- -39
+next_not_false
+propagating: -175 @ 3
+new implication <- -175
+propagating 50
+next_not_false
+propagating: -100 @ 3
+new implication <- -100
+next_not_false
+propagating: -28 @ 3
+new implication <- -28
+propagating 144
+propagating -150
+next_not_false
+clause is sat
+propagating 94
+propagating 80
+propagating -39
+next_not_false
+clause is sat
+propagating -175
+next_not_false
+propagating: -179 @ 3
+new implication <- -179
+propagating -100
+next_not_false
+propagating: -133 @ 3
+new implication <- -133
+next_not_false
+propagating: 62 @ 3
+new implication <- 62
+propagating -28
+propagating -179
+next_not_false
+propagating: -26 @ 3
+new implication <- -26
+next_not_false
+propagating: -138 @ 3
+new implication <- -138
+propagating -133
+next_not_false
+clause is sat
+next_not_false
+(-41 115 133 ) now watched by -41
+next_not_false
+propagating: 99 @ 3
+new implication <- 99
+next_not_false
+propagating: -96 @ 3
+new implication <- -96
+propagating 62
+next_not_false
+propagating: 122 @ 3
+new implication <- 122
+next_not_false
+propagating: 115 @ 3
+new implication <- 115
+next_not_false
+propagating: -120 @ 3
+new implication <- -120
+propagating -26
+next_not_false
+(26 82 -145 ) now watched by 82
+next_not_false
+(26 59 190 ) now watched by 190
+next_not_false
+propagating: -65 @ 3
+new implication <- -65
+next_not_false
+propagating: -127 @ 3
+new implication <- -127
+propagating -138
+propagating 99
+next_not_false
+(-46 -99 -163 ) now watched by -163
+next_not_false
+(-83 84 -99 ) now watched by 84
+next_not_false
+(66 -99 -160 ) now watched by -160
+propagating -96
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 122
+next_not_false
+propagating: -159 @ 3
+new implication <- -159
+next_not_false
+clause is sat
+propagating 115
+next_not_false
+clause is sat
+next_not_false
+propagating: 118 @ 3
+new implication <- 118
+propagating -120
+next_not_false
+propagating: -172 @ 3
+new implication <- -172
+next_not_false
+propagating: 109 @ 3
+new implication <- 109
+propagating -65
+next_not_false
+(-28 -39 65 ) now watched by -28
+next_not_false
+(65 -141 160 ) now watched by -141
+next_not_false
+(65 -86 -116 ) now watched by -116
+next_not_false
+(-55 65 109 ) now watched by 109
+next_not_false
+(-42 65 104 ) now watched by -42
+next_not_false
+(65 107 -137 ) now watched by -137
+next_not_false
+(-24 65 -142 ) now watched by -24
+next_not_false
+(-21 65 -187 ) now watched by -187
+next_not_false
+(-21 65 -187 ) now watched by -187
+propagating -127
+next_not_false
+propagating: -110 @ 3
+new implication <- -110
+next_not_false
+(108 127 -183 ) now watched by 108
+next_not_false
+(127 -177 -189 ) now watched by -177
+propagating -159
+next_not_false
+(60 159 171 ) now watched by 171
+propagating 118
+propagating -172
+next_not_false
+propagating: 9 @ 3
+new implication <- 9
+propagating 109
+next_not_false
+propagating: 136 @ 3
+new implication <- 136
+propagating -110
+next_not_false
+(-79 81 110 ) now watched by -79
+next_not_false
+propagating: -69 @ 3
+new implication <- -69
+next_not_false
+(-13 110 -116 ) now watched by -116
+next_not_false
+(110 168 196 ) now watched by 196
+next_not_false
+propagating: -152 @ 3
+new implication <- -152
+next_not_false
+(110 117 -183 ) now watched by -183
+next_not_false
+(110 151 181 ) now watched by 181
+next_not_false
+(-54 110 -151 ) now watched by -151
+propagating 9
+next_not_false
+propagating: -22 @ 3
+new implication <- -22
+next_not_false
+propagating: 27 @ 3
+new implication <- 27
+propagating 136
+next_not_false
+propagating: -190 @ 3
+new implication <- -190
+next_not_false
+propagating: 41 @ 3
+new implication <- 41
+next_not_false
+(84 -136 160 ) now watched by 84
+propagating -69
+next_not_false
+(16 69 -197 ) now watched by 16
+next_not_false
+(69 -163 170 ) now watched by -163
+next_not_false
+(69 135 -163 ) now watched by -163
+next_not_false
+propagating: 37 @ 3
+new implication <- 37
+next_not_false
+(69 -135 -172 ) now watched by -135
+next_not_false
+(37 69 124 ) now watched by 124
+propagating -152
+next_not_false
+propagating: -123 @ 3
+new implication <- -123
+next_not_false
+(-24 -103 152 ) now watched by -24
+next_not_false
+propagating: 98 @ 3
+new implication <- 98
+next_not_false
+(-125 152 -171 ) now watched by -171
+next_not_false
+(130 152 -182 ) now watched by -182
+next_not_false
+(126 152 177 ) now watched by 177
+propagating -22
+propagating 27
+next_not_false
+propagating: -82 @ 3
+new implication <- -82
+next_not_false
+propagating: 163 @ 3
+new implication <- 163
+next_not_false
+clause is sat
+propagating -190
+next_not_false
+propagating: 59 @ 3
+new implication <- 59
+propagating 41
+next_not_false
+clause is sat
+propagating 37
+next_not_false
+propagating: -197 @ 3
+new implication <- -197
+next_not_false
+(-37 126 -149 ) now watched by -149
+next_not_false
+(-37 84 97 ) now watched by 84
+next_not_false
+propagating: -151 @ 3
+new implication <- -151
+next_not_false
+(1 -37 -160 ) now watched by -160
+propagating -123
+next_not_false
+(27 -105 123 ) now watched by -105
+next_not_false
+(-39 -116 123 ) now watched by -39
+next_not_false
+propagating: 153 @ 3
+new implication <- 153
+next_not_false
+(-86 123 124 ) now watched by 124
+next_not_false
+(5 123 -152 ) now watched by 5
+next_not_false
+(104 123 -130 ) now watched by -130
+next_not_false
+(123 164 181 ) now watched by 181
+next_not_false
+(86 123 -167 ) now watched by -167
+propagating 98
+next_not_false
+propagating: 60 @ 3
+new implication <- 60
+next_not_false
+(-89 -98 -177 ) now watched by -177
+next_not_false
+(-70 -98 -101 ) now watched by -70
+next_not_false
+(6 -98 -193 ) now watched by -193
+next_not_false
+(-98 104 108 ) now watched by 108
+next_not_false
+(-4 -98 -140 ) now watched by -140
+next_not_false
+(59 -98 182 ) now watched by 182
+next_not_false
+(-31 -98 -104 ) now watched by -104
+propagating -82
+next_not_false
+propagating: -145 @ 3
+new implication <- -145
+propagating 163
+next_not_false
+propagating: 135 @ 3
+new implication <- 135
+next_not_false
+propagating: 170 @ 3
+new implication <- 170
+next_not_false
+propagating: -46 @ 3
+new implication <- -46
+propagating 59
+next_not_false
+(-8 -57 -59 ) now watched by -8
+next_not_false
+clause is sat
+next_not_false
+propagating: -167 @ 3
+new implication <- -167
+propagating -197
+next_not_false
+clause is sat
+next_not_false
+propagating: 66 @ 3
+new implication <- 66
+propagating -151
+next_not_false
+(-82 129 151 ) now watched by -82
+next_not_false
+(-96 124 151 ) now watched by 124
+next_not_false
+clause is sat
+next_not_false
+(-13 151 -187 ) now watched by -187
+next_not_false
+(92 151 200 ) now watched by 200
+next_not_false
+propagating: -155 @ 3
+new implication <- -155
+next_not_false
+propagating: 181 @ 3
+new implication <- 181
+propagating 153
+next_not_false
+(91 -149 -153 ) now watched by -149
+next_not_false
+propagating: -77 @ 3
+new implication <- -77
+next_not_false
+clause is sat
+next_not_false
+(-8 -153 -156 ) now watched by -8
+next_not_false
+propagating: -31 @ 3
+new implication <- -31
+next_not_false
+(-74 -153 183 ) now watched by 183
+next_not_false
+(84 -153 183 ) now watched by 84
+next_not_false
+propagating: 40 @ 3
+new implication <- 40
+next_not_false
+(135 -153 170 ) now watched by 170
+propagating 60
+next_not_false
+propagating: -52 @ 3
+new implication <- -52
+next_not_false
+propagating: 186 @ 3
+new implication <- 186
+propagating -145
+next_not_false
+(-71 89 145 ) now watched by 89
+next_not_false
+propagating: 33 @ 3
+new implication <- 33
+next_not_false
+(-104 145 153 ) now watched by 153
+next_not_false
+propagating: -156 @ 3
+new implication <- -156
+next_not_false
+(63 145 169 ) now watched by 169
+next_not_false
+(-71 145 -189 ) now watched by -189
+next_not_false
+(-71 145 -189 ) now watched by -189
+propagating 135
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(9 16 -135 ) now watched by 16
+next_not_false
+(-135 -155 -188 ) now watched by -188
+next_not_false
+(-135 171 -193 ) now watched by 171
+next_not_false
+(-135 143 -190 ) now watched by 143
+propagating 170
+next_not_false
+(-63 -111 -170 ) now watched by -63
+next_not_false
+(-63 -75 -170 ) now watched by -63
+next_not_false
+(27 -164 -170 ) now watched by -164
+next_not_false
+(19 -170 -195 ) now watched by -195
+propagating -46
+next_not_false
+propagating: -4 @ 3
+new implication <- -4
+next_not_false
+propagating: -124 @ 3
+new implication <- -124
+next_not_false
+propagating: -132 @ 3
+new implication <- -132
+next_not_false
+(46 -65 89 ) now watched by 89
+next_not_false
+clause is sat
+propagating -167
+next_not_false
+(-155 167 -188 ) now watched by -188
+next_not_false
+propagating: 149 @ 3
+new implication <- 149
+next_not_false
+clause is sat
+next_not_false
+propagating: 200 @ 3
+new implication <- 200
+next_not_false
+(-1 167 -183 ) now watched by -1
+propagating 66
+next_not_false
+propagating: 119 @ 3
+new implication <- 119
+next_not_false
+propagating: 164 @ 3
+new implication <- 164
+next_not_false
+(-4 -66 83 ) now watched by 83
+propagating -155
+next_not_false
+(-88 -93 155 ) now watched by -93
+next_not_false
+(131 -145 155 ) now watched by -145
+next_not_false
+propagating: 32 @ 3
+new implication <- 32
+next_not_false
+(73 155 -167 ) now watched by -167
+next_not_false
+(-43 155 -195 ) now watched by -195
+next_not_false
+(43 155 -195 ) now watched by -195
+propagating 181
+next_not_false
+(-70 114 -181 ) now watched by -70
+next_not_false
+clause is sat
+next_not_false
+(-12 -121 -181 ) now watched by -121
+next_not_false
+propagating: -139 @ 3
+new implication <- -139
+next_not_false
+clause is sat
+next_not_false
+propagating: -192 @ 3
+new implication <- -192
+propagating -77
+next_not_false
+(-8 42 77 ) now watched by -8
+next_not_false
+propagating: -5 @ 3
+new implication <- -5
+next_not_false
+propagating: -154 @ 3
+new implication <- -154
+next_not_false
+propagating: 48 @ 3
+new implication <- 48
+next_not_false
+(77 137 -147 ) now watched by -147
+next_not_false
+propagating: 137 @ 3
+new implication <- 137
+next_not_false
+(77 -141 156 ) now watched by -141
+next_not_false
+(-8 77 -176 ) now watched by -8
+next_not_false
+(-42 77 177 ) now watched by -42
+propagating -31
+next_not_false
+(31 -35 -197 ) now watched by -35
+next_not_false
+(-19 31 -91 ) now watched by -91
+next_not_false
+(31 98 137 ) now watched by 137
+next_not_false
+(31 -70 -96 ) now watched by -70
+next_not_false
+propagating: -157 @ 3
+new implication <- -157
+next_not_false
+propagating: -56 @ 3
+new implication <- -56
+next_not_false
+(31 -63 -86 ) now watched by -63
+next_not_false
+propagating: 63 @ 3
+new implication <- 63
+next_not_false
+clause is sat
+propagating 40
+next_not_false
+propagating: 58 @ 3
+new implication <- 58
+next_not_false
+(-40 60 181 ) now watched by 181
+next_not_false
+(9 -40 -177 ) now watched by -177
+next_not_false
+propagating: -116 @ 3
+new implication <- -116
+next_not_false
+propagating: -89 @ 3
+new implication <- -89
+next_not_false
+clause is sat
+propagating -52
+next_not_false
+clause is sat
+next_not_false
+propagating: 105 @ 3
+new implication <- 105
+propagating 186
+propagating 33
+next_not_false
+(-8 -33 73 ) now watched by -8
+next_not_false
+clause is sat
+next_not_false
+propagating: 97 @ 3
+new implication <- 97
+next_not_false
+(-33 -103 -113 ) now watched by -113
+next_not_false
+(-33 -35 -103 ) now watched by -35
+next_not_false
+(-33 -57 119 ) now watched by 119
+next_not_false
+(3 -33 -57 ) now watched by -57
+next_not_false
+(-33 -53 -81 ) now watched by -53
+next_not_false
+(-15 -33 -53 ) now watched by -53
+propagating -156
+next_not_false
+propagating: -141 @ 3
+new implication <- -141
+next_not_false
+(34 -81 156 ) now watched by -81
+next_not_false
+(148 156 -172 ) now watched by -172
+next_not_false
+(156 -175 188 ) now watched by 188
+next_not_false
+propagating: -177 @ 3
+new implication <- -177
+next_not_false
+(142 156 -177 ) now watched by -177
+next_not_false
+(2 156 -193 ) now watched by -193
+next_not_false
+(79 156 -197 ) now watched by -197
+propagating -4
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(4 83 -197 ) now watched by 83
+propagating -124
+next_not_false
+clause is sat
+next_not_false
+propagating: -86 @ 3
+new implication <- -86
+next_not_false
+clause is sat
+next_not_false
+(124 -182 188 ) now watched by -182
+propagating -132
+next_not_false
+(9 67 132 ) now watched by 67
+next_not_false
+(21 58 132 ) now watched by 58
+next_not_false
+(132 -184 187 ) now watched by 187
+next_not_false
+(-43 132 136 ) now watched by 136
+next_not_false
+(109 132 154 ) now watched by 109
+next_not_false
+propagating: -128 @ 3
+new implication <- -128
+next_not_false
+(-102 132 193 ) now watched by -102
+propagating 149
+next_not_false
+propagating: 91 @ 3
+new implication <- 91
+next_not_false
+propagating: 126 @ 3
+new implication <- 126
+next_not_false
+(-149 -160 173 ) now watched by -160
+propagating 200
+next_not_false
+propagating: -17 @ 3
+new implication <- -17
+propagating 119
+next_not_false
+propagating: 10 @ 3
+new implication <- 10
+next_not_false
+clause is sat
+next_not_false
+(12 -77 -119 ) now watched by 12
+next_not_false
+propagating: 7 @ 3
+new implication <- 7
+next_not_false
+propagating: -189 @ 3
+new implication <- -189
+next_not_false
+propagating: -38 @ 3
+new implication <- -38
+propagating 164
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 32
+next_not_false
+(-7 -32 -100 ) now watched by -100
+next_not_false
+(-32 -138 195 ) now watched by 195
+next_not_false
+(-32 -150 185 ) now watched by -150
+next_not_false
+clause is sat
+next_not_false
+(-32 -93 -193 ) now watched by -93
+next_not_false
+(-32 173 200 ) now watched by 200
+next_not_false
+(2 -32 -174 ) now watched by -174
+next_not_false
+(-32 -48 153 ) now watched by 153
+next_not_false
+(-32 51 -70 ) now watched by -70
+propagating -139
+next_not_false
+(-2 24 139 ) now watched by -2
+next_not_false
+(130 139 -175 ) now watched by -175
+next_not_false
+clause is sat
+next_not_false
+(41 139 -143 ) now watched by -143
+next_not_false
+propagating: 180 @ 3
+new implication <- 180
+next_not_false
+(129 139 158 ) now watched by 158
+next_not_false
+(139 -147 -174 ) now watched by -174
+propagating -192
+next_not_false
+(-4 -141 192 ) now watched by -141
+next_not_false
+(128 -188 192 ) now watched by -188
+next_not_false
+(-93 189 192 ) now watched by -93
+next_not_false
+clause is sat
+propagating -5
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -154
+next_not_false
+(-65 -113 154 ) now watched by -113
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: -129 @ 3
+new implication <- -129
+next_not_false
+(126 154 -196 ) now watched by -196
+propagating 48
+next_not_false
+(-48 -107 -190 ) now watched by -190
+next_not_false
+(-48 -121 168 ) now watched by -121
+next_not_false
+(11 -48 194 ) now watched by 194
+next_not_false
+(-48 68 -183 ) now watched by -183
+next_not_false
+clause is sat
+next_not_false
+(32 -48 153 ) now watched by 153
+next_not_false
+(41 -48 -197 ) now watched by -197
+next_not_false
+(-48 -93 189 ) now watched by -93
+next_not_false
+clause is sat
+propagating 137
+next_not_false
+propagating: 107 @ 3
+new implication <- 107
+next_not_false
+(20 67 -137 ) now watched by 67
+next_not_false
+(72 105 -137 ) now watched by 72
+next_not_false
+(84 121 -137 ) now watched by 84
+next_not_false
+(106 -137 193 ) now watched by 193
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(107 -137 -194 ) now watched by -194
+next_not_false
+propagating: 148 @ 3
+new implication <- 148
+propagating -157
+next_not_false
+clause is sat
+next_not_false
+(-90 94 157 ) now watched by 94
+next_not_false
+propagating: -111 @ 3
+new implication <- -111
+propagating -56
+next_not_false
+(54 56 -159 ) now watched by -159
+next_not_false
+(56 -182 195 ) now watched by -182
+next_not_false
+(56 90 -162 ) now watched by -162
+next_not_false
+(56 -102 -167 ) now watched by -102
+next_not_false
+clause is sat
+next_not_false
+(56 126 -165 ) now watched by -165
+next_not_false
+(35 56 71 ) now watched by 71
+next_not_false
+clause is sat
+next_not_false
+propagating: -76 @ 3
+new implication <- -76
+propagating 63
+next_not_false
+clause is sat
+next_not_false
+propagating: -75 @ 3
+new implication <- -75
+next_not_false
+clause is sat
+next_not_false
+propagating: -81 @ 3
+new implication <- -81
+next_not_false
+clause is sat
+propagating 58
+next_not_false
+clause is sat
+next_not_false
+(20 -58 78 ) now watched by 78
+next_not_false
+clause is sat
+next_not_false
+(-8 -58 180 ) now watched by -8
+next_not_false
+(43 -58 115 ) now watched by 43
+next_not_false
+(-58 90 115 ) now watched by 115
+next_not_false
+(9 -58 -68 ) now watched by -68
+next_not_false
+(-58 67 85 ) now watched by 85
+next_not_false
+(-58 67 85 ) now watched by 85
+propagating -116
+next_not_false
+propagating: -68 @ 3
+new implication <- -68
+next_not_false
+(-107 116 180 ) now watched by 180
+next_not_false
+(-1 116 -175 ) now watched by -1
+next_not_false
+(116 119 -165 ) now watched by -165
+next_not_false
+(-67 116 165 ) now watched by 165
+next_not_false
+(116 119 165 ) now watched by 165
+next_not_false
+(-29 116 -147 ) now watched by -147
+propagating -89
+next_not_false
+clause is sat
+next_not_false
+propagating: -71 @ 3
+new implication <- -71
+propagating 105
+next_not_false
+clause is sat
+next_not_false
+(2 -42 -105 ) now watched by -42
+next_not_false
+propagating: 72 @ 3
+new implication <- 72
+next_not_false
+propagating: -12 @ 3
+new implication <- -12
+propagating 97
+next_not_false
+(-76 -97 -154 ) now watched by -154
+next_not_false
+propagating: 196 @ 3
+new implication <- 196
+next_not_false
+(-14 -97 -171 ) now watched by -14
+next_not_false
+(-3 -97 180 ) now watched by -3
+next_not_false
+clause is sat
+next_not_false
+(50 -97 103 ) now watched by 103
+next_not_false
+propagating: 194 @ 3
+new implication <- 194
+next_not_false
+(78 -97 -184 ) now watched by -184
+next_not_false
+propagating: -78 @ 3
+new implication <- -78
+propagating -141
+next_not_false
+propagating: -3 @ 3
+new implication <- -3
+next_not_false
+(-15 -53 141 ) now watched by -53
+next_not_false
+(-15 -53 141 ) now watched by -53
+next_not_false
+propagating: 35 @ 3
+new implication <- 35
+next_not_false
+propagating: -188 @ 3
+new implication <- -188
+next_not_false
+clause is sat
+propagating -177
+next_not_false
+clause is sat
+next_not_false
+(43 47 177 ) now watched by 43
+next_not_false
+clause is sat
+next_not_false
+propagating: -42 @ 3
+new implication <- -42
+next_not_false
+propagating: -24 @ 3
+new implication <- -24
+next_not_false
+(-166 177 -183 ) now watched by -183
+next_not_false
+propagating: -2 @ 3
+new implication <- -2
+next_not_false
+clause is sat
+propagating -86
+next_not_false
+(-36 85 86 ) now watched by -36
+next_not_false
+(18 86 149 ) now watched by 149
+next_not_false
+(32 86 98 ) now watched by 32
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(48 86 -166 ) now watched by -166
+next_not_false
+(18 86 92 ) now watched by 92
+propagating -128
+next_not_false
+(45 90 128 ) now watched by 45
+next_not_false
+(-73 128 170 ) now watched by 170
+next_not_false
+(62 128 140 ) now watched by 140
+next_not_false
+(114 128 -190 ) now watched by -190
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 91
+next_not_false
+propagating: -19 @ 3
+new implication <- -19
+next_not_false
+propagating: -87 @ 3
+new implication <- -87
+next_not_false
+(9 -91 130 ) now watched by 130
+next_not_false
+(59 -91 -128 ) now watched by -128
+next_not_false
+clause is sat
+next_not_false
+(-91 -162 -178 ) now watched by -178
+next_not_false
+(-49 -91 112 ) now watched by -49
+propagating 126
+next_not_false
+(-126 158 -174 ) now watched by 158
+next_not_false
+propagating: -44 @ 3
+new implication <- -44
+propagating -17
+next_not_false
+propagating: -171 @ 3
+new implication <- -171
+next_not_false
+clause is sat
+propagating 10
+next_not_false
+(-10 -25 -131 ) now watched by -131
+next_not_false
+(-10 -68 104 ) now watched by 104
+next_not_false
+clause is sat
+next_not_false
+propagating: -70 @ 3
+new implication <- -70
+next_not_false
+(-10 64 115 ) now watched by 115
+next_not_false
+(-10 -52 -162 ) now watched by -162
+next_not_false
+(-10 11 -162 ) now watched by -162
+next_not_false
+propagating: -134 @ 3
+new implication <- -134
+next_not_false
+(-10 -44 117 ) now watched by 117
+propagating 7
+next_not_false
+clause is sat
+next_not_false
+(-7 130 147 ) now watched by 147
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-7 -76 -199 ) now watched by -199
+next_not_false
+(-7 97 102 ) now watched by 97
+next_not_false
+(-7 112 -127 ) now watched by -127
+next_not_false
+clause is sat
+next_not_false
+propagating: 14 @ 3
+new implication <- 14
+propagating -189
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: -93 @ 3
+new implication <- -93
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -38
+next_not_false
+(38 -83 -182 ) now watched by -182
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(38 43 -83 ) now watched by 43
+next_not_false
+(-6 38 83 ) now watched by 83
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(38 53 164 ) now watched by 164
+propagating 180
+next_not_false
+clause is sat
+next_not_false
+(-2 42 -180 ) now watched by -2
+next_not_false
+clause is sat
+next_not_false
+propagating: -36 @ 3
+new implication <- -36
+next_not_false
+clause is sat
+next_not_false
+(48 -180 -199 ) now watched by -199
+next_not_false
+(-79 -180 184 ) now watched by -79
+next_not_false
+(-121 -180 -198 ) now watched by -121
+propagating -129
+next_not_false
+propagating: 95 @ 3
+new implication <- 95
+next_not_false
+(34 -36 129 ) now watched by -36
+next_not_false
+(-21 58 129 ) now watched by 58
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: 168 @ 3
+new implication <- 168
+next_not_false
+clause is sat
+next_not_false
+propagating: -176 @ 3
+new implication <- -176
+next_not_false
+(78 129 -176 ) now watched by -176
+propagating 107
+next_not_false
+clause is sat
+next_not_false
+(-38 -107 187 ) now watched by 187
+next_not_false
+clause is sat
+next_not_false
+(-38 -107 -134 ) now watched by -134
+next_not_false
+(-44 -107 184 ) now watched by 184
+next_not_false
+clause is sat
+next_not_false
+(-1 -107 -114 ) now watched by -1
+next_not_false
+propagating: 1 @ 3
+new implication <- 1
+next_not_false
+(-107 -148 -179 ) now watched by -179
+propagating 148
+next_not_false
+clause is sat
+next_not_false
+(72 -110 -148 ) now watched by 72
+next_not_false
+(-101 -148 -185 ) now watched by -185
+next_not_false
+clause is sat
+next_not_false
+(42 -148 -179 ) now watched by -179
+next_not_false
+(107 -148 -179 ) now watched by -179
+next_not_false
+propagating: 73 @ 3
+new implication <- 73
+propagating -111
+next_not_false
+clause is sat
+next_not_false
+(88 95 111 ) now watched by 88
+next_not_false
+(7 109 111 ) now watched by 109
+next_not_false
+propagating: -143 @ 3
+new implication <- -143
+next_not_false
+(-77 111 -156 ) now watched by -156
+next_not_false
+(93 111 -138 ) now watched by -138
+next_not_false
+(68 111 -154 ) now watched by -154
+next_not_false
+(-95 111 -155 ) now watched by -155
+propagating -76
+next_not_false
+propagating: -74 @ 3
+new implication <- -74
+next_not_false
+(-39 76 -87 ) now watched by -39
+next_not_false
+(76 -183 198 ) now watched by 198
+next_not_false
+(72 76 164 ) now watched by 72
+next_not_false
+(76 -111 199 ) now watched by 199
+next_not_false
+propagating: -162 @ 3
+new implication <- -162
+next_not_false
+(21 76 186 ) now watched by 186
+next_not_false
+(-69 76 -198 ) now watched by -198
+next_not_false
+propagating: -198 @ 3
+new implication <- -198
+propagating -75
+next_not_false
+(-57 58 75 ) now watched by 58
+next_not_false
+(75 88 -182 ) now watched by -182
+next_not_false
+(-51 75 187 ) now watched by -51
+next_not_false
+propagating: 146 @ 3
+new implication <- 146
+next_not_false
+clause is sat
+next_not_false
+(37 75 -140 ) now watched by -140
+next_not_false
+propagating: -43 @ 3
+new implication <- -43
+next_not_false
+clause is sat
+propagating -81
+next_not_false
+(16 -76 81 ) now watched by 16
+next_not_false
+(32 81 -95 ) now watched by 32
+next_not_false
+propagating: 131 @ 3
+new implication <- 131
+next_not_false
+(-64 81 -175 ) now watched by -175
+next_not_false
+(58 81 94 ) now watched by 94
+next_not_false
+propagating: -79 @ 3
+new implication <- -79
+next_not_false
+(20 81 121 ) now watched by 121
+next_not_false
+(-21 81 -139 ) now watched by -139
+propagating -68
+next_not_false
+(-4 68 -188 ) now watched by -188
+next_not_false
+(33 68 -191 ) now watched by -191
+next_not_false
+(68 -87 -130 ) now watched by -130
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(68 72 -85 ) now watched by 72
+next_not_false
+clause is sat
+next_not_false
+propagating: -183 @ 3
+new implication <- -183
+next_not_false
+(9 68 92 ) now watched by 92
+propagating -71
+next_not_false
+clause is sat
+next_not_false
+(-22 71 193 ) now watched by 193
+next_not_false
+clause is sat
+next_not_false
+(71 -82 103 ) now watched by -82
+next_not_false
+(29 71 -82 ) now watched by -82
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 72
+next_not_false
+propagating: -161 @ 3
+new implication <- -161
+next_not_false
+clause is sat
+propagating -12
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 196
+next_not_false
+clause is sat
+next_not_false
+propagating: -85 @ 3
+new implication <- -85
+propagating 194
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(85 165 -194 ) now watched by 165
+next_not_false
+(35 -194 199 ) now watched by 199
+propagating -78
+next_not_false
+propagating: 20 @ 3
+new implication <- 20
+next_not_false
+clause is sat
+next_not_false
+(78 -121 122 ) now watched by -121
+next_not_false
+clause is sat
+next_not_false
+propagating: 165 @ 3
+new implication <- 165
+next_not_false
+(78 -101 107 ) now watched by 107
+next_not_false
+clause is sat
+next_not_false
+propagating: -184 @ 3
+new implication <- -184
+propagating -3
+next_not_false
+(3 114 146 ) now watched by 146
+next_not_false
+(3 -77 83 ) now watched by 83
+next_not_false
+clause is sat
+next_not_false
+(3 -77 122 ) now watched by 122
+next_not_false
+(3 -42 -145 ) now watched by -42
+next_not_false
+(3 -74 -174 ) now watched by -174
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 35
+next_not_false
+propagating: -103 @ 3
+new implication <- -103
+next_not_false
+clause is sat
+next_not_false
+(-35 -141 168 ) now watched by -141
+next_not_false
+clause is sat
+next_not_false
+(-35 45 97 ) now watched by 97
+next_not_false
+clause is sat
+propagating -188
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: -182 @ 3
+new implication <- -182
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(118 188 200 ) now watched by 200
+propagating -42
+next_not_false
+(42 -90 -116 ) now watched by -116
+next_not_false
+propagating: -160 @ 3
+new implication <- -160
+next_not_false
+(-28 42 54 ) now watched by -28
+next_not_false
+(42 -73 170 ) now watched by 170
+next_not_false
+clause is sat
+next_not_false
+propagating: -187 @ 3
+new implication <- -187
+next_not_false
+clause is sat
+next_not_false
+propagating: -8 @ 3
+new implication <- -8
+next_not_false
+clause is sat
+propagating -24
+next_not_false
+(24 -101 147 ) now watched by 147
+next_not_false
+(24 29 -198 ) now watched by -198
+next_not_false
+clause is sat
+next_not_false
+(24 -104 -188 ) now watched by -188
+next_not_false
+clause is sat
+next_not_false
+(24 -167 170 ) now watched by 170
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: -142 @ 3
+new implication <- -142
+propagating -2
+next_not_false
+(2 -17 -199 ) now watched by -199
+next_not_false
+(2 -44 194 ) now watched by 194
+next_not_false
+(2 95 -190 ) now watched by -190
+next_not_false
+(2 -151 199 ) now watched by 199
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: -174 @ 3
+new implication <- -174
+next_not_false
+(2 8 -192 ) now watched by -192
+next_not_false
+propagating: -193 @ 3
+new implication <- -193
+propagating -19
+next_not_false
+propagating: 125 @ 3
+new implication <- 125
+next_not_false
+(19 -22 121 ) now watched by 121
+next_not_false
+(-3 19 -120 ) now watched by -3
+next_not_false
+(19 -56 -199 ) now watched by -199
+next_not_false
+propagating: -88 @ 3
+new implication <- -88
+next_not_false
+propagating: -34 @ 3
+new implication <- -34
+next_not_false
+propagating: -195 @ 3
+new implication <- -195
+next_not_false
+propagating: -140 @ 3
+new implication <- -140
+next_not_false
+clause is sat
+propagating -87
+next_not_false
+clause is sat
+next_not_false
+(-18 87 -192 ) now watched by -192
+next_not_false
+clause is sat
+next_not_false
+(87 -89 -166 ) now watched by -166
+next_not_false
+(-17 87 -184 ) now watched by -184
+next_not_false
+propagating: 101 @ 3
+new implication <- 101
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -44
+next_not_false
+(-2 44 70 ) now watched by -2
+next_not_false
+propagating: -112 @ 3
+new implication <- -112
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-13 44 131 ) now watched by 131
+next_not_false
+clause is sat
+next_not_false
+(14 44 -129 ) now watched by -129
+next_not_false
+(44 -128 -184 ) now watched by -184
+next_not_false
+clause is sat
+propagating -171
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -70
+next_not_false
+clause is sat
+next_not_false
+(70 103 -195 ) now watched by -195
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-6 70 -143 ) now watched by -143
+next_not_false
+(-24 70 -145 ) now watched by -24
+next_not_false
+clause is sat
+next_not_false
+(-64 70 -102 ) now watched by -102
+propagating -134
+next_not_false
+clause is sat
+next_not_false
+(-39 -87 134 ) now watched by -39
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(134 -155 -187 ) now watched by -187
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: -23 @ 3
+new implication <- -23
+next_not_false
+(74 134 -145 ) now watched by -145
+propagating 14
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-6 -14 -42 ) now watched by -42
+next_not_false
+(-14 -42 79 ) now watched by -42
+propagating -93
+next_not_false
+propagating: -16 @ 3
+new implication <- -16
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(93 -127 -198 ) now watched by -198
+next_not_false
+clause is sat
+next_not_false
+(-15 93 135 ) now watched by -15
+next_not_false
+(-54 93 -152 ) now watched by -152
+propagating -36
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 95
+next_not_false
+clause is sat
+next_not_false
+propagating: -6 @ 3
+new implication <- -6
+next_not_false
+clause is sat
+next_not_false
+(-95 -139 147 ) now watched by 147
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 168
+next_not_false
+clause is sat
+next_not_false
+(-49 -168 -179 ) now watched by -49
+next_not_false
+(-51 -168 185 ) now watched by -51
+next_not_false
+(-28 -168 185 ) now watched by 185
+next_not_false
+propagating: -185 @ 3
+new implication <- -185
+next_not_false
+clause is sat
+propagating -176
+next_not_false
+propagating: -104 @ 3
+new implication <- -104
+next_not_false
+clause is sat
+next_not_false
+propagating: 61 @ 3
+new implication <- 61
+next_not_false
+(101 176 -195 ) now watched by -195
+propagating 1
+next_not_false
+propagating: -114 @ 3
+new implication <- -114
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-1 -150 -199 ) now watched by -150
+next_not_false
+clause is sat
+propagating 73
+next_not_false
+clause is sat
+next_not_false
+(61 -73 -198 ) now watched by -198
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: -29 @ 3
+new implication <- -29
+propagating -143
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -74
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-2 74 183 ) now watched by -2
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(74 112 163 ) now watched by 163
+propagating -162
+next_not_false
+(-2 -127 162 ) now watched by -2
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -198
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-55 194 198 ) now watched by 194
+next_not_false
+clause is sat
+next_not_false
+(-6 108 198 ) now watched by 108
+propagating 146
+next_not_false
+(-55 97 -146 ) now watched by 97
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-28 -87 -146 ) now watched by -28
+next_not_false
+(121 -146 -176 ) now watched by -176
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -43
+next_not_false
+propagating: -83 @ 3
+new implication <- -83
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: 90 @ 3
+new implication <- 90
+propagating 131
+next_not_false
+propagating: -25 @ 3
+new implication <- -25
+next_not_false
+clause is sat
+next_not_false
+(23 -82 -131 ) now watched by -82
+next_not_false
+(-34 -51 -131 ) now watched by -51
+next_not_false
+clause is sat
+next_not_false
+(-131 193 194 ) now watched by 194
+next_not_false
+(-131 135 -147 ) now watched by -147
+next_not_false
+(-111 -131 -193 ) now watched by -193
+next_not_false
+clause is sat
+propagating -79
+next_not_false
+clause is sat
+next_not_false
+(79 -156 163 ) now watched by -156
+next_not_false
+clause is sat
+next_not_false
+(48 79 144 ) now watched by 144
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-77 79 -197 ) now watched by -197
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -183
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-74 183 -188 ) now watched by -188
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -161
+next_not_false
+(-79 114 161 ) now watched by -79
+next_not_false
+clause is sat
+next_not_false
+propagating: 147 @ 3
+new implication <- 147
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -85
+next_not_false
+propagating: 67 @ 3
+new implication <- 67
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(33 85 153 ) now watched by 153
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 20
+next_not_false
+(-20 -42 -43 ) now watched by -42
+propagating 165
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(121 -165 194 ) now watched by 194
+propagating -184
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-55 -81 184 ) now watched by -81
+next_not_false
+(-24 184 -187 ) now watched by -24
+propagating -103
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-39 103 194 ) now watched by 194
+next_not_false
+(23 103 169 ) now watched by 169
+next_not_false
+clause is sat
+propagating -182
+next_not_false
+clause is sat
+next_not_false
+(-70 -138 182 ) now watched by -70
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(50 182 -185 ) now watched by -185
+propagating -160
+next_not_false
+clause is sat
+next_not_false
+(67 -120 160 ) now watched by 67
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -187
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: -51 @ 3
+new implication <- -51
+next_not_false
+clause is sat
+next_not_false
+propagating: 18 @ 3
+new implication <- 18
+propagating -8
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(8 95 99 ) now watched by 99
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: -117 @ 3
+new implication <- -117
+next_not_false
+(-3 8 94 ) now watched by -3
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -142
+next_not_false
+clause is sat
+next_not_false
+(-67 -102 142 ) now watched by -102
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(102 142 -151 ) now watched by -151
+next_not_false
+clause is sat
+propagating -174
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-22 -53 174 ) now watched by -53
+next_not_false
+clause is sat
+next_not_false
+propagating: -130 @ 3
+new implication <- -130
+next_not_false
+(-25 174 -177 ) now watched by -177
+propagating -193
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(6 -82 193 ) now watched by -82
+next_not_false
+clause is sat
+next_not_false
+propagating: -102 @ 3
+new implication <- -102
+next_not_false
+clause is sat
+propagating 125
+next_not_false
+propagating: 54 @ 3
+new implication <- 54
+next_not_false
+propagating: 64 @ 3
+new implication <- 64
+next_not_false
+(32 51 -125 ) now watched by 32
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-125 -138 -195 ) now watched by -195
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -88
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(88 -113 158 ) now watched by 158
+next_not_false
+(45 88 158 ) now watched by 158
+next_not_false
+(-36 88 -195 ) now watched by -195
+propagating -34
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-26 34 -132 ) now watched by -132
+next_not_false
+(34 -178 -193 ) now watched by -193
+next_not_false
+(34 -75 -141 ) now watched by -141
+next_not_false
+clause is sat
+next_not_false
+propagating: -121 @ 3
+new implication <- -121
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -195
+next_not_false
+clause is sat
+next_not_false
+(67 -184 195 ) now watched by 67
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -140
+next_not_false
+clause is sat
+next_not_false
+(18 -49 140 ) now watched by -49
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 101
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-101 -121 136 ) now watched by -121
+next_not_false
+(33 -101 166 ) now watched by 166
+next_not_false
+clause is sat
+propagating -112
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(106 112 -199 ) now watched by -199
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -23
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-18 23 -185 ) now watched by -185
+next_not_false
+(23 -29 147 ) now watched by 147
+propagating -16
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(16 -78 -160 ) now watched by -160
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -6
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(6 -28 105 ) now watched by -28
+next_not_false
+clause is sat
+next_not_false
+(6 91 146 ) now watched by 146
+next_not_false
+(6 -23 -193 ) now watched by -193
+next_not_false
+propagating: 199 @ 3
+new implication <- 199
+next_not_false
+propagating: -55 @ 3
+new implication <- -55
+next_not_false
+clause is sat
+propagating -185
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -104
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-61 104 170 ) now watched by 170
+next_not_false
+clause is sat
+propagating 61
+next_not_false
+(-55 -61 -174 ) now watched by -174
+next_not_false
+clause is sat
+next_not_false
+(-51 -61 -86 ) now watched by -51
+next_not_false
+clause is sat
+next_not_false
+(-53 -61 164 ) now watched by -53
+next_not_false
+propagating: 53 @ 3
+new implication <- 53
+next_not_false
+(53 -61 -176 ) now watched by -176
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -114
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(114 122 173 ) now watched by 173
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -29
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(29 53 -74 ) now watched by -74
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -83
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 90
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -25
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-23 25 33 ) now watched by 33
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 147
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 67
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+propagating: 166 @ 3
+new implication <- 166
+next_not_false
+clause is sat
+propagating -51
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(51 -112 -116 ) now watched by -116
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 18
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-18 -142 147 ) now watched by 147
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-18 -85 196 ) now watched by 196
+next_not_false
+(-18 -31 -43 ) now watched by -43
+next_not_false
+clause is sat
+propagating -117
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-26 117 194 ) now watched by 194
+next_not_false
+clause is sat
+next_not_false
+(117 148 -161 ) now watched by -161
+next_not_false
+propagating: 173 @ 3
+new implication <- 173
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -130
+next_not_false
+clause is sat
+next_not_false
+(32 64 130 ) now watched by 32
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(130 -167 -171 ) now watched by -171
+next_not_false
+clause is sat
+next_not_false
+(-69 130 148 ) now watched by 148
+next_not_false
+clause is sat
+next_not_false
+(98 130 -133 ) now watched by -133
+propagating -102
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(14 -39 102 ) now watched by -39
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(55 102 166 ) now watched by 166
+propagating 54
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-54 73 -151 ) now watched by -151
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 64
+next_not_false
+clause is sat
+next_not_false
+(-64 -133 -140 ) now watched by -133
+next_not_false
+(-64 -71 -161 ) now watched by -161
+next_not_false
+clause is sat
+next_not_false
+propagating: -92 @ 3
+new implication <- -92
+next_not_false
+propagating: 21 @ 3
+new implication <- 21
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -121
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(64 121 -185 ) now watched by -185
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 199
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-79 196 -199 ) now watched by -79
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating -55
+next_not_false
+clause is sat
+next_not_false
+(55 -82 196 ) now watched by -82
+next_not_false
+(55 94 196 ) now watched by 94
+next_not_false
+(-19 55 -65 ) now watched by -65
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(55 -86 166 ) now watched by 166
+next_not_false
+clause is sat
+propagating 53
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 166
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+propagating 173
+next_not_false
+(47 -79 -173 ) now watched by -79
+next_not_false
+(-51 -111 -173 ) now watched by -51
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-173 -184 196 ) now watched by 196
+propagating -92
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-85 92 105 ) now watched by 105
+propagating 21
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+(-21 58 -129 ) now watched by 58
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+next_not_false
+clause is sat
+decide
+0
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	11
+### Decisions:		26
+### Implications:	473
+### Time:		0.315
+Assignment validated
+solution in assignment.txt
+SAT

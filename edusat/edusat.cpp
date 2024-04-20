@@ -91,14 +91,23 @@ void Solver::read_cnf(ifstream& in) {
 			continue;
 		}
 		if (Abs(i) > vars) Abort("Literal index larger than declared on the first line", 1);
-		if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) bumpVarScore(abs(i)); // In LRB there is no need to give variables an initial value other than 0
-		else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) lrb_Score2Vars[0].insert(abs(i));
+		if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) bumpVarScore(abs(i)); 
+		else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) lrb_Score2Vars[0].insert(abs(i));  // In LRB there is no need to give variables an initial value other than 0
 		i = v2l(i);		
 		if (ValDecHeuristic == VAL_DEC_HEURISTIC::LITSCORE) bumpLitScore(i);
 		s.insert(i);
 	}	
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) reset_iterators();
 	cout << "Read " << cnf_size() << " clauses in " << cpuTime() - begin_time << " secs." << endl << "Solving..." << endl;
+
+	//int count = 0;
+	//for (auto v : lrb_Score2Vars[0]) {
+	//	cout << v << " ";
+	//	++count;
+	//}
+	//cout << endl << count << endl;
+	//cout << endl;
+
 	//for (Clause c : cnf) { // Remove everything from here to the end of the function. Just wanted to see the output.
 	//	c.print();
 	//	cout << endl;
@@ -198,6 +207,7 @@ inline void Solver::assert_lit(Lit l) {
 	if (Neg(l)) prev_state[var] = state[var] = VarState::V_FALSE; else prev_state[var] = state[var] = VarState::V_TRUE;
 	dlevel[var] = dl;
 	++num_assignments;
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) lrb_onAssign(var);  // LRB specific, we assigned a variable.
 	if (verbose_now()) cout << l2rl(l) <<  " @ " << dl << endl;
 }
 
@@ -320,7 +330,7 @@ SolverState Solver::decide(){
 	}
 
 	case VAR_DEC_HEURISTIC::LRB: {
-		if (m_should_reset_iterators) reset_iterators(m_curr_activity);  // Save current top core for some reason.
+		if (m_should_reset_iterators) reset_iterators(m_curr_activity);  // Save current top core for some reason. I don't know why he does this in the original code?
 		if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;
 
 		while (true) {
@@ -429,7 +439,10 @@ SolverState Solver::BCP() {
 			if (res != ClauseState::C_UNDEF) new_watch_list[new_watch_list_idx--] = *it; //in all cases but the move-watch_lit case we leave watch_lit where it is
 			switch (res) {
 			case ClauseState::C_UNSAT: { // conflict				
-				if (verbose_now()) print_state();
+				if (verbose_now()) {
+					print_state(); 
+					c.print_real_lits();
+				}
 				if (dl == 0) return SolverState::UNSAT;				
 				conflicting_clause_idx = *it;  // this will also break the loop
 				 int dist = distance(it, watches[NegatedLit].rend()) - 1; // # of entries in watches[NegatedLit] that were not yet processed when we hit this conflict. 
@@ -564,6 +577,8 @@ int Solver::analyze(const Clause conflicting) {
 }
 
 void Solver::backtrack(int k) {
+	// k is the decision level to backtrack to.
+
 	if (verbose_now()) cout << "backtrack" << endl;
 	// local restart means that we restart if the number of conflicts learned in this 
 	// decision level has passed the threshold. 
@@ -578,9 +593,12 @@ void Solver::backtrack(int k) {
 		if (dlevel[v]) { // we need the condition because of learnt unary clauses. In that case we enforce an assignment with dlevel = 0.
 			state[v] = VarState::V_UNASSIGNED;
 			if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) m_curr_activity = max(m_curr_activity, m_activity[v]);
+			else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
+				lrb_onUnassign(v);
+			}
 		}
 	}
-	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) m_should_reset_iterators = true;
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) m_should_reset_iterators = true;
 	if (verbose_now()) print_state();
 	trail.erase(trail.begin() + separators[k+1], trail.end());
 	qhead = trail.size();
