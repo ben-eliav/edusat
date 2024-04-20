@@ -129,8 +129,8 @@ inline void Solver::lrb_update_score(Var v, double r) {
 }
 
 inline void Solver::lrb_onAssign(Var v) {
-	lrb_assigned[v] = num_learned;
-	lrb_participated[v] = 0;
+	lrb_assigned[v] = num_learned;  // The iteration when variable was assigned
+	lrb_participated[v] = 0;  // The number of times the variable participated in a conflict clause since its last assignment
 }
 
 inline void Solver::lrb_onUnassign(Var v) {
@@ -148,15 +148,17 @@ inline void Solver::lrb_afterAnalyze() {
 }
 
 inline void Solver::reset_iterators(double where) {
+	m_should_reset_iterators = false;
 	std::cout << where << endl;
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) {
 		m_Score2Vars_it = (where == 0) ? m_Score2Vars.begin() : m_Score2Vars.lower_bound(where);
 		Assert(m_Score2Vars_it != m_Score2Vars.end());
 		m_VarsSameScore_it = m_Score2Vars_it->second.begin();
-		m_should_reset_iterators = false;
 	}
 	else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
 		lrb_Score2Vars_it = (where == 0) ? lrb_Score2Vars.begin() : lrb_Score2Vars.lower_bound(where);
+		Assert(lrb_Score2Vars_it != lrb_Score2Vars.end());
+
 	}
 }
 
