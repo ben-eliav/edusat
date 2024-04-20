@@ -161,6 +161,12 @@ void Solver::initialize() {
 		m_activity[v] = 0;		
 	}
 
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
+		lrb_Var2Score.resize(nvars + 1, 0);
+		lrb_VarParticipated.resize(nvars + 1, 0);
+		lrb_VarReasoned.resize(nvars + 1, 0);
+		lrb_VarAssigned.resize(nvars + 1, 0);
+	}
 
 
 	reset();

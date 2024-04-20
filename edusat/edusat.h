@@ -218,10 +218,10 @@ class Solver {
 	bool			m_should_reset_iterators;
 
 	// Used by VAR_DH_LRB, we want to use completely different variables to not accidentally mix them up with the ones used by VAR_DH_MINISAT:
-	vector<double> lrb_Var2Score;		// Save the score of each variable	
-	vector<double> lrb_VarParticipated; // How many times the variable was on the participation side of a conflict
-	vector<double> lrb_VarReasoned;		// How many times the variable was on the reason side of a conflict
-	vector<double> lrb_VarAssigned;		// When the variable was last assigned
+	vector<double>	lrb_Var2Score,		// Save the score of each variable	
+					lrb_VarParticipated, // How many times the variable was on the participation side of a conflict
+					lrb_VarReasoned,		// How many times the variable was on the reason side of a conflict
+					lrb_VarAssigned;		// When the variable was last assigned
 
 	map<double, unordered_set<Var>, greater<double>> lrb_Score2Vars; // Opposite map - how we will choose the top variable to branch from
 	map<double, unordered_set<Var>, greater<double>>::iterator lrb_Score2Vars_it;
