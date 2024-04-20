@@ -42,7 +42,7 @@ void Abort(string s, int i);
 
 enum class VAR_DEC_HEURISTIC {
 	MINISAT,
-	LRB
+	LRB  // Basic Learning Rate Branching Heuristic
 	// add other decision heuristics here. Add an option to choose between them.
  } ;
 
