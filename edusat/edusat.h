@@ -33,7 +33,7 @@ typedef vector<Lit> trail_t;
 #define Rescale_threshold 1e100
 #define Assignment_file "assignment.txt"
 
-int verbose = 0;
+int verbose = 1;
 double begin_time;
 double timeout = 0.0;
 
@@ -203,7 +203,7 @@ class Solver {
 	vector<int> dlevel; // var => decision level in which this variable was assigned its value. 
 	vector<int> conflicts_at_dl; // decision level => # of conflicts under it. Used for local restarts. 
 
-	// Used by VAR_DH_MINISAT:	
+	// Used by VAR_DH_MINISAT, we can use them for the Learning Rate Branching as well, as there is also a score for each variable:	
 	map<double, unordered_set<Var>, greater<double>> m_Score2Vars; // 'greater' forces an order from large to small of the keys
 	map<double, unordered_set<Var>, greater<double>>::iterator m_Score2Vars_it;
 	unordered_set<Var>::iterator m_VarsSameScore_it;

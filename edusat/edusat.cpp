@@ -91,13 +91,19 @@ void Solver::read_cnf(ifstream& in) {
 			continue;
 		}
 		if (Abs(i) > vars) Abort("Literal index larger than declared on the first line", 1);
-		if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) bumpVarScore(abs(i));
+		if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) bumpVarScore(abs(i)); // In LRB there is no need to give variables an initial value other than 0
 		i = v2l(i);		
 		if (ValDecHeuristic == VAL_DEC_HEURISTIC::LITSCORE) bumpLitScore(i);
 		s.insert(i);
 	}	
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) reset_iterators();
 	cout << "Read " << cnf_size() << " clauses in " << cpuTime() - begin_time << " secs." << endl << "Solving..." << endl;
+	for (Clause c : cnf) { // Remove everything from here to the end of the function. Just wanted to see the output.
+		c.print();
+		cout << endl;
+	}
+	int x;
+	cin >> x;
 }
 
 #pragma endregion readCNF
