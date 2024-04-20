@@ -92,6 +92,7 @@ void Solver::read_cnf(ifstream& in) {
 		}
 		if (Abs(i) > vars) Abort("Literal index larger than declared on the first line", 1);
 		if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) bumpVarScore(abs(i)); // In LRB there is no need to give variables an initial value other than 0
+		else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) lrb_Score2Vars[0].insert(abs(i));
 		i = v2l(i);		
 		if (ValDecHeuristic == VAL_DEC_HEURISTIC::LITSCORE) bumpLitScore(i);
 		s.insert(i);
@@ -137,6 +138,7 @@ inline void Solver::lrb_onUnassign(Var v) {
 	double interval = num_learned - lrb_assigned[v];
 	if (interval > 0) {
 		double r = lrb_participated[v] / interval;
+		cout << r << endl;
 		lrb_update_score(v, r);
 	}
 }

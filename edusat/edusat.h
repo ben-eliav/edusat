@@ -42,12 +42,11 @@ double timeout = 0.0;
 void Abort(string s, int i);
 
 enum class VAR_DEC_HEURISTIC {
-	MINISAT,
+	MINISAT, // VSIDS
 	LRB  // Basic Learning Rate Branching Heuristic
-	// add other decision heuristics here. Add an option to choose between them.
  } ;
 
-VAR_DEC_HEURISTIC VarDecHeuristic = VAR_DEC_HEURISTIC::MINISAT;
+VAR_DEC_HEURISTIC VarDecHeuristic = VAR_DEC_HEURISTIC::LRB;
 
 enum class VAL_DEC_HEURISTIC {
 	/* Same as last value. Initially false*/
@@ -62,7 +61,8 @@ VAL_DEC_HEURISTIC ValDecHeuristic = VAL_DEC_HEURISTIC::PHASESAVING;
 unordered_map<string, option*> options = {
 	{"v",           new intoption(&verbose, 0, 2, "Verbosity level")},
 	{"timeout",     new doubleoption(&timeout, 0.0, 36000.0, "Timeout in seconds")},
-	{"valdh",       new intoption((int*)&ValDecHeuristic, 0, 1, "{0: phase-saving, 1: literal-score}")}
+	{"valdh",       new intoption((int*)&ValDecHeuristic, 0, 1, "{0: phase-saving, 1: literal-score}")},
+	{"dh",			new intoption((int*)&VarDecHeuristic, 0, 1, "{0: VSIDS, 1: LRB}")}
 };
 
 
