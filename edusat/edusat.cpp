@@ -96,7 +96,7 @@ void Solver::read_cnf(ifstream& in) {
 		if (ValDecHeuristic == VAL_DEC_HEURISTIC::LITSCORE) bumpLitScore(i);
 		s.insert(i);
 	}	
-	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) reset_iterators();
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) reset_iterators();
 	cout << "Read " << cnf_size() << " clauses in " << cpuTime() - begin_time << " secs." << endl << "Solving..." << endl;
 	//for (Clause c : cnf) { // Remove everything from here to the end of the function. Just wanted to see the output.
 	//	c.print();
@@ -118,12 +118,29 @@ void Solver::reset() { // invoked initially + every restart
 	conflicts_at_dl.push_back(0);
 }
 
+inline void Solver::onAssign(Var v) {
+	cout << "onAssign" << endl;
+}
+
+inline void Solver::onUnassign(Var v) {
+	cout << "unUnassign" << endl;
+}
+
+inline void Solver::afterAnalyze() {
+	cout << "afterAnalyze" << endl;
+}
 
 inline void Solver::reset_iterators(double where) {
-	m_Score2Vars_it = (where == 0) ? m_Score2Vars.begin() : m_Score2Vars.lower_bound(where);
-	Assert(m_Score2Vars_it != m_Score2Vars.end());
-	m_VarsSameScore_it = m_Score2Vars_it->second.begin();
-	m_should_reset_iterators = false;
+	std::cout << where << endl;
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) {
+		m_Score2Vars_it = (where == 0) ? m_Score2Vars.begin() : m_Score2Vars.lower_bound(where);
+		Assert(m_Score2Vars_it != m_Score2Vars.end());
+		m_VarsSameScore_it = m_Score2Vars_it->second.begin();
+		m_should_reset_iterators = false;
+	}
+	else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
+		lrb_Score2Vars_it = (where == 0) ? lrb_Score2Vars.begin() : lrb_Score2Vars.lower_bound(where);
+	}
 }
 
 void Solver::initialize() {	
