@@ -10,6 +10,12 @@ inline bool verbose_now() {
 }
 
 
+inline void print_vector(const vector<Lit>& v) {
+	for (int i : v) cout << l2rl(i) << " ";
+	cout << endl;
+}
+
+
 
 
 /******************  Reading the CNF ******************************/
@@ -147,7 +153,7 @@ inline void Solver::lrb_onUnassign(Var v) {
 	double interval = num_learned - lrb_assigned[v];
 	if (interval > 0) {
 		double r = lrb_participated[v] / interval;
-		cout << r << endl;
+		// cout << r << endl;
 		lrb_update_score(v, r);
 	}
 }
@@ -160,7 +166,7 @@ inline void Solver::lrb_afterAnalyze() {
 
 inline void Solver::reset_iterators(double where) {
 	m_should_reset_iterators = false;
-	std::cout << where << endl;
+	// std::cout << where << endl;
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) {
 		m_Score2Vars_it = (where == 0) ? m_Score2Vars.begin() : m_Score2Vars.lower_bound(where);
 		Assert(m_Score2Vars_it != m_Score2Vars.end());
@@ -421,7 +427,7 @@ SolverState Solver::BCP() {
 	if (verbose_now()) cout << "BCP" << endl;
 	if (verbose_now()) cout << "qhead = " << qhead << " trail-size = " << trail.size() << endl;
 	while (qhead < trail.size()) { 
-		Lit NegatedLit = negate(trail[qhead++]);
+		Lit NegatedLit = negate(trail[qhead++]); // the literal that was assigned last.
 		Assert(lit_state(NegatedLit) == LitState::L_UNSAT);
 		if (verbose_now()) cout << "propagating " << l2rl(negate(NegatedLit)) << endl;
 		vector<int> new_watch_list; // The original watch list minus those clauses that changed a watch. The order is maintained. 
@@ -438,7 +444,7 @@ SolverState Solver::BCP() {
 			ClauseState res = c.next_not_false(is_left_watch, other_watch, binary, NewWatchLocation);
 			if (res != ClauseState::C_UNDEF) new_watch_list[new_watch_list_idx--] = *it; //in all cases but the move-watch_lit case we leave watch_lit where it is
 			switch (res) {
-			case ClauseState::C_UNSAT: { // conflict				
+			case ClauseState::C_UNSAT: { // conflict; a clause that implies the opposite of the assignment of the relevant variables.				
 				if (verbose_now()) {
 					print_state(); 
 					c.print_real_lits();
@@ -459,7 +465,7 @@ SolverState Solver::BCP() {
 			case ClauseState::C_UNIT: { // new implication				
 				if (verbose_now()) cout << "propagating: ";
 				assert_lit(other_watch);
-				antecedent[l2v(other_watch)] = *it;
+				antecedent[l2v(other_watch)] = *it;  // the clause that 
 				if (verbose_now()) cout << "new implication <- " << l2rl(other_watch) << endl;
 				break;
 			}
@@ -508,13 +514,14 @@ int Solver::analyze(const Clause conflicting) {
 	Var v;
 	trail_t::reverse_iterator t_it = trail.rbegin();
 	do {
-		for (clause_it it = current_clause.cl().begin(); it != current_clause.cl().end(); ++it) {
-			Lit lit = *it;
-			v = l2v(lit);
+		print_vector(current_clause.cl());
+		for (clause_it it = current_clause.cl().begin(); it != current_clause.cl().end(); ++it) { // looping over elements in conflicting clause
+			Lit lit = *it;  // current literal being checked
+			v = l2v(lit);  // variable of current literal
 			if (!marked[v]) {
-				marked[v] = true;
-				if (dlevel[v] == dl) ++resolve_num;
-				else { // literals from previos decision levels (roots) are entered to the learned clause.
+				marked[v] = true; // we mark variables that are in the conflicting clause, until we resolve them (resolution).
+				if (dlevel[v] == dl) ++resolve_num;  // if v was decided at the current decision level
+				else { // literals from previous decision levels (roots) are entered to the learned clause.
 					new_clause.insert(lit);
 					if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) bumpVarScore(v);
 					if (ValDecHeuristic == VAL_DEC_HEURISTIC::LITSCORE) bumpLitScore(lit);
@@ -536,10 +543,10 @@ int Solver::analyze(const Clause conflicting) {
 		marked[v] = false;
 		--resolve_num;
 		if(!resolve_num) continue; 
-		int ant = antecedent[v];		
+		int ant = antecedent[v];  // ant = the index of the clause that caused us to infer v's value (or the index of any clause containing v if using decision)		
 		current_clause = cnf[ant]; 
-		current_clause.cl().erase(find(current_clause.cl().begin(), current_clause.cl().end(), u));	
-	}	while (resolve_num > 0);
+		current_clause.cl().erase(find(current_clause.cl().begin(), current_clause.cl().end(), u));	 // 
+	}	while (resolve_num > 0);  
 	for (clause_it it = new_clause.cl().begin(); it != new_clause.cl().end(); ++it) 
 		marked[l2v(*it)] = false;
 	Lit Negated_u = negate(u);
@@ -605,7 +612,7 @@ void Solver::backtrack(int k) {
 	dl = k;	
 	assert_lit(asserted_lit);
 	antecedent[l2v(asserted_lit)] = cnf.size() - 1;
-	conflicting_clause_idx = -1;
+	conflicting_clause_idx = -1;  // the conflict is resolved.
 }
 
 void Solver::validate_assignment() {
