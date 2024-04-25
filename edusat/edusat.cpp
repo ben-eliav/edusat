@@ -496,7 +496,7 @@ This is Alg. 1 from "HaifaSat: a SAT solver based on an Abstraction/Refinement m
 ********************************************************************************************************************/
 
 int Solver::analyze(const Clause conflicting) {
-	if (verbose_now()) cout << "analyze" << endl;
+	if (verbose_now()) cout << "****************************************************************************" << endl;
 	Clause	current_clause = conflicting, 
 			new_clause;
 	int resolve_num = 0,
