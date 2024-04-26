@@ -525,7 +525,7 @@ int Solver::analyze(const Clause conflicting) {
 			if (!marked[v]) {
 				marked[v] = true; // we mark variables that are in the conflicting clause, until we resolve them (resolution).
 				if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
-					lrb_participated[v]++;  // v was a part of the implication of the conflict clause.
+					lrb_participated[v]++;  // following the implementation of maplesat
 				}
 				if (dlevel[v] == dl) ++resolve_num;  // if v was decided at the current decision level, we need to resolve it to get the correct conflicting clause.
 				else { // literals from previous decision levels (roots) are entered to the learned clause.
