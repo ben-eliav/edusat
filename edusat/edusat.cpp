@@ -201,6 +201,7 @@ void Solver::initialize() {
 		lrb_participated.resize(nvars + 1, 0);
 		lrb_reasoned.resize(nvars + 1, 0);
 		lrb_assigned.resize(nvars + 1, 0);
+		lrb_last_updated.resize(nvars + 1, 0);
 	}
 
 
