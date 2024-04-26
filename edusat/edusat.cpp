@@ -350,7 +350,6 @@ SolverState Solver::decide(){
 			if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;  // no more scores to check.
 		}
 
-		// TODO: implement LRB
 		break;
 	}
 	default: Assert(0);
@@ -502,7 +501,8 @@ This is Alg. 1 from "HaifaSat: a SAT solver based on an Abstraction/Refinement m
 ********************************************************************************************************************/
 
 int Solver::analyze(const Clause conflicting) {
-	if (verbose_now()) cout << "****************************************************************************" << endl;
+	// if (verbose_now()) 
+	cout << "****************************************************************************" << endl;
 	Clause	current_clause = conflicting, 
 			new_clause;
 	int resolve_num = 0,
@@ -513,14 +513,21 @@ int Solver::analyze(const Clause conflicting) {
 	Lit u;
 	Var v;
 	trail_t::reverse_iterator t_it = trail.rbegin();
+	int i = 0;  // todo: remove this variable. added it just for understanding the method.
 	do {
+		i += 1;
+		cout << i << ". ";
 		print_vector(current_clause.cl());
-		for (clause_it it = current_clause.cl().begin(); it != current_clause.cl().end(); ++it) { // looping over elements in conflicting clause
+		for (clause_it it = current_clause.cl().begin(); it != current_clause.cl().end(); ++it) { // looping over elements in conflicting clause, specifically looking for variables assigned at current dl
 			Lit lit = *it;  // current literal being checked
 			v = l2v(lit);  // variable of current literal
+
 			if (!marked[v]) {
 				marked[v] = true; // we mark variables that are in the conflicting clause, until we resolve them (resolution).
-				if (dlevel[v] == dl) ++resolve_num;  // if v was decided at the current decision level
+				if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
+					lrb_participated[v]++;  // v was a part of the implication of the conflict clause.
+				}
+				if (dlevel[v] == dl) ++resolve_num;  // if v was decided at the current decision level, we need to resolve it to get the correct conflicting clause.
 				else { // literals from previous decision levels (roots) are entered to the learned clause.
 					new_clause.insert(lit);
 					if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) bumpVarScore(v);
@@ -534,24 +541,27 @@ int Solver::analyze(const Clause conflicting) {
 			}
 		} 
 		
-		while (t_it != trail.rend()) {
-			u = *t_it;
-			v = l2v(u);
+		while (t_it != trail.rend()) {  // so long as there are enough variables to backtrack.
+			u = *t_it;  // u is the current literal at the top of the stack.
+			v = l2v(u);  // v is the variable at the top of the stack
 			++t_it;
-			if (marked[v]) break;
+			if (marked[v]) break;  // if v is part of the current clause or a clause that led to the current clause, we want to undo its assignment.
 		}
-		marked[v] = false;
+		marked[v] = false;  // v was taken care of via resolution so it is no longer marked
 		--resolve_num;
-		if(!resolve_num) continue; 
+		if(!resolve_num) continue;  // we are done - the condition will be false.
 		int ant = antecedent[v];  // ant = the index of the clause that caused us to infer v's value (or the index of any clause containing v if using decision)		
-		current_clause = cnf[ant]; 
-		current_clause.cl().erase(find(current_clause.cl().begin(), current_clause.cl().end(), u));	 // 
-	}	while (resolve_num > 0);  
+		current_clause = cnf[ant];  // we now look at the clause that led to v's assignment.
+		current_clause.cl().erase(find(current_clause.cl().begin(), current_clause.cl().end(), u));	 // remove all occurrences of u in current_clause.
+	}	while (resolve_num > 0);  // finding first UIP?
 	for (clause_it it = new_clause.cl().begin(); it != new_clause.cl().end(); ++it) 
-		marked[l2v(*it)] = false;
+		marked[l2v(*it)] = false;  // returning marked to its original form
 	Lit Negated_u = negate(u);
-	new_clause.cl().push_back(Negated_u);		
-	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) 
+	cout << "Negated u: " << l2rl(Negated_u) << endl;
+	new_clause.cl().push_back(Negated_u);	
+	cout << "Final learnt clause: ";
+	print_vector(new_clause.cl());
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT)
 		m_var_inc *= 1 / var_decay; // increasing importance of participating variables.
 	
 	++num_learned;
