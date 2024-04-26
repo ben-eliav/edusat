@@ -205,8 +205,6 @@ class Solver {
 	vector<VarState> prev_state; // for phase-saving: same as state, only that it is not reset to 0 upon backtracking. 
 	vector<int> antecedent; // var => clause index in the cnf vector. For variables that their value was assigned in BCP, this is the clause that gave this variable its value. 
 	vector<bool> marked;	// var => seen during analyze()
-	// An addition required due to changes in code structure in analyze():
-	vector<Var> remove_mark;  // var => true if the variable should be removed from the marked list.
 	vector<int> dlevel; // var => decision level in which this variable was assigned its value. 
 	vector<int> conflicts_at_dl; // decision level => # of conflicts under it. Used for local restarts. 
 
@@ -228,6 +226,7 @@ class Solver {
 	map<double, unordered_set<Var>, greater<double>> lrb_Score2Vars; // Opposite map - how we will choose the top variable to branch from
 	map<double, unordered_set<Var>, greater<double>>::iterator lrb_Score2Vars_it;
 	vector<double>	lrb_activity;	// Var => activity
+	vector<Var> remove_mark;  // var => true if the variable should be removed from the marked list.
 	double			lrb_alpha;		// Starts at 0.4, decreases over time.
 
 

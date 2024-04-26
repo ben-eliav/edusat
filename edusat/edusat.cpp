@@ -135,9 +135,9 @@ void Solver::reset() { // invoked initially + every restart
 }
 
 inline void Solver::lrb_update_score(Var v, double r) {
-	double prev_score = lrb_Var2Score[v];
+	double prev_score = lrb_activity[v];
 	double new_score = (1 - lrb_alpha) * prev_score + lrb_alpha * r;
-	lrb_Var2Score[v] = new_score;
+	lrb_activity[v] = new_score;
 	lrb_Score2Vars[prev_score].erase(v);
 	if (lrb_Score2Vars[prev_score].size() == 0) lrb_Score2Vars.erase(prev_score);
 	lrb_Score2Vars[new_score].insert(v);
@@ -197,7 +197,7 @@ void Solver::initialize() {
 	}
 
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
-		lrb_Var2Score.resize(nvars + 1, 0);
+		lrb_activity.resize(nvars + 1, 0);
 		lrb_participated.resize(nvars + 1, 0);
 		lrb_reasoned.resize(nvars + 1, 0);
 		lrb_assigned.resize(nvars + 1, 0);
