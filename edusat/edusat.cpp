@@ -502,7 +502,7 @@ This is Alg. 1 from "HaifaSat: a SAT solver based on an Abstraction/Refinement m
 
 int Solver::analyze(const Clause conflicting) {
 	// if (verbose_now()) 
-	cout << "****************************************************************************" << endl;
+	cout << "analyze" << endl;
 	Clause	current_clause = conflicting, 
 			new_clause;
 	int resolve_num = 0,
@@ -513,7 +513,6 @@ int Solver::analyze(const Clause conflicting) {
 	Lit u;
 	Var v;
 	trail_t::reverse_iterator t_it = trail.rbegin();
-	vector<Var> remove_mark;
 
 	int i = 0;  // todo: remove this variable. added it just for understanding the method.
 	do {
@@ -549,15 +548,34 @@ int Solver::analyze(const Clause conflicting) {
 			++t_it;
 			if (marked[v]) break;  // if v is part of the current clause or a clause that led to the current clause, we want to undo its assignment.
 		}
-		remove_mark.push_back(v);  // v was taken care of via resolution so it is no longer marked
+		if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) remove_mark.push_back(v);  // v was taken care of via resolution so it is no longer marked
+		else marked[v] = false;  // it is unnecessary for us to use remove_mark if we are not using lrb
 		--resolve_num;
 		if(!resolve_num) continue;  // we are done - the condition will be false.
 		int ant = antecedent[v];  // ant = the index of the clause that caused us to infer v's value (or the index of any clause containing v if using decision)		
 		current_clause = cnf[ant];  // we now look at the clause that led to v's assignment.
 		current_clause.cl().erase(find(current_clause.cl().begin(), current_clause.cl().end(), u));	 // remove all occurrences of u in current_clause.
 	}	while (resolve_num > 0);  // finding first UIP?
-	for (clause_it it = new_clause.cl().begin(); it != new_clause.cl().end(); ++it) 
-		marked[l2v(*it)] = false;  // returning marked to its original form
+
+
+	for (clause_it it = new_clause.cl().begin(); it != new_clause.cl().end(); ++it) {
+		if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
+			Var var = l2v(*it);
+			int reason_idx = antecedent[var];  // reason side for this variable in the conflict clause
+			if (reason_idx != -1) {  // if the variable is not a decision variable
+				clause_t& reason = cnf[reason_idx].cl();
+				for (clause_it reason_it = reason.begin(); reason_it != reason.end(); ++reason_it) {
+					Var inner_var = l2v(*reason_it);
+					if (!marked[inner_var]) {  // the variable wasn't already marked during resolution, or in a previous iteration of this loop.
+						marked[inner_var] = true;
+						lrb_reasoned[inner_var]++;  // following the implementation of maplesat
+					}
+				}
+			}
+			remove_mark.push_back(var);  // we will remove the marks after we are done.
+		}
+		else marked[l2v(*it)] = false;  // returning marked to its original form
+	}
 	Lit Negated_u = negate(u);
 	cout << "Negated u: " << l2rl(Negated_u) << endl;
 	new_clause.cl().push_back(Negated_u);	
@@ -565,10 +583,14 @@ int Solver::analyze(const Clause conflicting) {
 	print_vector(new_clause.cl());
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT)
 		m_var_inc *= 1 / var_decay; // increasing importance of participating variables.
+	else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB && lrb_alpha > 0.06) {
+		lrb_alpha -= 1e-6;
+	}
 
 	// removing marks from variables that were marked during resolution.
 	for (Var v : remove_mark) marked[v] = false;
-	
+	remove_mark.clear();  // clearing the list of variables that were marked during analysis.
+
 	++num_learned;
 	asserted_lit = Negated_u;
 	if (new_clause.size() == 1) { // unary clause	
