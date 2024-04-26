@@ -513,6 +513,8 @@ int Solver::analyze(const Clause conflicting) {
 	Lit u;
 	Var v;
 	trail_t::reverse_iterator t_it = trail.rbegin();
+	vector<Var> remove_mark;
+
 	int i = 0;  // todo: remove this variable. added it just for understanding the method.
 	do {
 		i += 1;
@@ -547,7 +549,7 @@ int Solver::analyze(const Clause conflicting) {
 			++t_it;
 			if (marked[v]) break;  // if v is part of the current clause or a clause that led to the current clause, we want to undo its assignment.
 		}
-		marked[v] = false;  // v was taken care of via resolution so it is no longer marked
+		remove_mark.push_back(v);  // v was taken care of via resolution so it is no longer marked
 		--resolve_num;
 		if(!resolve_num) continue;  // we are done - the condition will be false.
 		int ant = antecedent[v];  // ant = the index of the clause that caused us to infer v's value (or the index of any clause containing v if using decision)		
@@ -563,6 +565,9 @@ int Solver::analyze(const Clause conflicting) {
 	print_vector(new_clause.cl());
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT)
 		m_var_inc *= 1 / var_decay; // increasing importance of participating variables.
+
+	// removing marks from variables that were marked during resolution.
+	for (Var v : remove_mark) marked[v] = false;
 	
 	++num_learned;
 	asserted_lit = Negated_u;
