@@ -287,6 +287,7 @@ class Solver {
 
 	// learning rate branching
 	inline void lrb_update_score(Var v, double new_reward);  // Changes the score of a variable based on the new reward received
+	inline void lrb_locality(Var v);  // Multiplies the score of a variable by 0.95
 	inline void lrb_onAssign(Var v);  // Based on pseudocode from the paper
 	inline void lrb_onUnassign(Var v);  // Based on pseudocode from the paper
 	inline void lrb_afterAnalyze();  // Based on pseudocode from the paper

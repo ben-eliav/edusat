@@ -15,6 +15,16 @@ inline void print_vector(const vector<Lit>& v) {
 	cout << endl;
 }
 
+void printMap(const std::map<double, std::unordered_set<Var>, greater<double>>& myMap) {
+	for (const auto& pair : myMap) {
+		std::cout << pair.first << ": ";
+		for (const auto& value : pair.second) {
+			std::cout << value << " ";
+		}
+		std::cout << std::endl;
+	}
+}
+
 
 
 
@@ -339,15 +349,61 @@ SolverState Solver::decide(){
 	case VAR_DEC_HEURISTIC::LRB: {
 		if (m_should_reset_iterators) reset_iterators(m_curr_activity);  // Save current top core for some reason. I don't know why he does this in the original code?
 		if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;
-
 		while (true) {
-			for (auto v : lrb_Score2Vars_it->second) {  // iterate over variables with the top score
+			auto &vars_with_top_score = lrb_Score2Vars_it->second;
+			for (auto var_it = vars_with_top_score.begin(); var_it != vars_with_top_score.end();) {  // iterate over variables with the top score
+				// printMap(lrb_Score2Vars);
+				Var v = *var_it;
 				if (state[v] == VarState::V_UNASSIGNED) {
-					best_lit = getVal(v);  // use heuristic to decide true / false
-					goto Apply_decision;  // done.
+					int prev = lrb_last_updated[v];
+					if (prev == num_learned) {
+						best_lit = getVal(v);  // use heuristic to decide true / false
+						goto Apply_decision;  // done.
+					}
+					else {
+						lrb_last_updated[v] = num_learned;
+						double prev_score = lrb_activity[v];
+						if (lrb_activity[v] == 0) {
+							best_lit = getVal(v);
+							goto Apply_decision;
+						}
+						double decay = pow(0.95, num_learned - prev);
+						double new_score = lrb_activity[v] *= decay;
+						auto var_it_copy = var_it++;
+						lrb_Score2Vars[new_score].insert(v);
+						vars_with_top_score.erase(var_it_copy);
+					}
+
 				}
+				else {
+					var_it++;
+				}
+
+				//Var v = *var_it;
+				//if (state[v] == VarState::V_UNASSIGNED) {
+				//	int prev = lrb_last_updated[v];
+				//	if (prev == num_learned) {
+				//		best_lit = getVal(v);  // use heuristic to decide true / false
+				//		goto Apply_decision;  // done.
+				//	}
+				//	else {
+				//		double prev_score = lrb_activity[v];
+				//		lrb_last_updated[v] = num_learned;
+				//		if (lrb_activity[v] == 0) {
+				//			best_lit = getVal(v);
+				//			goto Apply_decision;
+				//		}
+				//		double decay = pow(0.95, num_learned - prev);
+				//		double new_score = lrb_activity[v] *= decay;
+				//		lrb_Score2Vars[prev_score].erase(v);
+				//		if (lrb_Score2Vars[prev_score].size() == 0) lrb_Score2Vars.erase(prev_score);
+				//		lrb_Score2Vars[new_score].insert(v);
+				//	}
+
+				//}
 			}
-			++lrb_Score2Vars_it;  // there were no unassigned variables with this score, go to next highest score.
+			if (vars_with_top_score.size() == 0) lrb_Score2Vars_it = lrb_Score2Vars.erase(lrb_Score2Vars_it);  // we emptied the set of variables with this score.
+			else ++lrb_Score2Vars_it;  // there were no good variables with this score, go to next highest score.
 			if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;  // no more scores to check.
 		}
 
@@ -515,11 +571,7 @@ int Solver::analyze(const Clause conflicting) {
 	Var v;
 	trail_t::reverse_iterator t_it = trail.rbegin();
 
-	int i = 0;  // todo: remove this variable. added it just for understanding the method.
 	do {
-		i += 1;
-		cout << i << ". ";
-		print_vector(current_clause.cl());
 		for (clause_it it = current_clause.cl().begin(); it != current_clause.cl().end(); ++it) { // looping over elements in conflicting clause, specifically looking for variables assigned at current dl
 			Lit lit = *it;  // current literal being checked
 			v = l2v(lit);  // variable of current literal
@@ -562,6 +614,7 @@ int Solver::analyze(const Clause conflicting) {
 	for (clause_it it = new_clause.cl().begin(); it != new_clause.cl().end(); ++it) {
 		if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
 			Var var = l2v(*it);
+			remove_mark.push_back(var);
 			int reason_idx = antecedent[var];  // reason side for this variable in the conflict clause
 			if (reason_idx != -1) {  // if the variable is not a decision variable
 				clause_t& reason = cnf[reason_idx].cl();
@@ -569,16 +622,15 @@ int Solver::analyze(const Clause conflicting) {
 					Var inner_var = l2v(*reason_it);
 					if (!marked[inner_var]) {  // the variable wasn't already marked during resolution, or in a previous iteration of this loop.
 						marked[inner_var] = true;
+						remove_mark.push_back(inner_var);
 						lrb_reasoned[inner_var]++;  // following the implementation of maplesat
 					}
 				}
 			}
-			remove_mark.push_back(var);  // we will remove the marks after we are done.
 		}
 		else marked[l2v(*it)] = false;  // returning marked to its original form
 	}
 	Lit Negated_u = negate(u);
-	cout << "Negated u: " << l2rl(Negated_u) << endl;
 	new_clause.cl().push_back(Negated_u);	
 	cout << "Final learnt clause: ";
 	print_vector(new_clause.cl());
