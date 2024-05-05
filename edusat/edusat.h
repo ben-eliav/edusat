@@ -43,10 +43,11 @@ void Abort(string s, int i);
 
 enum class VAR_DEC_HEURISTIC {
 	MINISAT, // VSIDS
-	LRB  // Basic Learning Rate Branching Heuristic
+	LRB,  // Basic Learning Rate Branching Heuristic
+	LRB_BS
  } ;
 
-VAR_DEC_HEURISTIC VarDecHeuristic = VAR_DEC_HEURISTIC::LRB;
+VAR_DEC_HEURISTIC VarDecHeuristic = VAR_DEC_HEURISTIC::LRB_BS;
 
 enum class VAL_DEC_HEURISTIC {
 	/* Same as last value. Initially false*/
@@ -62,7 +63,7 @@ unordered_map<string, option*> options = {
 	{"v",           new intoption(&verbose, 0, 2, "Verbosity level")},
 	{"timeout",     new doubleoption(&timeout, 0.0, 36000.0, "Timeout in seconds")},
 	{"valdh",       new intoption((int*)&ValDecHeuristic, 0, 1, "{0: phase-saving, 1: literal-score}")},
-	{"dh",			new intoption((int*)&VarDecHeuristic, 0, 1, "{0: VSIDS, 1: LRB}")}
+	{"dh",			new intoption((int*)&VarDecHeuristic, 0, 2, "{0: VSIDS, 1: LRB}")}
 };
 
 
@@ -230,7 +231,8 @@ class Solver {
 	vector<Var> remove_mark;  // var => true if the variable should be removed from the marked list. for analyze function.
 	
 	double			lrb_alpha;		// Starts at 0.4, decreases over time.
-
+	double			LRB_BS_EPSILON = 0.05;
+	double			weighted_LRB_BS = 1; // initialised to 1 - no impact - if not LRB_BS
 
 	unsigned int 
 		nvars,			// # vars

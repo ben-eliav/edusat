@@ -1,0 +1,36 @@
+aim-50-1_6-no-1.cnf
+This is edusat
+vars: 50 clauses: 80
+Read 80 clauses in 0.001 secs.
+Solving...
+analyze
+Final learnt clause: 32 -42 
+analyze
+Final learnt clause: 42 23 
+analyze
+Final learnt clause: 8 22 
+analyze
+Final learnt clause: -22 -37 
+analyze
+Final learnt clause: -23 38 
+analyze
+Final learnt clause: -38 -22 
+analyze
+Final learnt clause: -23 -8 11 
+analyze
+Final learnt clause: -23 
+analyze
+Final learnt clause: -11 -8 
+analyze
+Final learnt clause: -32 46 
+analyze
+Final learnt clause: -32 -46 -41 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	11
+### Decisions:		50
+### Implications:	66
+### Time:		0.002
+UNSAT

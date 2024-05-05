@@ -1,0 +1,28 @@
+aim-200-6_0-yes1-2.cnf
+This is edusat
+vars: 200 clauses: 1200
+Read 1200 clauses in 0.005 secs.
+Solving...
+analyze
+Final learnt clause: 120 12 75 
+analyze
+Final learnt clause: 120 -75 
+analyze
+Final learnt clause: 29 75 99 
+analyze
+Final learnt clause: 75 74 
+analyze
+Final learnt clause: -44 -24 8 131 -16 
+analyze
+Final learnt clause: 179 51 87 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	6
+### Decisions:		30
+### Implications:	389
+### Time:		0.024
+Assignment validated
+solution in assignment.txt
+SAT

@@ -1,5 +1,5 @@
 #include "edusat.h"
-
+#include <random>
 
 Solver S;
 
@@ -108,12 +108,12 @@ void Solver::read_cnf(ifstream& in) {
 		}
 		if (Abs(i) > vars) Abort("Literal index larger than declared on the first line", 1);
 		if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) bumpVarScore(abs(i)); 
-		else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) lrb_Score2Vars[0].insert(abs(i));  // In LRB there is no need to give variables an initial value other than 0
+		else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) lrb_Score2Vars[0].insert(abs(i));  // In LRB there is no need to give variables an initial value other than 0
 		i = v2l(i);		
 		if (ValDecHeuristic == VAL_DEC_HEURISTIC::LITSCORE) bumpLitScore(i);
 		s.insert(i);
 	}	
-	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) reset_iterators();
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) reset_iterators();
 	cout << "Read " << cnf_size() << " clauses in " << cpuTime() - begin_time << " secs." << endl << "Solving..." << endl;
 
 	//int count = 0;
@@ -162,7 +162,10 @@ inline void Solver::lrb_onAssign(Var v) {
 inline void Solver::lrb_onUnassign(Var v) {
 	double interval = num_learned - lrb_assigned[v];
 	if (interval > 0) {
-		double r = lrb_participated[v] / interval;
+		if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS){
+			weighted_LRB_BS = 0.7;
+		}
+		double r = (lrb_participated[v] + weighted_LRB_BS * lrb_reasoned[v]) / interval; // TODO : parameter tuning on 0.7 
 		// cout << r << endl;
 		lrb_update_score(v, r);
 	}
@@ -182,7 +185,7 @@ inline void Solver::reset_iterators(double where) {
 		Assert(m_Score2Vars_it != m_Score2Vars.end());
 		m_VarsSameScore_it = m_Score2Vars_it->second.begin();
 	}
-	else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
+	else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) {
 		lrb_Score2Vars_it = (where == 0) ? lrb_Score2Vars.begin() : lrb_Score2Vars.lower_bound(where);
 		Assert(lrb_Score2Vars_it != lrb_Score2Vars.end());
 	}
@@ -206,7 +209,7 @@ void Solver::initialize() {
 		m_activity[v] = 0;		
 	}
 
-	if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) {
 		lrb_activity.resize(nvars + 1, 0);
 		lrb_participated.resize(nvars + 1, 0);
 		lrb_reasoned.resize(nvars + 1, 0);
@@ -224,7 +227,7 @@ inline void Solver::assert_lit(Lit l) {
 	if (Neg(l)) prev_state[var] = state[var] = VarState::V_FALSE; else prev_state[var] = state[var] = VarState::V_TRUE;
 	dlevel[var] = dl;
 	++num_assignments;
-	if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) lrb_onAssign(var);  // LRB specific, we assigned a variable.
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) lrb_onAssign(var);  // LRB specific, we assigned a variable.
 	if (verbose_now()) cout << l2rl(l) <<  " @ " << dl << endl;
 }
 
@@ -409,6 +412,60 @@ SolverState Solver::decide(){
 
 		break;
 	}
+	case VAR_DEC_HEURISTIC::LRB_BS: {
+		if (m_should_reset_iterators) reset_iterators(m_curr_activity);  // Save current top core for some reason. I don't know why he does this in the original code?
+		if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;
+		double random_num = static_cast<double>(rand()) / RAND_MAX;// O-1
+			if (random_num < LRB_BS_EPSILON) {
+				while (true) {
+					int random_num2 = rand() % nvars; // 0->nvars
+					if (state[random_num2] == VarState::V_UNASSIGNED) {
+						best_lit = getVal(random_num2);
+						break; 
+					}
+				}
+			}
+			else
+			{
+				while (true) {
+					auto& vars_with_top_score = lrb_Score2Vars_it->second;
+					for (auto var_it = vars_with_top_score.begin(); var_it != vars_with_top_score.end();) {  // iterate over variables with the top score
+						// printMap(lrb_Score2Vars);
+						Var v = *var_it;
+						if (state[v] == VarState::V_UNASSIGNED) {
+							int prev = lrb_last_updated[v];
+							if (prev == num_learned) {
+								best_lit = getVal(v);  // use heuristic to decide true / false
+								goto Apply_decision;  // done.
+							}
+							else {
+								lrb_last_updated[v] = num_learned;
+								double prev_score = lrb_activity[v];
+								if (lrb_activity[v] == 0) {
+									best_lit = getVal(v);
+									goto Apply_decision;
+								}
+								double decay = pow(0.95, num_learned - prev);
+								double new_score = lrb_activity[v] *= decay;
+								auto var_it_copy = var_it++;
+								lrb_Score2Vars[new_score].insert(v);
+								vars_with_top_score.erase(var_it_copy);
+							}
+
+						}
+						else {
+							var_it++;
+						}
+
+					}
+					if (vars_with_top_score.size() == 0) lrb_Score2Vars_it = lrb_Score2Vars.erase(lrb_Score2Vars_it);  // we emptied the set of variables with this score.
+					else ++lrb_Score2Vars_it;  // there were no good variables with this score, go to next highest score.
+					if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;  // no more scores to check.
+				}
+			}
+
+		break;
+	}
 	default: Assert(0);
 	}	
 		
@@ -578,7 +635,7 @@ int Solver::analyze(const Clause conflicting) {
 
 			if (!marked[v]) {
 				marked[v] = true; // we mark variables that are in the conflicting clause, until we resolve them (resolution).
-				if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
+				if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) {
 					lrb_participated[v]++;  // following the implementation of maplesat
 				}
 				if (dlevel[v] == dl) ++resolve_num;  // if v was decided at the current decision level, we need to resolve it to get the correct conflicting clause.
@@ -601,7 +658,7 @@ int Solver::analyze(const Clause conflicting) {
 			++t_it;
 			if (marked[v]) break;  // if v is part of the current clause or a clause that led to the current clause, we want to undo its assignment.
 		}
-		if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) remove_mark.push_back(v);  // v was taken care of via resolution so it is no longer marked
+		if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) remove_mark.push_back(v);  // v was taken care of via resolution so it is no longer marked
 		else marked[v] = false;  // it is unnecessary for us to use remove_mark if we are not using lrb
 		--resolve_num;
 		if(!resolve_num) continue;  // we are done - the condition will be false.
@@ -612,7 +669,7 @@ int Solver::analyze(const Clause conflicting) {
 
 
 	for (clause_it it = new_clause.cl().begin(); it != new_clause.cl().end(); ++it) {
-		if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
+		if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) {
 			Var var = l2v(*it);
 			remove_mark.push_back(var);
 			int reason_idx = antecedent[var];  // reason side for this variable in the conflict clause
@@ -636,7 +693,7 @@ int Solver::analyze(const Clause conflicting) {
 	print_vector(new_clause.cl());
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT)
 		m_var_inc *= 1 / var_decay; // increasing importance of participating variables.
-	else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB && lrb_alpha > 0.06) {
+	else if ((VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) && lrb_alpha > 0.06) {
 		lrb_alpha -= 1e-6;
 	}
 
@@ -690,12 +747,12 @@ void Solver::backtrack(int k) {
 		if (dlevel[v]) { // we need the condition because of learnt unary clauses. In that case we enforce an assignment with dlevel = 0.
 			state[v] = VarState::V_UNASSIGNED;
 			if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT) m_curr_activity = max(m_curr_activity, m_activity[v]);
-			else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) {
+			else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) {
 				lrb_onUnassign(v);
 			}
 		}
 	}
-	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB) m_should_reset_iterators = true;
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) m_should_reset_iterators = true;
 	if (verbose_now()) print_state();
 	trail.erase(trail.begin() + separators[k+1], trail.end());
 	qhead = trail.size();
