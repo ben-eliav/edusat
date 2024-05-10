@@ -1,0 +1,629 @@
+unsat_1
+This is edusat
+vars: 40 clauses: 105
+Read 105 clauses in 0.005 secs.
+Solving...
+analyze
+Final learnt clause: 2 8 14 20 21 27 6 15 19 23 -38 
+analyze
+Final learnt clause: 4 7 15 18 21 2 6 19 23 27 5 10 20 25 35 40 
+analyze
+Final learnt clause: 2 9 11 18 27 8 14 20 21 4 7 15 6 19 5 10 35 13 16 23 
+analyze
+Final learnt clause: 3 10 12 19 35 5 15 20 2 13 16 27 9 11 18 8 14 4 7 6 21 
+analyze
+Final learnt clause: 2 9 11 18 27 6 15 19 10 13 16 35 -21 
+analyze
+Final learnt clause: 4 9 14 19 5 6 12 18 3 10 21 35 2 13 16 27 24 
+analyze
+Final learnt clause: 2 7 12 17 22 27 9 11 18 25 -31 
+analyze
+Final learnt clause: 4 10 11 17 35 3 6 14 2 15 27 7 12 9 18 5 13 16 19 
+analyze
+Final learnt clause: 1 10 14 18 22 35 5 15 20 25 -28 
+analyze
+Final learnt clause: 4 6 13 20 5 10 15 35 3 14 17 1 18 2 7 12 27 9 11 -24 
+analyze
+Final learnt clause: 2 9 11 18 27 36 3 15 16 40 7 20 24 28 
+analyze
+Final learnt clause: 1 8 15 17 5 6 12 2 9 11 27 3 16 7 10 13 35 4 14 18 
+analyze
+Final learnt clause: 4 10 11 17 35 36 5 15 20 40 -28 
+analyze
+Final learnt clause: 3 6 14 17 7 11 20 10 12 19 35 4 5 15 2 13 16 27 24 
+analyze
+Final learnt clause: 2 8 14 20 21 27 3 9 15 16 22 10 12 19 35 28 
+analyze
+Final learnt clause: 1 7 13 5 9 2 8 14 27 3 15 16 10 12 35 6 11 4 17 
+analyze
+Final learnt clause: 3 10 12 35 5 15 2 13 27 9 11 8 14 4 7 6 1 16 
+analyze
+Final learnt clause: 1 9 12 20 26 10 14 18 35 5 15 -28 30 7 13 19 38 25 
+analyze
+Final learnt clause: 1 10 14 18 26 35 4 11 17 29 -25 
+analyze
+Final learnt clause: 5 10 15 20 35 1 9 12 14 18 7 13 19 4 11 17 -28 
+analyze
+Final learnt clause: 2 9 11 18 27 3 7 20 24 28 10 12 19 35 -38 
+analyze
+Final learnt clause: 1 7 13 19 38 4 6 20 2 12 17 27 9 11 18 3 8 28 -21 
+analyze
+Final learnt clause: 3 7 11 2 8 14 27 10 12 35 1 13 4 6 9 5 15 
+analyze
+Final learnt clause: 2 9 11 18 25 27 3 6 14 17 10 12 19 21 35 28 
+analyze
+Final learnt clause: 1 7 13 19 38 5 9 17 21 2 11 18 27 3 6 14 10 12 35 25 
+analyze
+Final learnt clause: 1 10 14 18 35 4 11 17 -25 -28 
+analyze
+Final learnt clause: 3 7 11 10 12 21 35 8 13 38 1 14 4 5 9 2 27 6 24 
+analyze
+Final learnt clause: 3 10 12 21 28 35 6 14 25 2 9 11 27 8 13 23 38 18 
+analyze
+Final learnt clause: 3 6 14 25 2 8 21 27 10 12 35 9 11 13 23 38 28 
+analyze
+Final learnt clause: 4 6 13 22 29 38 5 9 21 30 -32 
+analyze
+Final learnt clause: 2 7 12 27 9 11 4 6 13 38 1 5 3 14 8 10 35 21 
+analyze
+Final learnt clause: 4 6 13 1 7 2 12 27 9 11 3 8 10 35 5 14 38 
+analyze
+Final learnt clause: 5 6 12 18 37 2 9 11 27 36 1 10 14 35 4 17 3 7 20 19 -38 24 
+analyze
+Final learnt clause: 2 8 14 27 39 9 11 36 5 6 12 37 1 10 35 4 3 7 -38 -16 
+analyze
+Final learnt clause: 5 7 14 16 23 39 8 11 22 36 3 10 12 21 35 37 19 
+analyze
+Final learnt clause: 2 9 11 27 36 8 14 39 5 7 16 3 10 12 35 37 -24 
+analyze
+Final learnt clause: 4 8 12 16 37 2 9 11 18 27 36 1 10 14 35 17 -28 
+analyze
+Final learnt clause: 2 8 14 27 39 9 11 36 3 7 24 4 12 16 37 1 10 35 -19 
+analyze
+Final learnt clause: 4 8 12 16 37 3 10 19 35 9 14 24 39 -30 
+analyze
+Final learnt clause: 2 9 11 27 36 4 14 19 5 6 12 3 10 35 13 16 24 30 37 18 
+analyze
+Final learnt clause: 1 9 12 20 26 37 3 10 19 35 7 11 24 36 28 
+analyze
+Final learnt clause: 4 8 12 16 37 9 14 19 24 39 10 11 17 35 36 29 
+analyze
+Final learnt clause: 1 9 12 3 10 35 7 11 4 8 2 27 5 6 13 14 
+analyze
+Final learnt clause: 5 10 15 35 3 12 1 9 7 11 24 4 2 13 27 -18 
+analyze
+Final learnt clause: 4 7 15 18 40 5 6 12 24 37 3 10 35 2 9 11 27 13 16 19 
+analyze
+Final learnt clause: 4 10 11 35 5 15 2 9 18 27 3 7 24 6 12 13 16 
+analyze
+Final learnt clause: 4 10 11 17 35 5 15 20 2 9 18 27 3 7 24 12 19 -38 
+analyze
+Final learnt clause: 5 6 12 18 24 30 1 8 15 17 26 -34 
+analyze
+Final learnt clause: 2 7 12 17 27 9 11 18 4 6 13 20 38 5 24 1 8 15 -28 
+analyze
+Final learnt clause: 3 8 13 2 9 11 27 7 10 12 35 1 4 6 5 15 24 
+analyze
+Final learnt clause: 3 10 12 21 35 4 6 13 22 38 2 7 27 9 11 25 15 23 5 -16 
+analyze
+Final learnt clause: 1 7 13 19 25 38 4 6 22 5 9 21 -28 
+analyze
+Final learnt clause: 2 6 15 23 27 3 9 16 22 10 12 21 35 1 7 13 25 38 4 5 19 
+analyze
+Final learnt clause: 3 8 13 23 5 9 21 4 6 22 2 7 12 27 11 25 15 10 35 1 38 
+analyze
+Final learnt clause: 2 6 15 23 27 40 7 12 22 37 -34 
+analyze
+Final learnt clause: 4 10 11 5 3 12 2 9 27 6 7 8 13 1 35 
+analyze
+Final learnt clause: 3 7 11 20 32 4 8 12 16 33 2 17 27 -38 
+analyze
+Final learnt clause: 1 7 13 19 32 38 5 9 17 34 -28 
+analyze
+Final learnt clause: 2 6 19 27 31 3 17 28 7 12 32 -36 
+analyze
+Final learnt clause: 5 8 11 33 1 7 13 32 3 2 6 27 31 12 9 34 4 16 -18 
+analyze
+Final learnt clause: 4 8 12 16 33 3 13 18 2 9 11 27 34 -24 
+analyze
+Final learnt clause: 3 9 15 16 34 8 13 18 33 38 7 11 24 32 2 12 27 4 6 5 1 -19 
+analyze
+Final learnt clause: 4 8 12 16 33 5 6 18 24 31 2 15 19 27 -36 
+analyze
+Final learnt clause: 5 8 11 33 3 13 18 38 2 9 27 34 4 12 16 6 24 31 7 32 1 15 
+analyze
+Final learnt clause: 1 7 13 32 38 5 14 16 39 4 9 24 34 19 
+analyze
+Final learnt clause: 5 7 14 16 32 3 6 31 2 8 27 33 1 13 38 4 9 24 34 39 
+analyze
+Final learnt clause: 3 8 13 18 33 2 9 11 27 34 5 6 12 24 31 7 16 32 1 4 38 
+analyze
+Final learnt clause: 1 6 11 31 2 9 27 34 5 12 3 8 13 33 7 32 4 16 
+analyze
+Final learnt clause: 2 9 11 18 27 34 7 12 17 32 -38 
+analyze
+Final learnt clause: 3 7 11 2 6 27 12 8 1 5 9 4 10 13 
+analyze
+Final learnt clause: 2 9 11 25 27 36 8 14 21 39 -16 
+analyze
+Final learnt clause: 5 7 14 16 23 39 1 10 22 2 9 11 25 27 36 18 
+analyze
+Final learnt clause: 5 7 14 23 39 4 10 11 2 8 21 27 1 22 9 25 36 
+analyze
+Final learnt clause: 5 10 15 25 35 40 2 8 14 21 27 3 9 22 12 -18 
+analyze
+Final learnt clause: 3 10 12 21 37 5 15 25 40 1 14 22 39 2 8 27 9 35 
+analyze
+Final learnt clause: 2 6 15 23 27 8 14 21 3 10 12 5 25 1 22 9 7 4 11 39 
+analyze
+Final learnt clause: 2 6 15 27 5 10 8 14 3 9 12 11 7 1 4 -24 
+analyze
+Final learnt clause: 3 7 11 20 24 32 1 8 15 17 33 -39 
+analyze
+Final learnt clause: 5 7 14 32 2 8 27 33 4 9 24 34 3 11 1 15 -18 
+analyze
+Final learnt clause: 1 6 11 16 31 5 7 14 32 39 2 9 18 27 34 36 
+analyze
+Final learnt clause: 5 6 12 18 24 31 1 8 15 33 4 16 2 27 -36 
+analyze
+Final learnt clause: 4 7 15 18 32 5 6 12 24 31 2 9 11 27 34 1 14 8 33 16 
+analyze
+Final learnt clause: 3 7 11 24 2 6 27 12 4 9 14 1 8 15 5 -35 
+analyze
+Final learnt clause: 2 8 14 20 27 39 9 11 18 36 -32 
+analyze
+Final learnt clause: 2 9 11 27 8 14 39 -16 1 10 18 35 5 15 20 4 17 3 7 24 36 
+analyze
+Final learnt clause: 5 10 15 20 35 40 1 14 18 4 11 17 -28 
+analyze
+Final learnt clause: 2 7 12 17 27 9 11 18 3 6 14 10 19 35 5 15 20 1 4 8 -16 24 39 
+analyze
+Final learnt clause: 2 9 11 27 3 10 12 35 7 24 5 15 1 14 4 6 8 -16 
+analyze
+Final learnt clause: 3 9 15 16 28 40 2 6 27 7 12 37 -21 
+analyze
+Final learnt clause: 2 9 11 27 36 3 15 16 7 24 28 10 12 35 6 -39 
+analyze
+Final learnt clause: 2 9 11 18 27 36 3 15 16 7 24 28 8 14 39 4 12 1 10 35 -19 
+analyze
+Final learnt clause: 3 7 11 24 28 36 2 8 14 27 39 9 18 20 
+analyze
+Final learnt clause: 4 10 11 17 35 36 5 7 14 16 32 39 23 
+analyze
+Final learnt clause: 3 6 14 17 28 39 2 7 12 27 9 11 18 -23 
+analyze
+Final learnt clause: 5 8 11 36 2 9 27 4 10 35 7 14 16 39 3 6 28 12 24 15 1 18 
+analyze
+Final learnt clause: 3 6 14 2 8 27 7 11 24 36 5 9 4 10 35 16 12 15 1 28 
+analyze
+Final learnt clause: 4 8 12 16 9 14 24 10 11 35 36 29 5 15 -28 -18 
+analyze
+Final learnt clause: 2 9 11 18 27 36 5 6 12 24 30 1 8 15 26 10 14 35 4 -28 17 
+analyze
+Final learnt clause: 5 7 14 16 30 1 10 18 26 35 2 8 20 27 9 11 36 39 
+analyze
+Final learnt clause: 1 9 12 5 6 24 10 15 35 7 14 16 2 8 27 11 4 3 36 
+analyze
+Final learnt clause: 2 8 14 27 39 5 10 15 35 40 6 12 24 37 4 16 3 9 -17 
+analyze
+Final learnt clause: 12 20 23 26 34 37 14 18 22 35 39 1 
+analyze
+Final learnt clause: 14 19 24 29 34 39 16 23 30 32 -1 
+analyze
+Final learnt clause: 14 16 30 32 39 19 24 29 34 18 26 35 -25 
+analyze
+Final learnt clause: 14 19 24 29 34 39 13 16 27 35 38 -7 
+analyze
+Final learnt clause: 16 24 27 35 38 14 19 29 34 39 25 26 32 13 
+analyze
+Final learnt clause: 14 19 24 29 34 39 15 20 25 30 35 40 -1 
+analyze
+Final learnt clause: 14 20 21 27 33 39 19 24 29 34 -10 
+analyze
+Final learnt clause: 19 24 29 34 39 16 33 37 20 30 35 40 21 27 38 26 32 18 14 
+analyze
+Final learnt clause: 15 18 21 29 32 40 13 16 24 27 35 38 -8 
+analyze
+Final learnt clause: 12 20 26 34 37 15 18 21 29 32 40 8 16 33 -2 
+analyze
+Final learnt clause: 20 26 34 37 19 32 38 18 21 29 40 16 27 35 33 39 30 24 
+analyze
+Final learnt clause: 20 23 26 34 37 18 22 35 39 1 -13 
+analyze
+Final learnt clause: 20 23 26 34 37 18 22 35 39 19 25 32 38 1 
+analyze
+Final learnt clause: 2 20 21 27 33 39 5 25 30 35 40 -7 
+analyze
+Final learnt clause: 16 30 32 39 18 29 40 20 27 33 35 26 34 37 19 38 21 
+analyze
+Final learnt clause: 16 33 37 35 38 19 34 39 32 20 18 40 -28 
+analyze
+Final learnt clause: 5 7 16 32 39 3 9 28 34 40 2 10 13 35 38 -21 
+analyze
+Final learnt clause: 5 7 16 32 39 3 28 34 40 4 18 19 35 37 2 13 38 -8 
+analyze
+Final learnt clause: 2 8 20 21 33 39 4 7 18 32 40 -12 
+analyze
+Final learnt clause: 3 16 28 34 40 20 33 39 19 35 37 7 18 32 13 38 -1 
+analyze
+Final learnt clause: 3 12 19 28 35 37 15 16 34 40 -23 
+analyze
+Final learnt clause: 3 16 28 34 40 12 19 35 37 13 18 33 38 15 
+analyze
+Final learnt clause: 14 19 24 34 39 7 16 32 1 13 38 3 12 28 35 37 -8 
+analyze
+Final learnt clause: 14 20 33 39 19 34 3 12 28 35 37 1 7 13 32 38 18 16 24 
+analyze
+Final learnt clause: 3 19 28 35 37 13 18 33 38 20 39 34 1 7 32 16 40 12 
+analyze
+Final learnt clause: 3 15 16 28 34 40 13 18 33 38 -24 
+analyze
+Final learnt clause: 15 18 32 40 13 16 24 35 38 1 7 19 3 28 34 -8 
+analyze
+Final learnt clause: 18 32 40 20 35 3 16 28 34 13 19 38 33 37 39 7 
+analyze
+Final learnt clause: 19 28 35 37 16 34 40 13 18 33 38 32 20 39 3 
+analyze
+Final learnt clause: 1 9 20 34 37 5 10 35 40 4 19 39 2 13 16 38 24 
+analyze
+Final learnt clause: 2 20 33 39 5 35 40 34 37 18 19 32 38 1 4 13 16 -7 
+analyze
+Final learnt clause: 4 7 18 32 40 5 16 39 1 13 19 38 -24 
+analyze
+Final learnt clause: 1 7 13 19 32 38 4 8 12 16 33 37 25 
+analyze
+Final learnt clause: 1 20 34 37 2 13 16 24 35 38 4 7 18 32 40 19 8 33 -14 
+analyze
+Final learnt clause: 1 7 13 19 32 38 16 39 24 34 18 35 2 5 4 14 
+analyze
+Final learnt clause: 20 34 37 35 40 19 39 16 38 18 32 33 28 13 
+analyze
+Final learnt clause: 1 12 20 26 34 37 14 18 35 39 -8 
+analyze
+Final learnt clause: 12 20 26 34 37 19 28 35 15 16 40 30 29 33 14 18 39 32 24 
+analyze
+Final learnt clause: 15 20 35 40 14 16 32 39 34 37 18 19 38 12 28 33 -27 
+analyze
+Final learnt clause: 7 15 18 6 19 27 10 20 35 40 9 16 28 34 -24 
+analyze
+Final learnt clause: 12 20 34 37 14 18 35 39 -8 9 19 24 -3 
+analyze
+Final learnt clause: 15 16 28 34 40 12 19 35 37 20 14 18 39 27 -8 
+analyze
+Final learnt clause: 5 15 20 35 40 4 8 12 16 33 37 3 19 28 10 
+analyze
+Final learnt clause: 14 16 23 32 39 19 24 34 15 20 35 40 8 12 33 37 3 28 -2 
+analyze
+Final learnt clause: 8 12 16 33 37 15 20 35 40 3 28 34 23 14 18 39 1 -21 
+analyze
+Final learnt clause: 3 15 16 28 34 40 14 23 32 39 19 20 35 8 12 33 37 27 21 
+analyze
+Final learnt clause: 15 20 35 40 8 12 16 33 37 19 28 34 14 18 39 32 27 3 
+analyze
+Final learnt clause: 20 34 18 35 16 33 19 32 38 -36 
+analyze
+Final learnt clause: 1 7 32 38 5 14 16 4 9 24 34 19 8 12 33 25 13 
+analyze
+Final learnt clause: 4 8 16 25 33 5 7 14 23 32 2 9 18 34 36 1 38 24 19 12 
+analyze
+Final learnt clause: 2 9 18 25 34 36 1 7 19 32 38 -12 
+analyze
+Final learnt clause: 2 9 18 34 36 1 7 19 32 38 4 8 16 33 5 23 24 25 
+analyze
+Final learnt clause: 4 9 19 24 34 7 18 21 32 5 8 22 33 36 -27 
+analyze
+Final learnt clause: 4 7 18 21 32 5 8 19 22 33 36 1 9 12 20 23 34 -39 
+analyze
+Final learnt clause: 1 9 20 23 34 4 7 18 21 32 5 8 19 22 33 36 2 27 12 
+analyze
+Final learnt clause: 4 7 18 32 5 8 19 33 36 2 20 1 9 34 24 38 16 23 
+analyze
+Final learnt clause: 1 7 32 38 5 16 4 24 34 19 33 2 18 36 20 -10 
+analyze
+Final learnt clause: 5 19 22 30 33 36 1 20 23 26 34 4 7 18 21 29 32 -39 
+analyze
+Final learnt clause: 1 20 34 5 19 33 36 4 7 18 32 10 35 38 2 16 24 13 
+analyze
+Final learnt clause: 1 12 20 26 34 5 10 15 30 35 4 14 19 24 29 9 
+analyze
+Final learnt clause: 5 10 15 20 35 4 12 16 33 11 19 36 1 34 14 24 -27 
+analyze
+Final learnt clause: 5 10 15 20 35 40 4 8 12 16 33 37 25 
+analyze
+Final learnt clause: 4 7 15 18 32 5 8 11 19 33 36 10 20 35 12 16 -39 
+analyze
+Final learnt clause: 1 10 14 18 35 5 7 16 32 2 20 27 33 4 15 11 19 36 12 8 
+analyze
+Final learnt clause: 5 7 14 16 23 32 1 10 18 22 35 39 
+analyze
+Final learnt clause: 1 20 34 4 18 32 5 16 35 2 36 33 19 24 38 7 
+analyze
+Final learnt clause: 5 8 19 33 36 1 9 20 34 37 10 35 40 4 16 -13 
+analyze
+Final learnt clause: 4 8 16 29 33 37 1 9 20 26 34 12 
+analyze
+Final learnt clause: 5 8 19 33 36 10 20 35 4 16 1 9 34 2 24 38 -39 
+analyze
+Final learnt clause: 5 10 20 35 8 19 33 36 4 16 1 9 34 24 39 -27 
+analyze
+Final learnt clause: 18 34 36 20 33 16 24 35 38 19 1 32 -3 
+analyze
+Final learnt clause: 3 10 12 19 28 35 9 15 16 34 -25 
+analyze
+Final learnt clause: 3 10 12 19 28 35 5 8 11 33 36 15 20 25 30 
+analyze
+Final learnt clause: 9 14 19 24 34 8 12 16 25 33 3 10 28 35 11 36 15 20 -2 
+analyze
+Final learnt clause: 16 33 1 20 34 12 14 19 24 3 35 11 36 15 18 32 28 
+analyze
+Final learnt clause: 4 16 29 33 37 1 20 26 34 12 -7 
+analyze
+Final learnt clause: 2 11 18 27 34 36 12 16 29 33 37 15 32 40 1 20 26 4 
+analyze
+Final learnt clause: 1 12 20 26 34 37 5 15 30 35 40 -8 
+analyze
+Final learnt clause: 2 11 18 27 34 36 15 20 30 35 19 33 1 12 26 16 29 32 -39 
+analyze
+Final learnt clause: 14 20 27 33 1 18 26 35 11 34 36 16 30 32 19 24 29 15 12 2 
+analyze
+Final learnt clause: 1 12 20 26 34 5 15 30 35 11 19 33 36 7 14 16 32 -21 
+analyze
+Final learnt clause: 1 12 20 26 34 14 18 35 4 16 29 33 30 32 19 24 -40 
+analyze
+Final learnt clause: 1 12 20 26 34 5 15 30 35 4 14 19 24 29 -8 
+analyze
+Final learnt clause: 20 33 19 24 34 35 16 36 1 18 32 3 -13 
+analyze
+Final learnt clause: 1 10 18 35 39 3 8 13 33 38 4 9 19 24 34 14 
+analyze
+Final learnt clause: 3 9 15 16 34 8 13 18 33 38 10 12 19 21 35 28 
+analyze
+Final learnt clause: 8 16 25 33 10 20 35 3 9 34 13 18 38 19 21 1 39 24 -2 
+analyze
+Final learnt clause: 3 9 16 34 8 13 18 33 38 10 19 35 1 39 24 25 20 21 
+analyze
+Final learnt clause: 8 19 33 36 10 13 16 24 35 38 34 39 32 3 18 9 1 20 25 
+analyze
+Final learnt clause: 8 19 33 36 10 13 16 24 35 38 32 34 18 3 9 1 20 39 
+analyze
+Final learnt clause: 8 19 33 36 10 20 35 40 16 37 1 9 34 13 24 38 -28 
+analyze
+Final learnt clause: 3 19 35 16 34 13 18 33 38 36 20 1 24 32 -7 
+analyze
+Final learnt clause: 4 7 15 18 21 32 1 13 19 38 12 16 33 3 28 8 
+analyze
+Final learnt clause: 3 12 19 28 35 15 18 32 13 16 24 38 1 7 34 4 33 21 
+analyze
+Final learnt clause: 7 14 16 32 15 18 13 24 35 38 1 19 3 28 34 33 12 -2 
+analyze
+Final learnt clause: 2 14 20 33 3 15 16 28 34 13 18 38 24 35 27 
+analyze
+Final learnt clause: 3 16 34 19 35 13 18 33 38 14 32 24 1 7 20 36 28 
+analyze
+Final learnt clause: 1 20 23 26 34 37 18 21 29 32 40 13 16 24 27 35 38 -8 
+analyze
+Final learnt clause: 19 22 30 33 36 1 20 23 26 34 7 18 21 29 32 -39 -2 
+analyze
+Final learnt clause: 19 33 36 7 18 32 1 20 34 13 16 24 35 38 3 14 
+analyze
+Final learnt clause: 7 15 18 21 29 32 11 19 22 30 33 36 1 12 20 23 26 34 -10 
+analyze
+Final learnt clause: 20 34 18 32 19 33 36 16 24 35 38 1 
+analyze
+Final learnt clause: 3 7 20 24 32 36 4 9 19 34 39 -13 
+analyze
+Final learnt clause: 3 7 20 24 32 36 4 9 19 34 2 10 16 35 38 39 
+analyze
+Final learnt clause: 3 16 34 40 19 35 37 18 33 38 7 20 24 32 36 2 10 13 
+analyze
+Final learnt clause: 4 18 32 5 10 20 35 3 24 36 16 34 19 33 38 2 -8 
+analyze
+Final learnt clause: 5 10 15 20 35 4 8 12 16 33 11 19 36 -28 
+analyze
+Final learnt clause: 2 18 34 36 3 10 19 35 5 8 33 20 16 24 32 4 -13 
+analyze
+Final learnt clause: 3 19 35 5 20 33 36 18 38 2 16 24 34 32 4 10 
+analyze
+Final learnt clause: 4 9 19 24 34 7 18 32 5 8 33 36 2 20 3 16 13 38 35 28 
+analyze
+Final learnt clause: 4 7 18 29 32 40 5 8 19 30 33 36 -25 
+analyze
+Final learnt clause: 2 9 18 27 34 36 4 8 16 29 33 7 32 5 19 30 -39 
+analyze
+Final learnt clause: 5 8 19 33 36 2 9 18 34 4 24 16 7 32 -28 
+analyze
+Final learnt clause: 20 32 36 19 34 18 33 16 38 35 24 
+analyze
+Final learnt clause: 5 8 11 22 30 36 7 24 28 9 15 34 40 3 
+analyze
+Final learnt clause: 5 6 12 24 30 37 8 11 22 36 -32 
+analyze
+Final learnt clause: 4 7 15 21 40 9 12 23 34 37 2 22 27 5 6 24 8 11 36 28 30 
+analyze
+Final learnt clause: 2 9 11 27 36 15 40 7 24 28 12 23 26 34 37 -17 
+analyze
+Final learnt clause: 2 9 11 27 36 15 40 7 24 28 6 23 8 12 22 37 34 26 
+analyze
+Final learnt clause: 9 15 22 28 34 40 2 6 23 27 12 24 30 37 8 11 36 -32 
+analyze
+Final learnt clause: 15 21 40 11 24 28 36 2 12 22 27 37 6 23 -10 
+analyze
+Final learnt clause: 36 38 24 2 6 15 23 27 40 -17 
+analyze
+Final learnt clause: 8 15 17 24 33 40 10 11 23 35 36 -3 
+analyze
+Final learnt clause: 15 22 28 40 10 12 21 37 17 24 11 23 36 2 27 -31 
+analyze
+Final learnt clause: 15 18 21 40 3 16 22 28 10 11 17 23 36 6 12 24 31 37 -26 
+analyze
+Final learnt clause: 15 18 21 40 16 22 28 10 11 17 23 36 6 12 24 31 37 3 
+analyze
+Final learnt clause: 11 21 36 12 24 37 15 40 22 28 23 2 27 38 6 
+analyze
+Final learnt clause: 9 15 22 28 40 10 12 21 37 8 24 11 23 36 2 7 27 17 
+analyze
+Final learnt clause: 5 8 19 36 10 20 35 4 16 1 9 2 24 38 -39 -32 
+analyze
+Final learnt clause: 1 9 12 20 23 37 4 7 15 18 21 40 10 14 5 16 2 27 11 19 36 8 24 38 -39 35 
+analyze
+Final learnt clause: 21 22 12 23 15 14 2 27 11 24 28 -39 
+analyze
+Final learnt clause: 1 11 16 31 5 14 32 39 2 18 27 15 19 23 22 -8 
+analyze
+Final learnt clause: 4 14 19 24 34 39 5 16 23 32 1 18 22 35 7 
+analyze
+Final learnt clause: 4 14 19 24 39 1 18 22 5 16 23 2 20 21 27 11 31 15 32 
+analyze
+Final learnt clause: 14 19 24 39 18 22 2 20 21 27 16 23 11 31 15 -3 
+analyze
+Final learnt clause: 2 15 19 23 27 31 3 12 21 28 35 -8 
+analyze
+Final learnt clause: 3 12 19 21 28 15 16 22 7 11 20 24 2 14 27 39 23 31 35 
+analyze
+Final learnt clause: 3 15 16 22 28 11 20 24 2 14 21 27 39 12 19 23 31 7 
+analyze
+Final learnt clause: 2 14 21 27 39 15 22 12 28 11 24 23 31 -17 
+analyze
+Final learnt clause: 2 15 23 27 31 14 21 33 39 12 17 22 32 -36 
+analyze
+Final learnt clause: 9 14 19 24 34 39 8 11 22 33 36 -26 
+analyze
+Final learnt clause: 14 24 34 39 12 31 11 21 36 22 33 2 15 23 27 -7 
+analyze
+Final learnt clause: 15 17 24 33 40 14 34 39 11 22 36 28 2 23 27 31 21 8 
+analyze
+Final learnt clause: 11 31 14 39 2 27 15 24 28 23 17 22 21 12 -35 
+analyze
+Final learnt clause: 1 6 11 21 31 36 14 22 35 39 4 17 23 10 
+analyze
+Final learnt clause: 4 9 14 24 39 1 6 11 21 31 36 2 8 27 -18 
+analyze
+Final learnt clause: 15 17 24 14 39 11 22 36 28 2 23 27 31 21 8 5 7 6 12 18 1 16 
+analyze
+Final learnt clause: 2 12 17 22 27 15 23 31 14 39 11 36 24 28 21 5 1 4 35 6 
+analyze
+Final learnt clause: 5 14 23 39 2 21 27 1 22 35 4 11 17 12 15 31 24 28 36 
+analyze
+Final learnt clause: 2 12 17 22 27 37 14 21 39 15 23 31 40 -18 
+analyze
+Final learnt clause: 5 12 18 24 31 37 23 34 14 22 35 39 1 2 21 27 33 20 
+analyze
+Final learnt clause: 4 14 24 39 1 18 22 35 2 15 23 27 31 40 5 12 37 21 -32 
+analyze
+Final learnt clause: 12 24 31 14 22 35 39 2 17 27 15 23 21 11 28 -3 
+analyze
+Final learnt clause: 2 6 15 23 27 31 3 10 12 21 28 35 19 
+analyze
+Final learnt clause: 6 12 18 24 31 37 11 21 36 14 22 35 39 17 23 10 16 1 
+analyze
+Final learnt clause: 11 17 23 35 12 24 31 21 14 22 39 3 15 28 2 27 -7 
+analyze
+Final learnt clause: 2 7 12 17 22 27 4 10 11 35 5 14 16 39 23 32 
+analyze
+Final learnt clause: 4 11 17 23 35 5 12 18 24 31 3 15 16 22 28 2 14 20 21 27 39 7 10 
+analyze
+Final learnt clause: 3 15 16 22 28 7 11 24 2 14 27 39 21 4 17 23 35 5 12 31 20 
+analyze
+Final learnt clause: 3 12 19 21 28 35 2 15 23 27 31 -36 
+analyze
+Final learnt clause: 4 11 17 23 35 36 14 19 24 39 5 8 22 -32 
+analyze
+Final learnt clause: 2 15 23 27 31 7 12 17 22 4 11 35 5 14 39 24 3 21 28 16 
+analyze
+Final learnt clause: 11 17 23 35 14 24 39 22 3 7 28 2 15 27 31 12 21 -1 
+analyze
+Final learnt clause: 1 11 21 31 36 14 24 34 39 22 33 2 27 -10 
+analyze
+Final learnt clause: 3 15 22 28 34 12 24 31 11 21 36 14 35 39 17 23 10 1 2 27 33 6 
+analyze
+Final learnt clause: 3 12 21 28 35 2 14 27 39 15 17 24 11 22 36 23 31 1 -32 
+analyze
+Final learnt clause: 7 15 21 1 14 22 35 39 23 2 27 31 12 17 3 11 24 28 36 
+analyze
+Final learnt clause: 2 14 21 27 39 15 22 28 12 23 11 24 31 
+analyze
+Final learnt clause: 2 12 22 27 32 37 14 21 33 39 -6 
+analyze
+Final learnt clause: 15 24 33 40 14 34 39 12 21 28 35 37 2 22 27 32 8 
+analyze
+Final learnt clause: 15 28 34 12 35 14 39 27 2 22 32 24 33 21 -36 
+analyze
+Final learnt clause: 12 34 14 35 39 24 2 11 27 28 32 36 33 21 -17 
+analyze
+Final learnt clause: 1 15 17 24 33 14 18 22 35 39 4 21 32 2 12 27 7 
+analyze
+Final learnt clause: 4 11 17 23 35 36 1 14 22 39 15 24 33 21 32 2 12 27 18 
+analyze
+Final learnt clause: 11 17 35 36 14 32 39 23 2 21 27 33 22 15 24 12 -3 
+analyze
+Final learnt clause: 7 14 16 23 32 10 18 22 35 39 11 17 36 15 24 33 21 2 12 27 1 
+analyze
+Final learnt clause: 2 12 17 22 27 11 35 14 39 23 32 36 15 24 33 21 3 28 34 7 
+analyze
+Final learnt clause: 12 28 15 2 14 27 11 -25 
+analyze
+Final learnt clause: 2 6 15 19 27 3 14 17 25 28 9 11 18 10 12 -34 
+analyze
+Final learnt clause: 3 10 12 28 6 14 17 25 9 15 16 2 11 18 27 19 
+analyze
+Final learnt clause: 5 10 15 20 4 8 12 16 25 2 9 11 18 27 -31 
+analyze
+Final learnt clause: 5 10 15 4 8 12 25 2 9 11 18 27 3 6 14 17 28 16 
+analyze
+Final learnt clause: 4 9 14 5 10 15 25 3 12 28 6 17 2 11 27 8 18 
+analyze
+Final learnt clause: 5 10 15 20 35 4 8 12 16 33 25 -36 
+analyze
+Final learnt clause: 3 9 15 16 28 4 10 11 17 8 12 25 19 5 20 -31 
+analyze
+Final learnt clause: 5 15 25 2 14 27 3 12 28 17 4 11 -7 
+analyze
+Final learnt clause: 2 14 27 33 7 12 17 4 11 35 5 16 32 3 28 36 20 
+analyze
+Final learnt clause: 4 7 15 18 32 5 11 19 33 36 2 23 27 31 3 12 28 35 17 -24 
+analyze
+Final learnt clause: 3 14 17 25 28 31 4 11 35 36 5 7 16 32 23 39 
+analyze
+Final learnt clause: 3 12 19 28 35 2 7 17 27 32 15 31 14 25 4 11 36 5 16 23 
+analyze
+Final learnt clause: 5 11 33 36 3 14 17 25 28 31 4 7 15 32 2 12 27 35 16 
+analyze
+Final learnt clause: 4 7 15 32 5 11 33 36 2 27 31 3 12 28 17 14 25 35 
+analyze
+Final learnt clause: 2 11 25 27 36 14 3 15 28 34 17 31 7 12 32 -24 
+analyze
+Final learnt clause: 2 7 12 17 27 32 15 31 3 14 25 28 11 36 34 
+analyze
+Final learnt clause: 4 7 15 5 11 36 2 27 31 3 12 28 17 14 25 32 
+analyze
+Final learnt clause: 3 12 28 35 37 4 11 17 36 25 33 5 24 31 2 27 34 18 
+analyze
+Final learnt clause: 5 15 35 4 12 33 3 28 2 27 31 34 11 17 36 25 24 -39 
+analyze
+Final learnt clause: 4 14 34 3 12 28 35 5 11 33 36 15 25 2 27 17 31 24 
+analyze
+Final learnt clause: 4 12 25 33 5 11 22 36 2 14 21 27 15 23 31 3 28 35 -18 
+analyze
+Final learnt clause: 5 15 25 3 14 17 28 31 2 27 12 4 11 7 36 
+analyze
+Final learnt clause: 2 7 12 17 27 37 3 9 15 16 28 40 22 
+analyze
+Final learnt clause: 4 7 15 18 21 40 5 10 25 2 8 14 27 39 20 
+analyze
+Final learnt clause: 5 7 14 39 4 9 3 10 12 28 37 15 18 40 25 2 8 27 17 16 
+analyze
+Final learnt clause: 4 9 14 39 5 10 15 25 40 2 7 12 17 27 37 8 3 28 18 
+analyze
+Final learnt clause: 2 14 27 3 12 28 15 7 17 4 5 25 11 31 
+analyze
+Final learnt clause: 4 7 15 32 5 25 35 3 12 28 2 14 27 33 17 11 24 20 
+analyze
+Final learnt clause: 3 12 28 14 17 25 15 16 2 11 18 27 19 -8 
+analyze
+Final learnt clause: 5 8 11 19 33 4 10 17 35 7 14 16 32 39 15 18 3 12 28 21 
+analyze
+Final learnt clause: 2 7 12 17 27 4 11 35 5 14 16 39 32 8 19 33 15 18 3 28 10 
+analyze
+Final learnt clause: 5 7 14 16 32 4 19 24 34 3 17 28 2 12 27 11 18 35 8 33 15 39 
+analyze
+Final learnt clause: 3 12 28 35 2 11 25 27 34 7 17 32 5 14 4 33 15 24 

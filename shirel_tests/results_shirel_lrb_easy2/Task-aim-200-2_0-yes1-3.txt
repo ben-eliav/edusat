@@ -1,0 +1,96 @@
+aim-200-2_0-yes1-3.cnf
+This is edusat
+vars: 200 clauses: 400
+Read 400 clauses in 0.002 secs.
+Solving...
+analyze
+Final learnt clause: 41 -83 
+analyze
+Final learnt clause: 1 -99 
+analyze
+Final learnt clause: 99 -41 
+analyze
+Final learnt clause: 99 
+analyze
+Final learnt clause: 40 139 
+analyze
+Final learnt clause: -21 104 31 
+analyze
+Final learnt clause: 151 -31 
+analyze
+Final learnt clause: 189 117 
+analyze
+Final learnt clause: 193 -47 -102 
+analyze
+Final learnt clause: 46 102 
+analyze
+Final learnt clause: -142 163 
+analyze
+Final learnt clause: 80 160 -180 
+analyze
+Final learnt clause: 180 197 -193 -35 
+analyze
+Final learnt clause: 35 -193 -104 173 
+analyze
+Final learnt clause: -117 -173 -111 
+analyze
+Final learnt clause: -173 -189 
+analyze
+Final learnt clause: -193 -173 
+analyze
+Final learnt clause: 180 -104 -193 
+analyze
+Final learnt clause: 193 -104 173 
+analyze
+Final learnt clause: -104 193 
+analyze
+Final learnt clause: 156 36 
+analyze
+Final learnt clause: 125 61 -42 
+analyze
+Final learnt clause: 120 -50 
+analyze
+Final learnt clause: -88 192 28 
+analyze
+Final learnt clause: 166 48 -158 
+analyze
+Final learnt clause: 166 -197 83 50 -175 
+analyze
+Final learnt clause: -23 185 -200 -28 
+analyze
+Final learnt clause: 179 -38 
+analyze
+Final learnt clause: 28 127 105 
+analyze
+Final learnt clause: 23 -47 58 -125 
+analyze
+Final learnt clause: -29 38 -122 
+analyze
+Final learnt clause: 31 50 -197 83 -175 
+analyze
+Final learnt clause: -29 -141 31 -139 -152 -71 
+analyze
+Final learnt clause: -29 -139 -47 61 -80 50 -197 83 31 
+analyze
+Final learnt clause: -139 -60 96 
+analyze
+Final learnt clause: -29 -139 -47 50 -197 -87 160 -193 -162 -171 
+analyze
+Final learnt clause: -1 94 -119 
+analyze
+Final learnt clause: 185 -23 -127 
+analyze
+Final learnt clause: 148 168 158 
+analyze
+Final learnt clause: 113 -90 -195 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	40
+### Decisions:		134
+### Implications:	742
+### Time:		0.019
+Assignment validated
+solution in assignment.txt
+SAT

@@ -47,7 +47,7 @@ enum class VAR_DEC_HEURISTIC {
 	LRB_BS
  } ;
 
-VAR_DEC_HEURISTIC VarDecHeuristic = VAR_DEC_HEURISTIC::LRB_BS;
+VAR_DEC_HEURISTIC VarDecHeuristic = VAR_DEC_HEURISTIC::MINISAT;
 
 enum class VAL_DEC_HEURISTIC {
 	/* Same as last value. Initially false*/

@@ -1,0 +1,148 @@
+aim-200-2_0-yes1-1.cnf
+This is edusat
+vars: 200 clauses: 400
+Read 400 clauses in 0.003 secs.
+Solving...
+analyze
+Final learnt clause: 188 168 
+analyze
+Final learnt clause: 38 -164 
+analyze
+Final learnt clause: -152 168 
+analyze
+Final learnt clause: 174 -168 
+analyze
+Final learnt clause: 110 168 
+analyze
+Final learnt clause: -168 
+analyze
+Final learnt clause: -107 130 28 
+analyze
+Final learnt clause: 2 -122 -28 
+analyze
+Final learnt clause: -122 -127 107 
+analyze
+Final learnt clause: -130 -136 93 
+analyze
+Final learnt clause: 134 139 
+analyze
+Final learnt clause: -110 -127 -190 
+analyze
+Final learnt clause: -17 190 8 -32 132 56 
+analyze
+Final learnt clause: 78 190 8 171 -32 132 -17 
+analyze
+Final learnt clause: 190 8 -32 132 -84 78 
+analyze
+Final learnt clause: -84 -181 -78 
+analyze
+Final learnt clause: 78 -17 190 8 -57 
+analyze
+Final learnt clause: 171 -32 57 
+analyze
+Final learnt clause: 190 8 -32 24 129 
+analyze
+Final learnt clause: -56 -135 -10 
+analyze
+Final learnt clause: -95 -173 52 
+analyze
+Final learnt clause: 10 39 -61 
+analyze
+Final learnt clause: 95 8 -67 
+analyze
+Final learnt clause: -105 95 -73 
+analyze
+Final learnt clause: -65 78 -183 
+analyze
+Final learnt clause: 96 -64 -138 -137 
+analyze
+Final learnt clause: -164 112 185 
+analyze
+Final learnt clause: -103 -107 123 
+analyze
+Final learnt clause: -25 -103 -32 73 178 
+analyze
+Final learnt clause: -200 -139 -103 49 
+analyze
+Final learnt clause: -92 -200 71 
+analyze
+Final learnt clause: -32 -139 -103 -93 -60 
+analyze
+Final learnt clause: 9 -93 60 
+analyze
+Final learnt clause: -32 -55 -49 
+analyze
+Final learnt clause: -32 -93 -139 -60 
+analyze
+Final learnt clause: -93 60 
+analyze
+Final learnt clause: -55 99 49 
+analyze
+Final learnt clause: 78 -17 190 -57 
+analyze
+Final learnt clause: 70 78 -183 
+analyze
+Final learnt clause: -123 -135 -10 
+analyze
+Final learnt clause: 10 -95 -52 
+analyze
+Final learnt clause: 128 33 153 
+analyze
+Final learnt clause: 53 -184 -176 
+analyze
+Final learnt clause: 32 -89 192 
+analyze
+Final learnt clause: 80 -134 18 
+analyze
+Final learnt clause: -18 -134 199 
+analyze
+Final learnt clause: 94 -129 -146 
+analyze
+Final learnt clause: -18 -199 -174 
+analyze
+Final learnt clause: 73 190 96 -181 -84 
+analyze
+Final learnt clause: 67 171 190 96 78 
+analyze
+Final learnt clause: -130 -26 
+analyze
+Final learnt clause: -8 -78 -148 -17 
+analyze
+Final learnt clause: -197 32 -89 
+analyze
+Final learnt clause: -49 -91 51 
+analyze
+Final learnt clause: 78 171 190 67 
+analyze
+Final learnt clause: 171 78 190 183 -17 
+analyze
+Final learnt clause: 78 171 17 
+analyze
+Final learnt clause: -166 -21 113 
+analyze
+Final learnt clause: -199 -165 184 114 
+analyze
+Final learnt clause: -117 -137 66 -93 31 -75 98 -22 11 41 
+analyze
+Final learnt clause: -117 -114 -193 
+analyze
+Final learnt clause: 30 -93 -60 96 -165 -199 190 184 
+analyze
+Final learnt clause: -150 -41 33 
+analyze
+Final learnt clause: -175 -93 -138 -75 69 115 
+analyze
+Final learnt clause: -41 -54 -58 
+analyze
+Final learnt clause: -153 58 -74 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	66
+### Decisions:		368
+### Implications:	1110
+### Time:		0.032
+Assignment validated
+solution in assignment.txt
+SAT

@@ -1,0 +1,64 @@
+aim-200-1_6-yes1-3.cnf
+This is edusat
+vars: 200 clauses: 320
+Read 320 clauses in 0.003 secs.
+Solving...
+analyze
+Final learnt clause: 72 -46 
+analyze
+Final learnt clause: 103 21 
+analyze
+Final learnt clause: 171 -21 -175 
+analyze
+Final learnt clause: -115 -95 
+analyze
+Final learnt clause: 146 43 -145 
+analyze
+Final learnt clause: 7 -90 -138 
+analyze
+Final learnt clause: 21 63 
+analyze
+Final learnt clause: 186 -1 113 
+analyze
+Final learnt clause: 96 191 -29 
+analyze
+Final learnt clause: 96 191 
+analyze
+Final learnt clause: 73 57 55 
+analyze
+Final learnt clause: 45 33 -77 
+analyze
+Final learnt clause: -3 -36 77 
+analyze
+Final learnt clause: -57 81 -11 
+analyze
+Final learnt clause: 73 55 180 
+analyze
+Final learnt clause: -81 71 195 
+analyze
+Final learnt clause: 131 -86 
+analyze
+Final learnt clause: -157 52 10 
+analyze
+Final learnt clause: -71 26 154 
+analyze
+Final learnt clause: -77 -3 -33 
+analyze
+Final learnt clause: 8 170 -115 
+analyze
+Final learnt clause: 115 130 72 
+analyze
+Final learnt clause: 115 -72 
+analyze
+Final learnt clause: 115 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	24
+### Decisions:		181
+### Implications:	729
+### Time:		0.017
+Assignment validated
+solution in assignment.txt
+SAT

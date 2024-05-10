@@ -1,0 +1,22 @@
+aim-50-2_0-yes1-4.cnf
+This is edusat
+vars: 50 clauses: 100
+Read 100 clauses in 0.001 secs.
+Solving...
+analyze
+Final learnt clause: 44 13 
+analyze
+Final learnt clause: -29 33 
+analyze
+Final learnt clause: -42 15 -46 -1 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	3
+### Decisions:		9
+### Implications:	81
+### Time:		0.012
+Assignment validated
+solution in assignment.txt
+SAT

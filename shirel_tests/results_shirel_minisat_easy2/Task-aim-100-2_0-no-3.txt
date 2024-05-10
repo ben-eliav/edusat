@@ -1,0 +1,42 @@
+aim-100-2_0-no-3.cnf
+This is edusat
+vars: 100 clauses: 200
+Read 200 clauses in 0.002 secs.
+Solving...
+analyze
+Final learnt clause: 18 100 -33 
+analyze
+Final learnt clause: -16 67 77 
+analyze
+Final learnt clause: -23 72 99 
+analyze
+Final learnt clause: -16 65 67 
+analyze
+Final learnt clause: 84 18 -67 
+analyze
+Final learnt clause: 22 67 -16 
+analyze
+Final learnt clause: 99 22 -72 
+analyze
+Final learnt clause: 22 67 
+analyze
+Final learnt clause: -67 18 
+analyze
+Final learnt clause: -18 -95 9 
+analyze
+Final learnt clause: -18 -9 -40 
+analyze
+Final learnt clause: -18 -9 
+analyze
+Final learnt clause: -67 
+analyze
+Final learnt clause: 67 -22 -77 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	14
+### Decisions:		52
+### Implications:	102
+### Time:		0.004
+UNSAT

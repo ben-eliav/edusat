@@ -1,0 +1,42 @@
+aim-50-3_4-yes1-2.cnf
+This is edusat
+vars: 50 clauses: 170
+Read 170 clauses in 0.002 secs.
+Solving...
+analyze
+Final learnt clause: 47 30 37 7 
+analyze
+Final learnt clause: -21 -4 -3 -12 
+analyze
+Final learnt clause: 13 31 11 -45 
+analyze
+Final learnt clause: 47 30 14 
+analyze
+Final learnt clause: 31 45 
+analyze
+Final learnt clause: 47 30 
+analyze
+Final learnt clause: -4 43 
+analyze
+Final learnt clause: -34 -25 -48 
+analyze
+Final learnt clause: -30 -34 -46 -40 18 -4 
+analyze
+Final learnt clause: 24 -25 -36 31 22 -40 -11 3 -21 
+analyze
+Final learnt clause: 24 -40 31 -13 -25 3 -46 -11 
+analyze
+Final learnt clause: -46 2 -45 -40 31 3 -30 -34 -25 
+analyze
+Final learnt clause: -40 2 -46 -45 -34 -30 25 -7 -13 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	13
+### Decisions:		19
+### Implications:	271
+### Time:		0.012
+Assignment validated
+solution in assignment.txt
+SAT

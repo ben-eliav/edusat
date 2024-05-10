@@ -1,0 +1,98 @@
+aim-200-1_6-yes1-2.cnf
+This is edusat
+vars: 200 clauses: 320
+Read 320 clauses in 0.002 secs.
+Solving...
+analyze
+Final learnt clause: 97 115 
+analyze
+Final learnt clause: -138 61 
+analyze
+Final learnt clause: -61 161 74 
+analyze
+Final learnt clause: 171 -61 -63 
+analyze
+Final learnt clause: -115 28 
+analyze
+Final learnt clause: 162 129 16 
+analyze
+Final learnt clause: 35 129 -16 
+analyze
+Final learnt clause: 50 -18 -91 
+analyze
+Final learnt clause: 50 -183 -150 7 112 
+analyze
+Final learnt clause: -158 68 143 
+analyze
+Final learnt clause: -143 -158 83 
+analyze
+Final learnt clause: -183 7 -150 50 
+analyze
+Final learnt clause: 18 -150 112 
+analyze
+Final learnt clause: 143 -183 -181 
+analyze
+Final learnt clause: 7 38 
+analyze
+Final learnt clause: 36 -121 58 
+analyze
+Final learnt clause: -159 36 -58 
+analyze
+Final learnt clause: 82 -110 8 
+analyze
+Final learnt clause: 68 97 -17 
+analyze
+Final learnt clause: -185 -189 67 -119 -118 70 64 86 
+analyze
+Final learnt clause: -103 64 -86 
+analyze
+Final learnt clause: -185 67 -119 -118 104 77 193 
+analyze
+Final learnt clause: -185 85 -151 
+analyze
+Final learnt clause: -185 67 -119 -137 
+analyze
+Final learnt clause: -118 6 -174 
+analyze
+Final learnt clause: 161 97 
+analyze
+Final learnt clause: 151 -94 -95 
+analyze
+Final learnt clause: -94 95 -152 
+analyze
+Final learnt clause: 135 48 45 
+analyze
+Final learnt clause: -164 -97 161 112 -181 68 
+analyze
+Final learnt clause: -164 -115 
+analyze
+Final learnt clause: -97 115 
+analyze
+Final learnt clause: 111 174 14 165 
+analyze
+Final learnt clause: 111 174 133 -179 
+analyze
+Final learnt clause: 111 -131 -1 
+analyze
+Final learnt clause: 102 111 -72 
+analyze
+Final learnt clause: -184 -26 -44 
+analyze
+Final learnt clause: -184 -4 -32 
+analyze
+Final learnt clause: -41 106 -56 
+analyze
+Final learnt clause: -70 5 80 
+analyze
+Final learnt clause: 5 -107 -80 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	41
+### Decisions:		150
+### Implications:	778
+### Time:		0.019
+Assignment validated
+solution in assignment.txt
+SAT

@@ -416,12 +416,16 @@ SolverState Solver::decide(){
 		if (m_should_reset_iterators) reset_iterators(m_curr_activity);  // Save current top core for some reason. I don't know why he does this in the original code?
 		if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;
 		double random_num = static_cast<double>(rand()) / RAND_MAX;// O-1
-			if (random_num < LRB_BS_EPSILON) {
+		if (random_num < LRB_BS_EPSILON) {
 				while (true) {
 					int random_num2 = rand() % nvars; // 0->nvars
+					//printf("nvars=");
+					//std::cout.precision(3);
+					//std::cout  << nvars << std::endl;
+					//printf("random_num2 %d\n", random_num2);
 					if (state[random_num2] == VarState::V_UNASSIGNED) {
 						best_lit = getVal(random_num2);
-						break; 
+						goto Apply_decision;  // done. 
 					}
 				}
 			}

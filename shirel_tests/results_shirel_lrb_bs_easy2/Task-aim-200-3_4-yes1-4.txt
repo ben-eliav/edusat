@@ -1,0 +1,82 @@
+aim-200-3_4-yes1-4.cnf
+This is edusat
+vars: 200 clauses: 680
+Read 680 clauses in 0.003 secs.
+Solving...
+analyze
+Final learnt clause: 131 -167 
+analyze
+Final learnt clause: 53 167 
+analyze
+Final learnt clause: 51 -11 
+analyze
+Final learnt clause: 64 -198 
+analyze
+Final learnt clause: 64 39 
+analyze
+Final learnt clause: 53 64 
+analyze
+Final learnt clause: -83 118 
+analyze
+Final learnt clause: -118 61 164 
+analyze
+Final learnt clause: 130 171 
+analyze
+Final learnt clause: -9 -39 -171 
+analyze
+Final learnt clause: 11 5 194 
+analyze
+Final learnt clause: 69 -24 -107 153 67 -99 8 
+analyze
+Final learnt clause: 33 82 -46 158 -24 -8 
+analyze
+Final learnt clause: -131 51 101 
+analyze
+Final learnt clause: 171 53 -101 84 
+analyze
+Final learnt clause: 171 53 -131 -66 51 
+analyze
+Final learnt clause: 171 -84 163 
+analyze
+Final learnt clause: -66 158 171 53 -101 
+analyze
+Final learnt clause: 111 35 133 -189 -9 65 159 -83 33 
+analyze
+Final learnt clause: 82 40 
+analyze
+Final learnt clause: -64 116 
+analyze
+Final learnt clause: 164 100 -46 67 11 66 33 -131 82 -189 2 8 53 -51 -39 
+analyze
+Final learnt clause: -189 2 39 67 8 41 
+analyze
+Final learnt clause: 33 99 
+analyze
+Final learnt clause: -146 188 104 
+analyze
+Final learnt clause: -180 -60 -162 
+analyze
+Final learnt clause: -200 152 -194 94 -120 124 -86 -7 177 193 65 -170 -131 158 59 
+analyze
+Final learnt clause: 162 -108 -40 -45 156 186 6 -46 16 47 -11 
+analyze
+Final learnt clause: 53 -178 94 -189 -200 -194 -86 -7 177 -131 -46 128 -108 -40 -45 6 16 47 -118 -154 -60 184 149 19 164 
+analyze
+Final learnt clause: 66 11 -25 -5 
+analyze
+Final learnt clause: 3 -52 -71 
+analyze
+Final learnt clause: -68 -103 -147 
+analyze
+Final learnt clause: -190 177 -200 66 6 -99 71 -60 -189 -138 93 -194 -7 -9 -103 -61 5 -15 67 8 41 39 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	33
+### Decisions:		145
+### Implications:	1033
+### Time:		0.023
+Assignment validated
+solution in assignment.txt
+SAT

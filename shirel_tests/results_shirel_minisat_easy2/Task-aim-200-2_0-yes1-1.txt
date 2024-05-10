@@ -1,0 +1,124 @@
+aim-200-2_0-yes1-1.cnf
+This is edusat
+vars: 200 clauses: 400
+Read 400 clauses in 0.004 secs.
+Solving...
+analyze
+Final learnt clause: 96 -173 52 
+analyze
+Final learnt clause: 84 -146 24 
+analyze
+Final learnt clause: -146 44 -24 
+analyze
+Final learnt clause: 148 96 -84 78 
+analyze
+Final learnt clause: -84 -181 -78 
+analyze
+Final learnt clause: -183 -131 76 
+analyze
+Final learnt clause: 10 78 -84 96 
+analyze
+Final learnt clause: -126 69 74 
+analyze
+Final learnt clause: 10 -95 -52 
+analyze
+Final learnt clause: 10 78 -183 
+analyze
+Final learnt clause: 174 166 135 
+analyze
+Final learnt clause: -84 10 78 
+analyze
+Final learnt clause: -146 181 24 
+analyze
+Final learnt clause: -131 -57 -76 
+analyze
+Final learnt clause: 110 168 -188 
+analyze
+Final learnt clause: 168 188 
+analyze
+Final learnt clause: -127 -110 -190 
+analyze
+Final learnt clause: -127 -122 107 
+analyze
+Final learnt clause: 60 -112 
+analyze
+Final learnt clause: 93 -107 28 
+analyze
+Final learnt clause: 2 -122 -28 
+analyze
+Final learnt clause: -93 60 
+analyze
+Final learnt clause: -92 -200 71 
+analyze
+Final learnt clause: -49 -91 51 
+analyze
+Final learnt clause: -55 -103 -94 -65 104 2 89 
+analyze
+Final learnt clause: -32 -55 -49 
+analyze
+Final learnt clause: 99 -55 192 -94 104 2 -96 -131 190 -57 
+analyze
+Final learnt clause: 99 57 -55 -32 
+analyze
+Final learnt clause: -55 -94 104 2 89 -45 -65 
+analyze
+Final learnt clause: 10 -131 65 
+analyze
+Final learnt clause: 104 2 -55 -94 -65 89 
+analyze
+Final learnt clause: -55 99 49 
+analyze
+Final learnt clause: 192 -93 
+analyze
+Final learnt clause: -152 168 
+analyze
+Final learnt clause: -99 -92 -200 
+analyze
+Final learnt clause: -168 38 
+analyze
+Final learnt clause: -168 
+analyze
+Final learnt clause: 80 -94 -134 
+analyze
+Final learnt clause: 139 134 
+analyze
+Final learnt clause: 181 94 -146 
+analyze
+Final learnt clause: -134 80 18 
+analyze
+Final learnt clause: -18 -134 199 
+analyze
+Final learnt clause: -199 -18 -174 
+analyze
+Final learnt clause: -166 -21 113 
+analyze
+Final learnt clause: -191 120 -103 
+analyze
+Final learnt clause: -7 151 46 -154 35 -199 -121 140 
+analyze
+Final learnt clause: -121 -140 
+analyze
+Final learnt clause: -19 -117 175 
+analyze
+Final learnt clause: 45 104 -82 
+analyze
+Final learnt clause: -187 -53 -109 
+analyze
+Final learnt clause: -150 -93 11 98 31 66 -199 -121 
+analyze
+Final learnt clause: 154 120 -162 
+analyze
+Final learnt clause: -191 120 162 
+analyze
+Final learnt clause: 45 187 -149 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	54
+### Decisions:		330
+### Implications:	1234
+### Time:		0.021
+Assignment validated
+solution in assignment.txt
+SAT

@@ -1,0 +1,98 @@
+aim-100-1_6-yes1-3.cnf
+This is edusat
+vars: 100 clauses: 160
+Read 160 clauses in 0.001 secs.
+Solving...
+analyze
+Final learnt clause: 68 81 64 
+analyze
+Final learnt clause: 90 -58 -9 -35 
+analyze
+Final learnt clause: 87 23 -93 
+analyze
+Final learnt clause: 71 -56 
+analyze
+Final learnt clause: 37 11 -64 
+analyze
+Final learnt clause: 48 -3 -99 
+analyze
+Final learnt clause: -20 100 -38 
+analyze
+Final learnt clause: 38 -63 -40 
+analyze
+Final learnt clause: 65 -30 40 
+analyze
+Final learnt clause: 74 48 -99 
+analyze
+Final learnt clause: -58 -20 22 11 63 
+analyze
+Final learnt clause: -20 -63 -40 
+analyze
+Final learnt clause: 27 40 -30 
+analyze
+Final learnt clause: 94 -58 -63 25 
+analyze
+Final learnt clause: 94 31 41 
+analyze
+Final learnt clause: 75 94 70 
+analyze
+Final learnt clause: 35 93 5 
+analyze
+Final learnt clause: -79 -25 51 
+analyze
+Final learnt clause: -25 -8 -89 
+analyze
+Final learnt clause: -8 -68 89 
+analyze
+Final learnt clause: 22 25 -87 
+analyze
+Final learnt clause: 53 48 -99 
+analyze
+Final learnt clause: 97 94 41 
+analyze
+Final learnt clause: 35 87 23 
+analyze
+Final learnt clause: 53 1 -18 
+analyze
+Final learnt clause: 53 -74 -47 
+analyze
+Final learnt clause: 94 16 98 
+analyze
+Final learnt clause: -37 56 59 
+analyze
+Final learnt clause: -59 -58 -14 
+analyze
+Final learnt clause: 42 100 -81 14 -17 
+analyze
+Final learnt clause: 42 100 17 62 
+analyze
+Final learnt clause: -81 42 100 14 
+analyze
+Final learnt clause: -59 -14 -2 
+analyze
+Final learnt clause: -81 -7 -62 
+analyze
+Final learnt clause: 42 100 62 
+analyze
+Final learnt clause: 42 -17 -86 
+analyze
+Final learnt clause: 42 86 
+analyze
+Final learnt clause: 17 -62 -7 
+analyze
+Final learnt clause: -89 -79 -51 
+analyze
+Final learnt clause: -38 -57 46 
+analyze
+Final learnt clause: 27 11 -58 25 22 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	41
+### Decisions:		203
+### Implications:	628
+### Time:		0.016
+Assignment validated
+solution in assignment.txt
+SAT

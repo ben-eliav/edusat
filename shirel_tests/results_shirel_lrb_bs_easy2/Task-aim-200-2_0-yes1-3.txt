@@ -1,0 +1,96 @@
+aim-200-2_0-yes1-3.cnf
+This is edusat
+vars: 200 clauses: 400
+Read 400 clauses in 0.002 secs.
+Solving...
+analyze
+Final learnt clause: 41 -83 
+analyze
+Final learnt clause: 1 -99 
+analyze
+Final learnt clause: 67 99 
+analyze
+Final learnt clause: 40 139 
+analyze
+Final learnt clause: -21 104 31 
+analyze
+Final learnt clause: 151 -31 
+analyze
+Final learnt clause: 189 117 
+analyze
+Final learnt clause: 193 -47 -102 
+analyze
+Final learnt clause: 46 102 
+analyze
+Final learnt clause: -83 43 -199 
+analyze
+Final learnt clause: -157 33 -8 
+analyze
+Final learnt clause: 156 36 
+analyze
+Final learnt clause: 125 106 -42 
+analyze
+Final learnt clause: 124 156 -63 176 192 
+analyze
+Final learnt clause: 191 138 -187 
+analyze
+Final learnt clause: 25 -14 135 
+analyze
+Final learnt clause: 7 34 24 
+analyze
+Final learnt clause: 113 -90 -195 
+analyze
+Final learnt clause: -102 -84 -128 
+analyze
+Final learnt clause: 38 -29 -122 
+analyze
+Final learnt clause: 125 -29 38 
+analyze
+Final learnt clause: -36 -38 
+analyze
+Final learnt clause: -187 -27 -107 
+analyze
+Final learnt clause: -61 -162 -171 
+analyze
+Final learnt clause: -1 94 -119 
+analyze
+Final learnt clause: -139 -60 96 
+analyze
+Final learnt clause: 93 65 53 
+analyze
+Final learnt clause: -101 -165 112 72 
+analyze
+Final learnt clause: -142 163 
+analyze
+Final learnt clause: -196 -163 167 
+analyze
+Final learnt clause: -23 185 -28 97 
+analyze
+Final learnt clause: 31 -158 -166 
+analyze
+Final learnt clause: 147 31 83 172 168 
+analyze
+Final learnt clause: 182 -48 
+analyze
+Final learnt clause: -53 141 50 
+analyze
+Final learnt clause: 120 -50 
+analyze
+Final learnt clause: -200 198 -104 173 
+analyze
+Final learnt clause: -117 -173 -111 
+analyze
+Final learnt clause: -173 -189 
+analyze
+Final learnt clause: -173 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	40
+### Decisions:		259
+### Implications:	947
+### Time:		0.021
+Assignment validated
+solution in assignment.txt
+SAT

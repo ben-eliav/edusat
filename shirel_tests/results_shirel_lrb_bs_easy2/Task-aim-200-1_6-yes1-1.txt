@@ -1,0 +1,68 @@
+aim-200-1_6-yes1-1.cnf
+This is edusat
+vars: 200 clauses: 320
+Read 320 clauses in 0.002 secs.
+Solving...
+analyze
+Final learnt clause: 4 -20 
+analyze
+Final learnt clause: 196 20 
+analyze
+Final learnt clause: 56 195 -192 
+analyze
+Final learnt clause: 153 -53 -98 
+analyze
+Final learnt clause: 67 59 140 
+analyze
+Final learnt clause: 67 72 106 
+analyze
+Final learnt clause: 67 102 -116 -155 
+analyze
+Final learnt clause: 67 -20 
+analyze
+Final learnt clause: 20 
+analyze
+Final learnt clause: -72 102 -116 -155 
+analyze
+Final learnt clause: 178 -33 -99 
+analyze
+Final learnt clause: 59 103 -140 
+analyze
+Final learnt clause: -37 -186 94 
+analyze
+Final learnt clause: 173 40 -39 
+analyze
+Final learnt clause: 111 123 -28 
+analyze
+Final learnt clause: -133 48 103 -185 
+analyze
+Final learnt clause: -133 -139 48 43 
+analyze
+Final learnt clause: -19 -133 -52 
+analyze
+Final learnt clause: 185 44 171 181 122 161 -200 188 102 70 144 
+analyze
+Final learnt clause: -83 -55 -144 
+analyze
+Final learnt clause: 103 44 -143 68 52 -19 
+analyze
+Final learnt clause: 168 -43 -71 
+analyze
+Final learnt clause: 185 44 -143 -169 
+analyze
+Final learnt clause: 73 185 -93 
+analyze
+Final learnt clause: 177 68 166 
+analyze
+Final learnt clause: 68 -166 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	26
+### Decisions:		121
+### Implications:	638
+### Time:		0.017
+Assignment validated
+solution in assignment.txt
+SAT

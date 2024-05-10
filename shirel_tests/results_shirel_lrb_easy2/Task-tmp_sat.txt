@@ -1,0 +1,5 @@
+tmp_sat
+This is edusat
+
+Abort: (input error)
+Expecting `p cnf' in the beginning of the input file

@@ -1,0 +1,1416 @@
+aim-200-6_0-yes1-1.cnf
+This is edusat
+vars: 200 clauses: 1200
+Read 1200 clauses in 0.01 secs.
+Solving...
+analyze
+Final learnt clause: 13 -88 
+analyze
+Final learnt clause: 41 -192 13 -176 -110 128 104 35 22 18 191 55 
+analyze
+Final learnt clause: -105 -31 
+analyze
+Final learnt clause: 39 -110 43 181 163 103 
+analyze
+Final learnt clause: 117 163 -110 129 -1 
+analyze
+Final learnt clause: -69 117 43 163 -110 181 -176 13 
+analyze
+Final learnt clause: 147 43 117 -103 191 128 
+analyze
+Final learnt clause: 35 135 
+analyze
+Final learnt clause: 184 29 117 129 26 18 -135 37 104 
+analyze
+Final learnt clause: -176 -103 117 29 129 163 -128 184 26 18 -135 39 
+analyze
+Final learnt clause: -186 -192 129 155 67 80 
+analyze
+Final learnt clause: -103 18 -186 -192 129 155 67 
+analyze
+Final learnt clause: -13 26 -186 -110 184 29 117 18 -135 -176 -128 -103 155 163 43 129 
+analyze
+Final learnt clause: -107 92 155 18 -14 1 -129 -39 
+analyze
+Final learnt clause: 29 -88 26 181 117 158 
+analyze
+Final learnt clause: 163 155 181 117 -110 -135 -176 43 147 191 -13 
+analyze
+Final learnt clause: 43 117 163 -110 181 155 -135 147 191 
+analyze
+Final learnt clause: -158 -138 -145 -185 43 117 -13 
+analyze
+Final learnt clause: -150 -20 97 -39 43 -138 -145 -185 117 163 -110 -149 129 
+analyze
+Final learnt clause: 117 43 -110 163 147 155 35 -135 181 
+analyze
+Final learnt clause: -135 -91 
+analyze
+Final learnt clause: 155 -135 -181 134 43 121 -103 
+analyze
+Final learnt clause: 91 117 155 35 43 -135 147 163 
+analyze
+Final learnt clause: -95 -24 37 61 13 117 29 103 155 -72 -16 -110 1 -129 
+analyze
+Final learnt clause: 43 35 117 155 -110 1 91 -135 -181 
+analyze
+Final learnt clause: 129 18 43 -135 35 -110 29 181 -192 1 13 
+analyze
+Final learnt clause: -13 26 -186 -110 -176 29 184 117 129 18 -135 -67 88 
+analyze
+Final learnt clause: -163 18 181 35 -13 26 -110 -176 29 117 129 -135 -69 -103 -192 155 -186 
+analyze
+Final learnt clause: 18 -13 43 117 155 1 129 -135 181 147 -103 186 
+analyze
+Final learnt clause: 43 117 18 155 35 -135 129 181 -110 -163 -192 1 147 29 
+analyze
+Final learnt clause: 43 117 18 155 35 -135 129 181 -110 1 147 -29 -13 
+analyze
+Final learnt clause: 88 129 -192 18 159 61 155 117 152 43 -103 
+analyze
+Final learnt clause: 35 181 -67 155 -192 172 -110 152 61 176 
+analyze
+Final learnt clause: 155 -163 147 105 181 159 21 -29 -192 -123 
+analyze
+Final learnt clause: -192 -163 155 147 181 35 -110 43 1 117 -135 129 18 
+analyze
+Final learnt clause: -18 -163 35 181 155 -192 -110 147 -29 43 1 13 
+analyze
+Final learnt clause: 129 155 -110 -184 43 117 -18 -163 35 181 -192 147 1 -29 
+analyze
+Final learnt clause: 155 129 181 147 43 117 -135 -184 -13 
+analyze
+Final learnt clause: -110 181 1 155 147 43 117 -135 -163 35 129 
+analyze
+Final learnt clause: 117 -14 1 146 -129 -135 -158 -69 -18 
+analyze
+Final learnt clause: 155 18 -14 1 181 -129 147 43 117 -103 -135 -158 186 
+analyze
+Final learnt clause: -163 18 181 35 184 -9 -88 -67 
+analyze
+Final learnt clause: 147 35 155 117 43 -163 -135 91 -110 
+analyze
+Final learnt clause: 18 -192 -69 155 110 -14 1 -129 43 -163 181 35 -88 147 117 -103 -135 -158 
+analyze
+Final learnt clause: -14 -88 26 181 117 18 -69 155 110 1 -129 43 -163 35 147 -103 -135 -192 
+analyze
+Final learnt clause: -129 181 1 147 43 117 -103 -14 -88 192 -13 -29 
+analyze
+Final learnt clause: -163 155 18 -129 43 181 35 -88 -69 147 117 -103 -135 26 -13 110 1 
+analyze
+Final learnt clause: 35 29 18 -129 43 -158 -75 -163 181 -88 184 
+analyze
+Final learnt clause: 35 -69 -1 155 181 147 43 117 -103 -135 18 -129 -75 -163 -88 26 29 
+analyze
+Final learnt clause: 155 117 -1 181 147 43 -103 -135 -69 -184 
+analyze
+Final learnt clause: -177 160 -29 -174 43 -163 -65 114 171 -146 -164 192 
+analyze
+Final learnt clause: -69 -29 17 -88 176 -158 
+analyze
+Final learnt clause: -163 -88 -69 43 147 35 -129 181 155 117 -103 -135 26 -13 110 18 
+analyze
+Final learnt clause: -75 -9 -88 117 91 -192 35 -129 -163 181 158 
+analyze
+Final learnt clause: -129 -75 -69 -18 -29 -88 155 176 -158 
+analyze
+Final learnt clause: 26 117 184 91 35 43 -163 181 -18 -88 -75 -9 -129 -69 155 -13 -29 
+analyze
+Final learnt clause: 192 -75 -158 -69 -88 176 
+analyze
+Final learnt clause: -164 146 -9 -88 -75 26 110 -141 -186 
+analyze
+Final learnt clause: 155 -1 147 43 117 -103 -158 -129 -135 -9 -88 -75 26 110 29 -18 -69 192 
+analyze
+Final learnt clause: 155 -1 147 43 117 -103 -158 -129 -135 -9 -88 -75 26 110 -192 29 -18 -176 
+analyze
+Final learnt clause: -103 -88 26 -13 155 -163 35 147 43 117 -129 -135 110 -18 -69 181 91 -1 
+analyze
+Final learnt clause: 155 117 181 147 43 -135 91 -163 35 110 -129 
+analyze
+Final learnt clause: -103 -88 -75 26 -13 -9 155 -158 -163 35 176 
+analyze
+Final learnt clause: 101 129 -135 -1 155 91 181 -61 
+analyze
+Final learnt clause: -103 -176 184 -75 -186 -192 129 155 67 
+analyze
+Final learnt clause: -69 61 -1 147 155 43 117 -103 -88 -67 
+analyze
+Final learnt clause: -1 155 -69 147 43 117 -103 61 -135 184 -75 -192 129 67 171 -176 
+analyze
+Final learnt clause: -192 129 155 -135 147 43 117 -163 35 91 181 -18 -88 
+analyze
+Final learnt clause: 26 -75 56 147 -18 35 184 -186 -192 129 155 67 
+analyze
+Final learnt clause: 117 191 88 184 176 61 -163 -192 107 
+analyze
+Final learnt clause: -29 -103 -9 117 88 184 176 61 -163 -192 26 -75 56 147 -18 35 129 155 -135 43 191 
+analyze
+Final learnt clause: 88 181 -29 -103 -9 117 184 61 -163 -192 26 -75 147 -18 35 129 155 -135 43 -146 
+analyze
+Final learnt clause: 61 -69 -1 88 155 181 -29 -103 -9 117 184 -163 -192 26 -75 147 -18 35 129 -135 43 176 
+analyze
+Final learnt clause: -192 -75 -135 -29 -39 -103 35 -1 61 -137 96 
+analyze
+Final learnt clause: 88 155 -135 129 -1 -69 76 
+analyze
+Final learnt clause: 129 117 147 61 88 155 -135 -1 -163 181 43 -103 
+analyze
+Final learnt clause: -135 103 26 -163 155 110 129 117 147 61 88 -1 -69 
+analyze
+Final learnt clause: 91 88 -50 61 -137 -29 155 -1 129 -174 158 
+analyze
+Final learnt clause: -39 155 117 188 186 
+analyze
+Final learnt clause: -75 43 155 117 69 -184 -192 -29 91 88 -50 61 -1 129 -174 -18 -176 
+analyze
+Final learnt clause: 88 35 155 -75 110 13 176 -158 
+analyze
+Final learnt clause: 88 -135 -1 -192 155 110 129 91 61 -29 35 -75 13 43 117 69 -18 147 -184 
+analyze
+Final learnt clause: 69 92 
+analyze
+Final learnt clause: 26 -75 61 129 193 147 117 103 29 -174 158 
+analyze
+Final learnt clause: 101 -176 155 90 -75 181 43 -192 141 
+analyze
+Final learnt clause: 155 -1 -18 117 101 -75 181 43 -192 88 35 110 13 61 129 147 103 91 -135 -163 26 
+analyze
+Final learnt clause: 155 -1 -18 -184 29 117 -92 101 -75 181 43 -192 88 -176 
+analyze
+Final learnt clause: 43 88 35 129 -75 61 147 117 103 155 29 110 13 -1 -18 101 181 -192 91 -163 -92 
+analyze
+Final learnt clause: 147 61 88 155 -135 129 -1 110 92 
+analyze
+Final learnt clause: 147 117 88 155 -135 129 -192 110 91 35 43 -18 -163 181 -1 
+analyze
+Final learnt clause: 91 -50 159 61 -85 
+analyze
+Final learnt clause: 155 -163 147 181 -192 91 110 43 129 117 -135 35 -18 
+analyze
+Final learnt clause: 43 21 -163 159 18 -78 35 129 88 37 
+analyze
+Final learnt clause: -163 181 129 35 43 18 88 91 110 -192 1 103 
+analyze
+Final learnt clause: 181 29 147 43 117 -103 1 -135 155 129 -69 -184 
+analyze
+Final learnt clause: 88 129 -192 18 61 155 117 43 -103 152 
+analyze
+Final learnt clause: 18 181 110 -163 -192 91 29 117 -135 88 -152 
+analyze
+Final learnt clause: 18 1 155 129 181 117 -69 91 88 -192 43 -103 110 -163 -135 147 29 
+analyze
+Final learnt clause: 115 57 91 72 88 97 -67 
+analyze
+Final learnt clause: 1 18 43 117 155 129 -135 181 147 -103 -192 67 
+analyze
+Final learnt clause: 18 -135 -69 21 91 -61 
+analyze
+Final learnt clause: 18 117 -135 -163 88 129 -192 155 43 91 181 147 35 110 1 
+analyze
+Final learnt clause: 147 117 61 -184 88 155 -135 129 -1 -69 
+analyze
+Final learnt clause: 35 193 -87 
+analyze
+Final learnt clause: 129 110 35 147 91 -163 117 155 -135 181 43 18 -192 88 
+analyze
+Final learnt clause: 155 147 43 117 -135 91 -163 35 110 181 
+analyze
+Final learnt clause: -135 176 155 147 43 117 -103 18 -29 35 -192 129 -75 67 
+analyze
+Final learnt clause: -103 -88 -75 26 -13 155 -163 35 147 10 -69 -1 43 117 -135 18 -192 129 -29 
+analyze
+Final learnt clause: 147 43 -88 117 -103 45 
+analyze
+Final learnt clause: -135 155 129 147 43 117 -181 -88 
+analyze
+Final learnt clause: -76 147 88 129 -192 18 155 117 43 -103 96 61 
+analyze
+Final learnt clause: 88 18 -135 91 147 129 -192 155 117 43 -181 -1 -103 
+analyze
+Final learnt clause: -135 91 10 13 18 -69 -61 
+analyze
+Final learnt clause: -163 103 147 88 155 -135 129 -1 110 117 91 13 18 -181 -69 
+analyze
+Final learnt clause: 129 147 91 110 35 -163 88 155 -135 117 18 -181 43 -192 -1 
+analyze
+Final learnt clause: 155 43 35 88 129 -192 -181 -135 117 147 91 110 -163 18 
+analyze
+Final learnt clause: 43 35 88 129 -192 -181 155 -135 147 117 91 -18 1 
+analyze
+Final learnt clause: 129 147 91 110 103 35 193 
+analyze
+Final learnt clause: -18 117 88 35 155 -75 110 91 -181 147 -135 129 -1 -163 43 103 
+analyze
+Final learnt clause: -75 10 -103 -135 43 88 117 91 -61 
+analyze
+Final learnt clause: 147 -135 43 117 91 -181 155 35 110 -163 129 
+analyze
+Final learnt clause: 117 -163 184 -192 10 -129 -75 29 88 -18 -176 
+analyze
+Final learnt clause: -18 10 -144 -157 
+analyze
+Final learnt clause: 56 35 147 110 43 13 -69 -1 157 
+analyze
+Final learnt clause: 147 43 117 -103 155 -135 10 -18 -157 
+analyze
+Final learnt clause: -163 -192 -75 155 -129 35 -1 147 43 117 -135 -18 -181 -103 
+analyze
+Final learnt clause: 61 -69 147 110 -163 117 -192 10 -129 -75 29 88 -18 103 184 
+analyze
+Final learnt clause: -69 88 117 -135 186 -18 138 
+analyze
+Final learnt clause: -1 10 -69 88 117 -135 -18 91 -184 
+analyze
+Final learnt clause: 88 35 155 -75 110 13 117 -163 -192 -129 29 -18 147 103 -1 -135 91 -181 -69 
+analyze
+Final learnt clause: 147 88 -163 -129 110 103 35 155 -75 13 117 -192 -18 -1 -135 91 -181 29 
+analyze
+Final learnt clause: 117 35 -192 147 -129 110 91 103 -163 -92 
+analyze
+Final learnt clause: -192 -181 155 88 117 -135 -18 91 110 35 147 -129 -163 43 -1 
+analyze
+Final learnt clause: 88 117 -135 -18 -181 35 147 -129 110 91 -163 155 43 -192 
+analyze
+Final learnt clause: -181 147 88 155 -18 43 117 -135 -129 1 
+analyze
+Final learnt clause: 43 -18 147 -181 110 -163 103 -1 88 117 -135 91 -69 
+analyze
+Final learnt clause: -75 -135 43 147 -129 91 110 35 -163 -18 -181 -1 88 117 103 
+analyze
+Final learnt clause: 155 -129 35 88 117 -135 91 147 43 -181 110 -163 -18 
+analyze
+Final learnt clause: 43 35 88 184 155 -135 18 138 
+analyze
+Final learnt clause: 91 35 13 61 -1 147 110 43 -69 157 
+analyze
+Final learnt clause: 147 43 117 -103 -135 155 -69 35 88 18 138 
+analyze
+Final learnt clause: -129 18 155 -75 35 -1 147 43 117 -135 88 -181 -103 
+analyze
+Final learnt clause: 192 117 88 147 155 -135 91 43 35 18 13 -1 110 -181 -69 
+analyze
+Final learnt clause: 35 117 147 -129 110 91 -163 192 88 155 -135 43 18 -181 -1 
+analyze
+Final learnt clause: 82 143 
+analyze
+Final learnt clause: 147 -163 88 155 117 43 -181 -135 -129 1 
+analyze
+Final learnt clause: 147 -135 91 -181 110 43 117 35 -129 -163 155 88 
+analyze
+Final learnt clause: 147 -135 91 -181 43 117 -129 155 88 35 
+analyze
+Final learnt clause: 91 29 -129 -69 61 128 103 155 176 -172 
+analyze
+Final learnt clause: -174 91 -69 29 88 186 -129 61 128 103 155 176 
+analyze
+Final learnt clause: 91 -50 61 88 -174 -69 -35 29 -176 9 
+analyze
+Final learnt clause: -129 146 -176 18 -135 -192 138 
+analyze
+Final learnt clause: -1 10 -129 18 -135 -192 26 91 -69 29 88 61 103 155 -184 
+analyze
+Final learnt clause: -129 -35 13 110 -163 -193 
+analyze
+Final learnt clause: -192 18 10 -1 -174 -129 186 -158 
+analyze
+Final learnt clause: 193 -50 -129 88 18 155 -135 -192 -1 -174 -181 -184 -69 
+analyze
+Final learnt clause: -127 -184 193 18 -192 10 -1 66 
+analyze
+Final learnt clause: -163 104 117 -75 155 -192 18 -1 -174 -129 13 -184 193 10 
+analyze
+Final learnt clause: -163 29 147 -129 43 -192 141 
+analyze
+Final learnt clause: -174 110 13 193 18 -192 55 
+analyze
+Final learnt clause: -92 -163 147 -129 43 -192 -55 29 
+analyze
+Final learnt clause: 69 -50 -47 -1 -163 13 -55 186 -29 -158 
+analyze
+Final learnt clause: -55 27 117 -135 88 -129 -10 -167 
+analyze
+Final learnt clause: 110 193 13 -1 -29 -55 27 117 -135 88 -129 -26 -10 
+analyze
+Final learnt clause: -29 -75 -92 110 -192 18 -1 -174 -129 13 88 -163 117 155 -184 193 -138 10 
+analyze
+Final learnt clause: 18 -1 117 -135 88 -129 -75 110 -192 -163 155 147 43 -181 91 -35 103 
+analyze
+Final learnt clause: 147 193 -129 88 18 155 -135 -192 -1 -181 -69 91 -184 
+analyze
+Final learnt clause: 10 -29 -129 -103 -69 43 -1 157 
+analyze
+Final learnt clause: -192 110 91 -69 -135 147 43 117 -103 88 155 20 
+analyze
+Final learnt clause: -129 -35 -1 -135 110 91 147 43 117 88 155 -181 18 -75 -163 -192 
+analyze
+Final learnt clause: 155 13 -35 -1 117 10 -135 147 43 -103 -69 -184 
+analyze
+Final learnt clause: 155 147 43 117 -103 176 -135 -9 186 
+analyze
+Final learnt clause: -163 29 147 -129 43 192 141 
+analyze
+Final learnt clause: -129 29 193 -35 -69 26 -161 
+analyze
+Final learnt clause: 43 147 -69 10 192 88 -9 155 117 -103 -135 -141 110 161 
+analyze
+Final learnt clause: 18 -141 155 -35 -69 -161 
+analyze
+Final learnt clause: 117 -163 -69 -135 110 43 147 10 192 88 155 -103 18 -35 -141 
+analyze
+Final learnt clause: 192 -75 -129 43 -1 -163 147 117 -135 110 88 155 18 -35 -181 -103 
+analyze
+Final learnt clause: 61 -69 147 -75 91 128 -174 -135 -184 9 
+analyze
+Final learnt clause: 60 -29 
+analyze
+Final learnt clause: 13 192 88 -174 91 -129 103 155 -184 147 -75 -135 18 -181 -69 
+analyze
+Final learnt clause: 186 -174 -66 
+analyze
+Final learnt clause: 193 -129 128 88 155 -135 20 
+analyze
+Final learnt clause: 155 193 117 -35 -184 -1 -129 88 -135 -92 -163 147 43 192 29 
+analyze
+Final learnt clause: -35 -129 88 -181 155 117 -135 147 43 91 18 -163 
+analyze
+Final learnt clause: 88 -35 155 117 43 -181 -135 -129 91 147 163 
+analyze
+Final learnt clause: -35 -75 -129 88 192 -181 155 117 -1 -135 -163 147 43 110 -18 91 103 
+analyze
+Final learnt clause: 147 43 88 155 117 -135 110 -163 -129 -1 -18 91 -181 -35 -75 192 
+analyze
+Final learnt clause: 147 -181 117 -163 -192 -129 -75 88 -18 43 -1 -135 91 155 110 -103 
+analyze
+Final learnt clause: -174 110 193 -18 -92 -192 -163 147 -129 43 29 
+analyze
+Final learnt clause: -135 10 193 -129 88 155 -1 -174 186 
+analyze
+Final learnt clause: -163 147 -129 43 -192 141 
+analyze
+Final learnt clause: 117 155 -129 -135 147 43 91 88 
+analyze
+Final learnt clause: 26 155 -99 -13 -135 43 -69 -88 147 117 -103 -18 -45 10 
+analyze
+Final learnt clause: -163 -88 -99 -127 155 147 43 117 -103 -135 -9 -1 -129 -75 26 110 -192 -18 181 29 
+analyze
+Final learnt clause: -35 -192 181 110 117 -141 -88 155 147 43 -103 -135 -129 -69 -18 26 -13 -163 -99 -1 
+analyze
+Final learnt clause: 181 117 155 -45 -99 147 -135 91 -69 -18 -35 -192 -141 -88 43 -103 -129 26 -13 -163 110 
+analyze
+Final learnt clause: 117 -129 -135 -69 -18 -88 26 181 -13 91 -110 
+analyze
+Final learnt clause: 181 117 155 -45 -99 147 -135 91 -69 -18 -35 -88 43 -103 -129 26 -13 -163 110 -192 
+analyze
+Final learnt clause: 26 117 -129 -135 -69 -18 -88 181 147 43 -103 192 -13 91 1 
+analyze
+Final learnt clause: -88 26 181 117 155 -1 147 43 -103 -129 -135 -9 -75 110 -18 -69 192 29 
+analyze
+Final learnt clause: -45 -13 -88 26 117 155 147 43 -103 -129 -135 -69 -99 91 -18 
+analyze
+Final learnt clause: -99 192 26 80 -88 181 117 17 -129 -69 -45 -172 
+analyze
+Final learnt clause: 17 96 -35 
+analyze
+Final learnt clause: 155 117 147 43 -135 91 -129 17 -99 192 26 80 -88 -69 -45 181 
+analyze
+Final learnt clause: -99 155 20 
+analyze
+Final learnt clause: -88 -45 -138 10 
+analyze
+Final learnt clause: 147 155 117 43 -163 -135 91 -88 -69 -129 181 -103 26 -13 18 35 
+analyze
+Final learnt clause: -20 -138 117 -13 -69 17 18 155 147 43 -135 91 -88 -129 181 -103 26 -192 -163 
+analyze
+Final learnt clause: 155 117 43 -135 147 91 -129 
+analyze
+Final learnt clause: 97 -88 181 18 43 117 155 129 -135 147 -103 -192 17 91 163 
+analyze
+Final learnt clause: -20 -138 117 -69 -13 17 -35 
+analyze
+Final learnt clause: 147 155 117 43 -135 91 181 -20 -138 -69 -13 97 -88 129 -103 -192 -45 18 
+analyze
+Final learnt clause: 117 155 147 43 -135 91 129 -192 -88 
+analyze
+Final learnt clause: 129 -135 155 91 181 117 147 88 -163 43 -103 -1 
+analyze
+Final learnt clause: 88 43 -192 -135 -69 155 129 181 147 117 -18 91 -163 110 -103 
+analyze
+Final learnt clause: -135 88 -69 43 -192 -18 13 1 
+analyze
+Final learnt clause: 147 117 88 155 -135 129 -35 91 181 43 -192 -18 -163 110 -69 
+analyze
+Final learnt clause: 91 88 -50 61 -29 155 -1 129 -174 176 -26 -99 
+analyze
+Final learnt clause: -29 -10 -192 99 31 
+analyze
+Final learnt clause: 43 61 -60 193 56 -192 69 -26 -31 
+analyze
+Final learnt clause: -75 43 61 193 -192 69 -26 91 88 -50 155 -1 129 -174 117 -184 -18 -29 
+analyze
+Final learnt clause: 176 -75 -44 
+analyze
+Final learnt clause: 43 -75 91 -50 61 193 56 69 -26 -31 
+analyze
+Final learnt clause: 88 -75 129 103 -18 181 -192 43 91 -50 61 193 69 155 -1 -184 117 -92 101 -174 -26 
+analyze
+Final learnt clause: -35 -92 155 -174 13 110 -1 -18 -184 117 101 -75 181 43 -192 88 26 61 129 193 147 103 29 
+analyze
+Final learnt clause: -31 -174 -50 -45 
+analyze
+Final learnt clause: -184 -135 -1 91 -18 10 -174 -50 61 44 99 
+analyze
+Final learnt clause: 176 88 -1 13 101 -135 155 -184 91 -18 -174 -50 61 44 10 
+analyze
+Final learnt clause: 13 193 68 -18 -138 155 -184 -17 
+analyze
+Final learnt clause: 117 -163 61 -196 
+analyze
+Final learnt clause: 196 -132 -35 61 96 
+analyze
+Final learnt clause: 27 91 -50 88 117 69 -35 -163 43 155 -184 -192 129 -174 -18 -92 13 110 181 193 147 103 -135 -1 
+analyze
+Final learnt clause: 155 117 -35 -192 181 43 91 88 -163 129 -18 147 -135 110 
+analyze
+Final learnt clause: 155 117 -192 88 181 -163 43 147 -135 -18 91 129 -35 
+analyze
+Final learnt clause: 147 155 117 43 -135 91 181 -192 129 -18 88 -163 
+analyze
+Final learnt clause: 43 -192 -135 88 -18 155 129 147 117 91 181 
+analyze
+Final learnt clause: -192 43 155 -135 -181 117 129 147 163 
+analyze
+Final learnt clause: -184 -135 -92 88 43 -192 -181 13 1 
+analyze
+Final learnt clause: 99 27 193 110 13 -75 -158 176 
+analyze
+Final learnt clause: 129 -184 -50 -49 
+analyze
+Final learnt clause: -181 117 155 129 91 -135 88 43 -192 147 -163 69 
+analyze
+Final learnt clause: -35 117 -163 -69 10 -135 43 88 91 147 155 -18 129 -181 110 -1 
+analyze
+Final learnt clause: 117 155 -135 -181 43 88 -69 -192 -18 1 
+analyze
+Final learnt clause: 147 -135 43 117 91 155 129 88 -192 -18 
+analyze
+Final learnt clause: 147 155 117 43 -163 -135 91 88 129 -192 -181 18 35 
+analyze
+Final learnt clause: 88 155 -135 129 18 -35 -69 10 43 134 
+analyze
+Final learnt clause: 147 88 155 -135 129 117 91 18 43 -192 -181 
+analyze
+Final learnt clause: 147 117 88 155 -135 129 -69 -35 91 181 -1 
+analyze
+Final learnt clause: 147 155 110 129 117 -69 -163 88 18 -135 91 43 -192 -95 
+analyze
+Final learnt clause: 88 155 129 -192 18 117 43 -69 -35 -135 91 147 1 181 -163 110 
+analyze
+Final learnt clause: 117 -163 -69 181 -135 -35 88 129 -192 18 155 43 91 1 147 -103 
+analyze
+Final learnt clause: 155 129 117 -69 -163 88 18 -135 91 43 -192 181 147 -35 
+analyze
+Final learnt clause: 147 155 117 43 -163 -135 91 181 35 
+analyze
+Final learnt clause: -172 88 43 -192 -95 
+analyze
+Final learnt clause: 88 43 -192 155 117 18 129 147 91 -135 181 -163 
+analyze
+Final learnt clause: 163 -92 
+analyze
+Final learnt clause: 117 91 155 43 -135 147 
+analyze
+Final learnt clause: -192 43 163 -147 1 
+analyze
+Final learnt clause: 155 129 117 88 -135 -192 43 -147 163 
+analyze
+Final learnt clause: 181 -35 117 -163 129 -135 155 91 -69 88 -1 
+analyze
+Final learnt clause: -69 129 117 181 88 -163 43 -192 -147 -95 
+analyze
+Final learnt clause: 43 -147 95 1 
+analyze
+Final learnt clause: -75 61 -76 101 -1 181 -135 155 117 91 -69 -184 
+analyze
+Final learnt clause: 110 -147 155 184 -69 35 18 -163 -138 -193 
+analyze
+Final learnt clause: 117 -135 88 18 181 -163 -192 91 129 155 43 -147 -69 
+analyze
+Final learnt clause: 35 155 181 18 13 -184 129 -174 193 -192 -163 43 88 91 103 87 110 
+analyze
+Final learnt clause: -147 43 129 18 -135 181 -192 13 91 155 -184 -174 193 -163 88 103 35 
+analyze
+Final learnt clause: -35 -147 193 43 88 -192 1 
+analyze
+Final learnt clause: 18 -147 117 -163 -192 129 -135 155 91 43 88 181 
+analyze
+Final learnt clause: 129 -181 18 -147 -192 91 -135 88 43 -163 69 
+analyze
+Final learnt clause: 155 -181 -69 -163 88 -135 129 43 18 10 -35 
+analyze
+Final learnt clause: 153 -69 35 -183 
+analyze
+Final learnt clause: 88 129 -192 18 155 117 43 10 -135 91 -147 -69 35 -181 -163 -1 
+analyze
+Final learnt clause: 91 43 88 155 -135 -192 -147 129 117 -163 18 
+analyze
+Final learnt clause: -192 129 -163 88 -18 -181 117 -135 91 155 43 -69 
+analyze
+Final learnt clause: 110 27 -147 -192 -182 
+analyze
+Final learnt clause: 129 -18 -147 -192 91 -135 88 43 -163 117 155 -181 
+analyze
+Final learnt clause: -147 -184 117 -174 -18 13 129 27 -192 87 110 
+analyze
+Final learnt clause: -147 -163 -135 103 69 193 43 -192 88 13 91 -184 117 -174 -18 129 27 35 
+analyze
+Final learnt clause: 117 129 -18 -163 -147 -192 -135 155 91 181 43 88 69 
+analyze
+Final learnt clause: 91 101 129 -75 88 110 -163 184 103 
+analyze
+Final learnt clause: -135 -192 88 -76 155 -69 110 -163 -193 
+analyze
+Final learnt clause: 101 95 193 88 -135 -75 52 -1 96 -137 
+analyze
+Final learnt clause: -135 -192 155 117 91 129 43 -147 88 
+analyze
+Final learnt clause: -147 -88 -67 
+analyze
+Final learnt clause: 196 -109 -103 -88 -75 26 -13 -9 155 -163 35 171 52 
+analyze
+Final learnt clause: -147 155 110 80 
+analyze
+Final learnt clause: 117 -163 -69 -183 35 
+analyze
+Final learnt clause: -51 -109 -18 129 -98 
+analyze
+Final learnt clause: 91 -69 -13 187 -192 26 -51 -18 129 43 171 
+analyze
+Final learnt clause: 91 187 182 101 163 
+analyze
+Final learnt clause: 91 43 -147 155 117 -135 129 
+analyze
+Final learnt clause: -103 67 45 
+analyze
+Final learnt clause: -3 -45 179 
+analyze
+Final learnt clause: 166 96 -35 
+analyze
+Final learnt clause: 155 117 -135 91 -147 43 -88 
+analyze
+Final learnt clause: 155 -147 91 -192 43 163 
+analyze
+Final learnt clause: 52 -18 10 88 -9 43 -192 -80 117 -147 91 -163 -69 35 
+analyze
+Final learnt clause: 110 -69 -163 -135 -192 88 155 -193 
+analyze
+Final learnt clause: -75 53 88 -18 10 -103 -122 -135 193 -129 155 -1 -174 
+analyze
+Final learnt clause: 88 196 -35 61 -49 52 -75 117 -163 184 -192 10 -129 -18 29 
+analyze
+Final learnt clause: -18 -129 43 88 117 -163 -192 -135 91 155 -147 -181 -69 
+analyze
+Final learnt clause: 117 -181 -147 -192 91 -135 88 43 -163 -129 155 -18 
+analyze
+Final learnt clause: 155 18 -147 -192 91 -135 88 43 -181 -163 69 
+analyze
+Final learnt clause: -135 10 193 -129 88 155 -1 91 -69 -184 
+analyze
+Final learnt clause: 117 -135 10 -129 88 155 91 -69 18 -163 -35 -147 43 -192 110 
+analyze
+Final learnt clause: -181 18 155 -69 88 43 -192 -147 -129 91 117 -135 10 -163 -35 
+analyze
+Final learnt clause: 91 43 35 117 155 -135 -181 -110 
+analyze
+Final learnt clause: 88 43 -147 155 91 117 -135 -181 -129 -192 
+analyze
+Final learnt clause: -47 10 -80 193 43 35 88 155 -135 18 184 
+analyze
+Final learnt clause: 43 -147 -129 117 -135 10 88 155 91 -69 18 -163 -181 35 
+analyze
+Final learnt clause: 88 43 -147 -80 -181 1 
+analyze
+Final learnt clause: -135 10 -129 88 155 -1 91 -69 -35 110 -163 43 103 
+analyze
+Final learnt clause: -147 -69 -35 -181 117 -163 88 10 -135 43 91 -129 155 18 110 
+analyze
+Final learnt clause: -147 155 88 43 -181 91 117 -163 -135 -129 18 -69 
+analyze
+Final learnt clause: -147 -35 17 
+analyze
+Final learnt clause: 13 192 193 18 -174 -80 
+analyze
+Final learnt clause: -147 91 43 117 155 -135 -181 80 
+analyze
+Final learnt clause: 91 192 18 -80 43 -147 155 88 -181 117 -135 -129 -163 
+analyze
+Final learnt clause: 155 110 182 92 
+analyze
+Final learnt clause: 184 -69 -147 -35 
+analyze
+Final learnt clause: -135 155 88 43 -80 -75 117 -147 91 -163 193 -1 -18 -181 -69 
+analyze
+Final learnt clause: 91 43 -135 155 117 
+analyze
+Final learnt clause: -129 -163 -87 -117 43 -181 69 
+analyze
+Final learnt clause: -18 10 -181 88 43 -147 -69 155 91 -35 
+analyze
+Final learnt clause: -147 155 92 110 
+analyze
+Final learnt clause: 88 -147 43 155 91 -181 -18 -117 1 
+analyze
+Final learnt clause: -181 88 43 -147 155 91 -87 -129 -117 -18 
+analyze
+Final learnt clause: -163 155 91 -135 10 -129 88 43 -147 -181 -69 -35 
+analyze
+Final learnt clause: 18 -117 -87 91 -147 155 -135 -129 88 43 -181 -163 
+analyze
+Final learnt clause: 91 43 88 155 -135 -147 -117 -87 -129 
+analyze
+Final learnt clause: 18 -87 -117 91 -163 -135 -192 88 155 129 43 -147 -181 
+analyze
+Final learnt clause: 18 -87 -117 91 -69 -163 -135 -192 88 155 -193 
+analyze
+Final learnt clause: 18 -117 -147 -192 91 43 88 -87 -163 -135 155 -69 
+analyze
+Final learnt clause: -87 88 -147 -192 155 91 -117 43 -163 -135 18 
+analyze
+Final learnt clause: 129 -87 88 -18 -147 -192 91 -117 43 -163 69 
+analyze
+Final learnt clause: 129 -117 -18 -69 155 -147 91 -35 
+analyze
+Final learnt clause: 43 -135 88 91 155 -87 -117 -147 
+analyze
+Final learnt clause: 155 129 147 -135 91 -69 -87 -117 -18 -163 -192 88 -193 
+analyze
+Final learnt clause: 155 193 129 147 -135 91 -69 -117 -18 1 
+analyze
+Final learnt clause: 129 147 -18 91 155 88 -135 -117 -87 -163 -192 -69 
+analyze
+Final learnt clause: -192 155 88 -18 129 -87 147 91 43 -117 -135 -163 
+analyze
+Final learnt clause: -87 129 155 147 -135 91 -117 -192 88 43 -18 
+analyze
+Final learnt clause: 18 -74 -87 -110 143 
+analyze
+Final learnt clause: 129 92 165 -101 90 
+analyze
+Final learnt clause: 88 129 -87 147 -135 18 -117 91 163 
+analyze
+Final learnt clause: -143 1 -35 165 155 43 -74 -134 
+analyze
+Final learnt clause: -69 -35 155 43 -135 18 -87 -117 91 -110 
+analyze
+Final learnt clause: 155 -74 193 129 147 -135 91 -69 -184 
+analyze
+Final learnt clause: -69 -35 129 82 
+analyze
+Final learnt clause: 155 193 129 147 -135 91 -69 58 -74 
+analyze
+Final learnt clause: 129 147 -135 155 91 181 -163 88 -117 -87 18 -192 -69 
+analyze
+Final learnt clause: -192 155 88 18 129 -87 147 91 -163 43 -117 69 
+analyze
+Final learnt clause: 155 88 -135 43 -87 -117 91 147 129 
+analyze
+Final learnt clause: 88 -135 155 43 18 -87 -117 91 -181 -192 147 -129 -163 
+analyze
+Final learnt clause: -87 18 155 43 -135 -117 91 147 163 
+analyze
+Final learnt clause: -117 91 18 -87 143 -110 
+analyze
+Final learnt clause: 88 -69 155 -117 91 18 -87 -135 -163 35 
+analyze
+Final learnt clause: -129 88 155 -135 -163 110 18 -35 -69 10 43 134 
+analyze
+Final learnt clause: 88 -129 43 -135 91 147 155 -181 -87 -117 18 
+analyze
+Final learnt clause: -35 -69 155 110 92 
+analyze
+Final learnt clause: 10 -18 -135 192 88 -152 
+analyze
+Final learnt clause: 91 -117 -18 -87 -181 -135 192 88 -129 43 -163 
+analyze
+Final learnt clause: -18 -135 88 91 -181 -117 147 -87 -129 43 192 
+analyze
+Final learnt clause: -135 88 91 -181 -117 -18 147 163 
+analyze
+Final learnt clause: -135 88 -69 10 91 -117 -181 -18 1 
+analyze
+Final learnt clause: -87 -135 155 91 -117 43 88 
+analyze
+Final learnt clause: 110 128 -181 -87 -117 -100 
+analyze
+Final learnt clause: 155 -18 10 -69 -117 -181 -163 -87 -135 -141 -35 110 
+analyze
+Final learnt clause: -18 10 -135 -69 -141 -117 -181 1 
+analyze
+Final learnt clause: 26 -163 -129 155 -87 -18 -69 -117 -135 -141 91 -181 
+analyze
+Final learnt clause: -87 -82 181 -69 26 92 155 110 
+analyze
+Final learnt clause: -18 181 -117 -13 91 -129 -87 -69 26 155 -163 -193 
+analyze
+Final learnt clause: 128 -14 193 145 -50 186 -61 
+analyze
+Final learnt clause: 145 66 169 61 -192 -163 -152 -78 92 
+analyze
+Final learnt clause: -117 -192 -163 147 -129 43 193 155 -69 -135 91 -35 26 -18 -13 -110 
+analyze
+Final learnt clause: -88 26 -192 -13 186 110 193 -18 -92 -163 147 -129 43 91 1 
+analyze
+Final learnt clause: -18 -87 -117 -88 26 -192 -13 147 -129 43 91 -69 155 -135 -163 
+analyze
+Final learnt clause: 155 -69 -135 91 -117 -18 -13 -129 147 -87 -88 26 43 -192 
+analyze
+Final learnt clause: 147 155 -69 -135 91 -117 -129 -18 163 
+analyze
+Final learnt clause: 161 61 26 -117 -184 -14 192 186 -69 147 91 128 -174 -135 -75 
+analyze
+Final learnt clause: -77 26 -117 192 -69 147 91 -135 193 -129 -35 -18 -13 -110 
+analyze
+Final learnt clause: -74 -80 
+analyze
+Final learnt clause: -69 -13 -87 -35 181 155 110 80 
+analyze
+Final learnt clause: 192 -18 -163 -87 -117 -13 -69 155 26 147 91 -135 -129 181 
+analyze
+Final learnt clause: -88 147 43 -129 26 155 -87 -69 -117 -135 91 -13 -18 
+analyze
+Final learnt clause: 155 -135 61 10 110 -181 -87 -117 -1 -174 186 
+analyze
+Final learnt clause: -135 10 -78 -129 -103 -69 43 -1 192 -163 147 141 
+analyze
+Final learnt clause: 110 -181 -87 -117 -135 -92 10 -78 -129 -103 -69 43 192 -163 147 -1 
+analyze
+Final learnt clause: -87 192 -181 155 43 -117 -135 10 -129 -103 -69 -163 147 18 91 -35 
+analyze
+Final learnt clause: -69 -135 155 18 -87 -117 91 -163 -193 
+analyze
+Final learnt clause: -69 -87 192 155 43 -117 -135 -129 -103 -163 147 18 91 -35 -181 
+analyze
+Final learnt clause: -87 -88 18 -103 -80 
+analyze
+Final learnt clause: -87 155 -69 -13 147 43 -117 -135 -103 91 -88 26 -129 
+analyze
+Final learnt clause: 155 129 -69 -87 43 -135 -117 91 147 -88 -103 18 
+analyze
+Final learnt clause: 155 129 147 -135 91 -69 58 -13 -163 -192 -35 -18 10 -117 -181 -87 110 
+analyze
+Final learnt clause: 43 -181 -18 10 -135 -69 -117 1 
+analyze
+Final learnt clause: -87 -69 129 155 147 -135 91 -13 -163 -192 -18 10 -117 -181 110 -35 
+analyze
+Final learnt clause: -88 155 26 -163 -87 -69 129 147 -135 91 -13 -192 -18 -117 43 -181 
+analyze
+Final learnt clause: -192 155 129 147 91 -117 -18 -87 181 -69 26 -163 35 
+analyze
+Final learnt clause: -192 -163 155 129 -69 147 91 -117 -135 -18 1 
+analyze
+Final learnt clause: -87 -192 -18 -13 -69 155 91 129 147 -117 -135 26 -88 43 -163 
+analyze
+Final learnt clause: -87 155 -69 -135 91 -117 -13 26 -88 43 -103 147 
+analyze
+Final learnt clause: 155 -135 91 -117 147 129 43 
+analyze
+Final learnt clause: 91 -18 -92 -43 -110 
+analyze
+Final learnt clause: 193 -43 129 155 147 -92 91 -117 -18 1 
+analyze
+Final learnt clause: -43 -117 129 155 147 91 -18 69 
+analyze
+Final learnt clause: -69 129 91 147 -43 -117 -192 155 -135 -18 -163 
+analyze
+Final learnt clause: 155 -69 91 -117 129 147 -135 -18 -43 -192 
+analyze
+Final learnt clause: -88 -69 147 91 -135 155 129 -117 -18 -43 163 
+analyze
+Final learnt clause: -163 192 155 -69 58 91 -117 129 147 -135 -18 -43 -110 
+analyze
+Final learnt clause: -43 -117 -18 155 129 147 -135 91 -69 -163 -13 -87 181 26 192 -35 
+analyze
+Final learnt clause: -163 192 155 -69 91 -117 129 147 -135 -18 -43 -87 26 -13 181 
+analyze
+Final learnt clause: -88 -163 -181 -69 155 192 91 -117 129 147 -135 -18 -43 -87 35 
+analyze
+Final learnt clause: 155 129 147 -135 91 -69 -13 -163 192 -18 -117 -43 -88 26 -87 
+analyze
+Final learnt clause: -69 10 -135 155 -163 -181 129 147 91 -117 -18 192 26 87 -82 
+analyze
+Final learnt clause: -69 -135 129 155 -163 147 91 -117 -18 192 26 87 -181 
+analyze
+Final learnt clause: 91 35 147 -163 -43 -117 -1 
+analyze
+Final learnt clause: -117 155 87 129 -69 147 -135 91 -18 1 
+analyze
+Final learnt clause: 91 -69 -117 147 -43 129 -135 155 -18 192 -88 
+analyze
+Final learnt clause: -18 88 -43 -69 129 -117 -163 91 147 155 -135 87 
+analyze
+Final learnt clause: 192 -43 -117 129 155 147 91 -18 -163 -87 181 -69 26 159 -135 88 -82 
+analyze
+Final learnt clause: -87 -69 129 82 
+analyze
+Final learnt clause: -69 -43 129 155 147 91 -117 -18 -63 88 192 159 -135 -163 
+analyze
+Final learnt clause: 91 129 -117 155 147 -135 -43 -63 -18 
+analyze
+Final learnt clause: 22 88 87 -82 
+analyze
+Final learnt clause: 129 -69 155 147 -135 91 18 88 -117 -43 163 
+analyze
+Final learnt clause: 17 18 192 35 -10 -47 14 
+analyze
+Final learnt clause: 1 88 -63 192 -43 -117 -22 
+analyze
+Final learnt clause: -163 147 88 87 -63 192 -43 -117 13 91 35 
+analyze
+Final learnt clause: -117 88 -63 192 -43 -22 
+analyze
+Final learnt clause: -163 18 147 129 -69 82 
+analyze
+Final learnt clause: -69 155 88 -135 129 -117 18 147 91 -163 -82 151 22 
+analyze
+Final learnt clause: 155 129 147 -135 91 -69 -117 18 -63 -43 88 
+analyze
+Final learnt clause: -117 91 -163 147 -69 155 -43 -192 -13 -135 129 18 -82 -87 
+analyze
+Final learnt clause: 29 -40 -117 -43 100 -69 -58 -138 10 
+analyze
+Final learnt clause: 29 -35 -57 193 180 33 
+analyze
+Final learnt clause: 180 181 91 -40 -33 
+analyze
+Final learnt clause: -192 147 91 -43 -117 -69 -135 129 155 26 -13 18 -163 
+analyze
+Final learnt clause: -103 87 22 -110 -74 26 155 129 147 -135 91 -69 193 
+analyze
+Final learnt clause: 26 22 87 -193 
+analyze
+Final learnt clause: 155 -74 129 147 -135 91 -69 22 -110 26 87 
+analyze
+Final learnt clause: 155 129 147 -135 91 -69 -117 18 26 -43 -110 
+analyze
+Final learnt clause: -163 192 -69 -117 -13 155 110 -135 129 147 91 18 -82 -87 
+analyze
+Final learnt clause: 129 147 91 -117 -43 -135 155 18 -63 -69 
+analyze
+Final learnt clause: -135 125 155 25 26 -103 193 -74 80 -163 18 181 35 -88 184 
+analyze
+Final learnt clause: 147 91 129 -135 155 26 193 -74 80 -163 18 181 35 -88 87 110 
+analyze
+Final learnt clause: 26 91 -92 -43 147 129 -135 155 193 -163 18 181 -88 87 -134 -117 35 
+analyze
+Final learnt clause: 26 91 -117 -92 -43 -110 
+analyze
+Final learnt clause: 192 -92 -35 -13 69 91 181 155 110 80 
+analyze
+Final learnt clause: -43 -134 -117 -163 -1 
+analyze
+Final learnt clause: 193 147 91 129 -135 155 26 -74 80 -163 18 181 -88 110 35 
+analyze
+Final learnt clause: -92 69 91 181 155 80 17 193 147 129 -135 -74 -163 18 -117 -43 -88 
+analyze
+Final learnt clause: 159 -7 
+analyze
+Final learnt clause: -134 91 159 7 -60 69 17 193 -87 
+analyze
+Final learnt clause: 91 147 -135 155 -117 129 
+analyze
+Final learnt clause: -192 -78 -92 69 -13 17 -35 
+analyze
+Final learnt clause: -49 -43 25 -63 -92 -122 -129 91 -184 
+analyze
+Final learnt clause: 193 -135 125 155 25 26 -74 80 -163 18 181 -88 -43 -63 -92 -129 91 110 35 
+analyze
+Final learnt clause: 91 155 -135 18 -43 -63 -129 -117 69 
+analyze
+Final learnt clause: 110 -13 -49 -43 -63 -92 -122 -129 91 -184 
+analyze
+Final learnt clause: -122 192 91 26 -35 181 155 110 184 -74 
+analyze
+Final learnt clause: -117 192 -163 -13 91 26 -35 181 155 -43 -63 -129 87 -69 110 
+analyze
+Final learnt clause: 192 26 155 -117 -129 -13 91 -43 -163 181 -63 87 -69 -35 
+analyze
+Final learnt clause: 147 91 35 26 -163 17 -117 -13 -43 -129 -110 
+analyze
+Final learnt clause: 1 -69 110 -78 -135 125 155 25 26 -74 80 -163 18 181 -88 -43 -63 -129 91 35 193 
+analyze
+Final learnt clause: 26 87 -117 -69 -135 155 -163 18 -88 -43 -63 -129 91 147 -13 192 181 
+analyze
+Final learnt clause: 91 -135 155 10 -69 -117 -181 1 
+analyze
+Final learnt clause: -135 91 147 -43 -163 -69 -117 155 -181 
+analyze
+Final learnt clause: 193 18 -13 -87 -88 -80 
+analyze
+Final learnt clause: -69 -117 91 18 155 -13 181 -88 -135 -163 -87 
+analyze
+Final learnt clause: 181 -69 -35 155 -117 -13 91 -43 26 -129 -110 
+analyze
+Final learnt clause: -122 -192 -69 26 -35 155 184 -74 
+analyze
+Final learnt clause: -63 -163 -43 -117 -192 -13 -69 26 155 -129 91 87 181 -35 
+analyze
+Final learnt clause: 18 26 -69 -135 155 -88 -43 -63 -129 91 147 -117 -13 -163 
+analyze
+Final learnt clause: 18 155 -117 -129 91 -43 147 -69 -135 -63 -88 
+analyze
+Final learnt clause: 91 -135 155 -117 147 -129 18 -43 
+analyze
+Final learnt clause: 155 147 -117 -135 91 -129 43 
+analyze
+Final learnt clause: -43 155 147 91 -117 -18 69 
+analyze
+Final learnt clause: -135 -43 -117 -192 -13 -69 155 181 91 26 -129 -18 -163 -87 
+analyze
+Final learnt clause: -135 -163 147 -129 -43 -63 91 26 -117 -13 155 -69 -18 181 -192 
+analyze
+Final learnt clause: 91 -117 155 -135 147 
+analyze
+Final learnt clause: -43 -135 -13 87 67 -117 192 -63 -129 91 -147 155 110 
+analyze
+Final learnt clause: -135 26 91 -69 -18 -117 -13 -43 -129 -110 
+analyze
+Final learnt clause: 91 -147 -163 -43 -117 -18 155 -135 -69 -129 -88 
+analyze
+Final learnt clause: -129 155 -135 -18 -147 -69 91 -43 -117 -163 
+analyze
+Final learnt clause: -117 -135 91 -18 -43 -129 -147 155 -69 
+analyze
+Final learnt clause: -117 -43 -147 155 91 -135 -129 -18 
+analyze
+Final learnt clause: 91 -117 -43 -147 155 -129 69 
+analyze
+Final learnt clause: 155 181 -117 -147 -13 91 -43 -129 -110 
+analyze
+Final learnt clause: -13 67 18 -163 -147 155 -117 91 -43 -129 -69 -88 -135 181 
+analyze
+Final learnt clause: 18 -163 -147 155 91 -43 -117 -135 -69 -129 -88 
+analyze
+Final learnt clause: -129 155 -135 18 -43 -147 -69 91 -117 -163 
+analyze
+Final learnt clause: 91 -135 155 -117 -147 -129 -43 
+analyze
+Final learnt clause: -135 155 -147 91 -117 43 
+analyze
+Final learnt clause: -163 192 35 -117 -147 91 -43 181 -69 26 155 129 -87 
+analyze
+Final learnt clause: 67 -117 91 -18 -43 -110 
+analyze
+Final learnt clause: -43 -117 -163 35 -147 155 91 -18 -88 
+analyze
+Final learnt clause: -117 -163 -18 -135 192 88 -152 
+analyze
+Final learnt clause: 91 -117 -18 -43 -147 35 -163 88 -69 -135 192 
+analyze
+Final learnt clause: -135 88 87 -163 -117 -13 -147 155 110 
+analyze
+Final learnt clause: -147 155 91 -117 -18 88 -43 -110 
+analyze
+Final learnt clause: 91 35 -147 -43 -117 155 -18 -163 
+analyze
+Final learnt clause: -147 -117 91 -18 -43 155 -110 
+analyze
+Final learnt clause: -117 -43 129 155 -147 91 -18 
+analyze
+Final learnt clause: -43 -147 155 91 -117 69 
+analyze
+Final learnt clause: 26 -147 18 -88 -69 -35 
+analyze
+Final learnt clause: 67 -117 91 26 -43 -110 
+analyze
+Final learnt clause: 18 -163 -147 155 -117 91 -43 -88 
+analyze
+Final learnt clause: -147 155 91 26 87 -117 88 -43 -110 
+analyze
+Final learnt clause: 91 -69 129 -147 -163 88 -43 -117 155 26 87 
+analyze
+Final learnt clause: -43 18 155 -147 91 -69 88 129 -117 -135 -163 -87 
+analyze
+Final learnt clause: 88 87 -82 
+analyze
+Final learnt clause: 18 129 -147 -69 91 -43 -117 155 -135 -163 
+analyze
+Final learnt clause: -69 129 -74 -147 155 91 -117 88 -43 -110 1 -124 95 
+analyze
+Final learnt clause: 92 120 
+analyze
+Final learnt clause: 155 91 -135 -117 
+analyze
+Final learnt clause: -110 31 -176 18 117 188 -147 -88 
+analyze
+Final learnt clause: -110 103 18 -138 -69 129 77 -87 
+analyze
+Final learnt clause: 31 18 129 -69 82 
+analyze
+Final learnt clause: 18 -135 -69 129 117 -147 155 -43 163 
+analyze
+Final learnt clause: 91 -147 26 18 -87 117 -163 -69 -135 -192 88 155 35 
+analyze
+Final learnt clause: 117 26 -135 155 -147 -69 181 -163 129 91 88 -35 
+analyze
+Final learnt clause: -192 -43 -147 18 129 -69 91 88 117 -163 26 -135 155 35 
+analyze
+Final learnt clause: -192 129 -69 -147 91 88 117 -135 155 -163 -43 18 26 
+analyze
+Final learnt clause: -192 10 129 -135 88 155 -69 -163 91 196 13 -26 18 -87 
+analyze
+Final learnt clause: -43 -147 -192 91 117 -163 -69 129 18 82 
+analyze
+Final learnt clause: -135 -69 -147 18 155 88 -163 91 129 -43 117 -192 
+analyze
+Final learnt clause: 31 18 -135 155 -69 -147 -35 
+analyze
+Final learnt clause: 13 91 -147 155 -163 18 -135 -69 -26 129 -87 
+analyze
+Final learnt clause: -147 129 18 -69 88 91 155 -163 -135 117 -26 
+analyze
+Final learnt clause: -181 -69 -135 129 82 
+analyze
+Final learnt clause: 13 91 -147 155 -163 -87 35 
+analyze
+Final learnt clause: -163 192 18 155 91 -147 -69 -135 -87 13 
+analyze
+Final learnt clause: 155 -13 117 -147 -69 -35 
+analyze
+Final learnt clause: -43 -147 155 -163 91 117 -69 192 18 -135 88 -82 
+analyze
+Final learnt clause: 91 -43 -69 -147 -135 117 -163 129 18 82 
+analyze
+Final learnt clause: -135 -69 -147 18 155 -163 91 129 -43 117 -82 88 
+analyze
+Final learnt clause: -71 35 -147 155 -163 -193 
+analyze
+Final learnt clause: -147 129 -43 117 155 91 -135 18 -69 
+analyze
+Final learnt clause: 193 91 -147 -92 -43 -110 
+analyze
+Final learnt clause: -49 193 74 45 -147 -88 
+analyze
+Final learnt clause: -122 -92 88 91 182 26 69 -147 -49 -135 82 
+analyze
+Final learnt clause: -122 -87 86 
+analyze
+Final learnt clause: -92 142 
+analyze
+Final learnt clause: -122 -142 88 -3 -82 
+analyze
+Final learnt clause: 117 129 -49 -3 193 45 69 -140 -122 13 91 -147 155 -163 -87 
+analyze
+Final learnt clause: -43 -147 -135 117 129 91 155 18 
+analyze
+Final learnt clause: -147 -163 -80 -192 -135 -26 74 69 59 -43 182 139 
+analyze
+Final learnt clause: 193 -142 -3 91 -122 -92 -26 -43 -80 -139 
+analyze
+Final learnt clause: -3 -122 117 193 -135 74 69 59 -43 182 -147 -163 -80 -142 91 -92 -49 88 
+analyze
+Final learnt clause: 91 -147 117 -135 -43 -18 155 69 
+analyze
+Final learnt clause: 67 35 -163 183 -18 51 91 -147 155 -27 193 -43 -92 
+analyze
+Final learnt clause: -147 91 155 -163 -18 -43 117 -69 -88 
+analyze
+Final learnt clause: 155 -43 26 -147 117 91 -163 -69 129 88 87 
+analyze
+Final learnt clause: -147 91 155 -163 117 -69 -87 35 
+analyze
+Final learnt clause: -69 88 117 -135 -18 91 -147 155 -163 129 -43 26 
+analyze
+Final learnt clause: -69 88 117 -135 -18 -147 13 129 91 155 -163 -87 
+analyze
+Final learnt clause: -43 -147 91 -135 117 -69 129 -18 155 -163 
+analyze
+Final learnt clause: 155 117 -147 -43 91 -135 129 
+analyze
+Final learnt clause: -18 155 117 -69 -147 91 -43 92 
+analyze
+Final learnt clause: -143 -177 117 193 -69 -129 10 -18 -135 88 192 
+analyze
+Final learnt clause: -18 10 -69 -135 74 59 -49 182 117 193 -142 -3 91 -122 -92 -43 -80 -26 
+analyze
+Final learnt clause: 117 -129 91 -147 -69 -135 -43 155 -18 
+analyze
+Final learnt clause: 91 26 -129 18 -192 -147 82 
+analyze
+Final learnt clause: 117 -163 -135 155 91 10 18 -69 -147 -192 88 -129 26 
+analyze
+Final learnt clause: -135 18 155 -69 -26 -147 13 91 -163 -87 
+analyze
+Final learnt clause: -69 -147 -126 -35 
+analyze
+Final learnt clause: 88 -43 -147 91 117 -163 -69 -135 18 155 -26 
+analyze
+Final learnt clause: 88 -30 -177 -43 51 
+analyze
+Final learnt clause: 18 155 91 -147 117 -69 -163 -43 -135 -129 88 
+analyze
+Final learnt clause: 67 18 193 -147 155 91 -43 -27 -92 
+analyze
+Final learnt clause: -147 91 155 18 -43 117 -69 -135 -129 -163 
+analyze
+Final learnt clause: -129 -135 117 -147 155 91 -43 -69 
+analyze
+Final learnt clause: 117 -135 -43 91 155 -147 
+analyze
+Final learnt clause: 45 193 -129 69 -49 185 
+analyze
+Final learnt clause: 193 -30 -49 -147 -80 69 59 -43 182 117 -142 -3 91 -122 -92 -143 45 88 -129 
+analyze
+Final learnt clause: 193 -80 59 117 -163 -35 69 -147 -43 182 -142 91 -92 110 74 18 
+analyze
+Final learnt clause: 193 -80 129 -49 59 117 -163 -3 -122 -35 69 -142 88 
+analyze
+Final learnt clause: -163 -80 -18 -49 91 117 74 -122 -147 59 193 -17 -88 
+analyze
+Final learnt clause: 91 -80 117 -147 -43 182 -35 74 -17 69 
+analyze
+Final learnt clause: 155 117 -147 91 -43 
+analyze
+Final learnt clause: 182 135 155 -35 117 -76 -147 -69 
+analyze
+Final learnt clause: -166 59 74 -147 43 -95 
+analyze
+Final learnt clause: 95 193 -80 59 117 -163 -35 69 -142 88 -184 110 -3 
+analyze
+Final learnt clause: 91 -147 155 117 
+analyze
+Final learnt clause: 182 3 
+analyze
+Final learnt clause: -147 91 155 
+analyze
+Final learnt clause: 91 -87 -155 43 -117 69 
+analyze
+Final learnt clause: -69 -147 135 
+analyze
+Final learnt clause: 129 -37 -147 -156 -163 -69 43 88 -192 -87 193 
+analyze
+Final learnt clause: -135 175 -69 -156 -117 91 18 -87 -163 129 -147 43 -192 -82 88 
+analyze
+Final learnt clause: 18 -147 -192 91 -117 43 -155 -88 
+analyze
+Final learnt clause: -155 -87 -147 91 -117 43 -135 -69 18 129 
+analyze
+Final learnt clause: -155 92 -87 -147 91 -117 43 163 -192 
+analyze
+Final learnt clause: 192 -69 88 -135 18 26 -87 92 -117 91 143 
+analyze
+Final learnt clause: -69 -147 91 -181 -87 -135 -143 
+analyze
+Final learnt clause: 191 -147 -135 -69 18 91 -87 92 -117 192 -129 88 
+analyze
+Final learnt clause: -87 18 43 -147 191 -135 -69 91 -117 -129 -155 163 
+analyze
+Final learnt clause: -155 -87 -117 -163 -147 18 -69 43 -88 
+analyze
+Final learnt clause: -156 175 -181 -87 -163 -92 
+analyze
+Final learnt clause: -135 -69 -87 -117 91 -147 -155 43 18 
+analyze
+Final learnt clause: -163 -155 -117 -18 -129 -87 -147 91 43 -135 -69 88 
+analyze
+Final learnt clause: -69 -147 -155 -87 91 -117 43 -129 -18 -135 -163 
+analyze
+Final learnt clause: -117 -18 43 -147 -155 188 -88 
+analyze
+Final learnt clause: -69 91 43 -18 -135 -117 -147 -155 -87 -129 
+analyze
+Final learnt clause: -155 -87 -147 91 -117 43 -192 163 
+analyze
+Final learnt clause: 129 -37 -163 -147 -69 43 88 -192 -87 193 
+analyze
+Final learnt clause: -155 -147 -192 -87 91 -117 43 -163 -193 
+analyze
+Final learnt clause: -117 -147 -155 91 43 
+analyze
+Final learnt clause: -18 -13 67 -147 -69 -87 193 
+analyze
+Final learnt clause: -117 -69 -163 -18 -147 -87 -155 91 -43 -88 
+analyze
+Final learnt clause: -18 -170 -147 -192 91 -117 -1 
+analyze
+Final learnt clause: 91 -37 129 -135 88 -69 58 -147 -117 -18 1 
+analyze
+Final learnt clause: -155 -43 -117 91 129 -135 -69 -147 -18 -163 -87 
+analyze
+Final learnt clause: 91 -147 87 -43 -135 -117 -18 -163 -69 129 88 
+analyze
+Final learnt clause: -147 110 67 -69 91 -117 -18 1 
+analyze
+Final learnt clause: 91 -147 -43 -117 -69 -18 -155 -135 129 -163 
+analyze
+Final learnt clause: -117 -18 -147 -69 91 -155 -43 188 -88 
+analyze
+Final learnt clause: -69 92 -18 -147 88 98 129 -135 87 
+analyze
+Final learnt clause: -69 -43 -155 91 -117 -135 -147 -18 129 
+analyze
+Final learnt clause: -135 -69 91 -147 -43 -117 -18 -129 -155 92 
+analyze
+Final learnt clause: -18 -135 -69 91 -117 -147 -129 -163 -155 -43 193 -87 
+analyze
+Final learnt clause: -172 -43 -117 91 -135 -69 -18 -78 -129 87 88 
+analyze
+Final learnt clause: -155 -117 -147 -69 91 -43 -135 -18 
+analyze
+Final learnt clause: 87 -170 -82 
+analyze
+Final learnt clause: -147 18 87 -117 91 -43 -155 -88 
+analyze
+Final learnt clause: -135 -129 91 -147 -43 -69 18 -117 -155 87 
+analyze
+Final learnt clause: -135 -69 -87 -163 18 -117 91 -147 -129 88 
+analyze
+Final learnt clause: -117 -69 -87 91 -43 -147 18 -155 -135 -129 -163 
+analyze
+Final learnt clause: -117 18 -155 188 -147 -88 
+analyze
+Final learnt clause: -135 -69 18 -117 91 -147 -155 -43 -129 
+analyze
+Final learnt clause: -135 88 175 -69 -156 145 
+analyze
+Final learnt clause: 88 -43 191 -117 91 18 92 -69 -135 129 -87 
+analyze
+Final learnt clause: 129 -147 18 -69 -43 191 -117 91 -135 -155 163 
+analyze
+Final learnt clause: -69 91 -147 -43 -163 18 -135 129 -117 -155 87 
+analyze
+Final learnt clause: -87 -156 -135 91 -69 175 -147 -163 -92 
+analyze
+Final learnt clause: -117 -155 -147 -43 91 -69 
+analyze
+Final learnt clause: -147 91 -155 -117 
+analyze
+Final learnt clause: -147 129 191 -172 69 -142 193 125 -87 
+analyze
+Final learnt clause: -49 59 193 -78 91 -163 -147 -43 -135 87 88 
+analyze
+Final learnt clause: -147 -155 117 59 193 -78 91 -163 -43 -135 110 191 -172 69 -142 125 129 
+analyze
+Final learnt clause: -78 193 -129 69 -172 91 18 -147 -155 117 110 59 -163 -43 -135 87 
+analyze
+Final learnt clause: -147 191 -172 69 -142 193 125 -78 91 18 -155 117 110 59 -163 -43 -135 
+analyze
+Final learnt clause: 193 -76 135 191 -172 69 -142 125 -87 
+analyze
+Final learnt clause: 59 117 -163 91 -43 69 125 -78 110 193 -172 -142 -147 -155 18 
+analyze
+Final learnt clause: -122 -78 3 
+analyze
+Final learnt clause: -76 59 93 -142 193 -129 69 -49 -18 -3 -172 192 
+analyze
+Final learnt clause: 59 -168 135 82 -49 109 117 87 97 -26 
+analyze
+Final learnt clause: 69 193 -129 59 135 117 -76 -142 -18 -172 -78 -17 110 87 
+analyze
+Final learnt clause: -76 59 -142 193 69 -18 -172 -78 125 135 117 -17 110 -129 
+analyze
+Final learnt clause: -35 69 -78 129 -172 -147 193 -142 125 -87 
+analyze
+Final learnt clause: -78 69 -142 110 -172 -147 193 125 59 -18 117 135 
+analyze
+Final learnt clause: -147 129 -155 -191 -78 110 59 193 91 -163 -43 -135 87 
+analyze
+Final learnt clause: 193 69 -78 -172 -147 -142 125 -155 110 59 91 -163 -43 -135 117 129 
+analyze
+Final learnt clause: -62 -76 117 -147 97 -17 -88 
+analyze
+Final learnt clause: -147 -86 -99 128 
+analyze
+Final learnt clause: -163 -78 -135 -147 -129 117 -172 69 -142 193 125 -87 
+analyze
+Final learnt clause: 59 -78 193 117 -155 91 -163 -147 -172 69 -142 125 -92 -43 
+analyze
+Final learnt clause: -174 -78 13 -172 117 103 27 88 87 
+analyze
+Final learnt clause: -147 117 91 -155 69 
+analyze
+Final learnt clause: 43 -87 91 -135 -147 -155 -69 117 -35 
+analyze
+Final learnt clause: -147 91 -163 43 117 -69 -135 -155 -87 
+analyze
+Final learnt clause: -155 87 -82 
+analyze
+Final learnt clause: 165 117 -163 -69 -147 87 91 -143 -129 43 -88 
+analyze
+Final learnt clause: 117 10 -135 43 88 91 87 193 -30 -192 -163 -69 -18 -129 -147 59 -172 
+analyze
+Final learnt clause: 117 -181 91 193 -69 -129 -155 88 172 
+analyze
+Final learnt clause: 91 -129 43 -147 117 -135 -69 -18 -155 -163 
+analyze
+Final learnt clause: -143 -69 92 91 43 163 -147 -177 117 193 -129 -18 -135 88 
+analyze
+Final learnt clause: 91 -147 163 43 -155 117 188 -69 92 -129 -18 -135 82 
+analyze
+Final learnt clause: -147 -69 91 43 -135 -155 117 -18 -129 
+analyze
+Final learnt clause: -155 43 91 -135 -147 -69 117 129 -35 
+analyze
+Final learnt clause: 35 129 117 -192 43 -147 163 
+analyze
+Final learnt clause: -147 91 43 -135 -155 117 -69 129 
+analyze
+Final learnt clause: 10 -135 87 191 91 117 43 -147 -129 18 82 -172 88 -192 
+analyze
+Final learnt clause: -166 -172 188 87 142 -30 92 -78 
+analyze
+Final learnt clause: 88 191 192 10 -172 -69 43 91 -155 -166 87 -30 142 
+analyze
+Final learnt clause: 88 191 192 10 -172 -69 43 92 91 -155 78 
+analyze
+Final learnt clause: -69 -143 -96 
+analyze
+Final learnt clause: -69 -129 117 -147 91 43 -135 -155 -163 
+analyze
+Final learnt clause: 18 43 188 -147 -88 
+analyze
+Final learnt clause: -181 -69 -143 
+analyze
+Final learnt clause: -69 91 -135 -147 -155 117 43 
+analyze
+Final learnt clause: -147 91 92 188 -69 117 -135 18 -87 -120 -129 88 
+analyze
+Final learnt clause: -69 117 18 163 -147 -155 188 91 92 -135 -120 -129 -87 
+analyze
+Final learnt clause: 18 -147 -129 -69 -155 117 91 -135 163 
+analyze
+Final learnt clause: 117 91 191 -163 -69 -147 18 -129 -135 -143 
+analyze
+Final learnt clause: -135 -147 18 -69 117 91 -155 191 -129 
+analyze
+Final learnt clause: 175 117 -120 18 -147 -69 -155 188 -88 
+analyze
+Final learnt clause: 129 -69 117 -135 18 -147 -155 91 -43 -163 
+analyze
+Final learnt clause: 129 188 -69 117 -135 -120 18 -147 -155 -87 
+analyze
+Final learnt clause: -147 -135 -69 -155 117 91 -43 18 
+analyze
+Final learnt clause: 188 -115 
+analyze
+Final learnt clause: 188 
+analyze
+Final learnt clause: -188 92 
+analyze
+Final learnt clause: 196 155 -147 
+analyze
+Final learnt clause: 136 -54 -91 112 -121 2 69 
+analyze
+Final learnt clause: -54 -134 -69 19 185 25 193 -91 59 12 155 196 133 -131 
+analyze
+Final learnt clause: 112 2 -42 193 -54 131 
+
+Statistics: 
+===================
+### Restarts:		4
+### Learned-clauses:	700
+### Decisions:		1024
+### Implications:	28296
+### Time:		0.262
+Assignment validated
+solution in assignment.txt
+SAT

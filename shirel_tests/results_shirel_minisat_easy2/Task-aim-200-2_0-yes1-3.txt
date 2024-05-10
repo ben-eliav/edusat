@@ -1,0 +1,96 @@
+aim-200-2_0-yes1-3.cnf
+This is edusat
+vars: 200 clauses: 400
+Read 400 clauses in 0.003 secs.
+Solving...
+analyze
+Final learnt clause: 99 125 41 
+analyze
+Final learnt clause: 99 -41 
+analyze
+Final learnt clause: 99 
+analyze
+Final learnt clause: 189 177 -117 
+analyze
+Final learnt clause: 189 117 
+analyze
+Final learnt clause: -125 -152 71 
+analyze
+Final learnt clause: -88 192 28 
+analyze
+Final learnt clause: -97 -73 -126 
+analyze
+Final learnt clause: -128 -47 -102 
+analyze
+Final learnt clause: 46 102 
+analyze
+Final learnt clause: 38 -29 -122 
+analyze
+Final learnt clause: 93 65 53 
+analyze
+Final learnt clause: -53 141 50 
+analyze
+Final learnt clause: -164 -90 195 
+analyze
+Final learnt clause: 112 -165 72 
+analyze
+Final learnt clause: -165 -24 -72 
+analyze
+Final learnt clause: 113 -90 -195 
+analyze
+Final learnt clause: -112 -66 115 
+analyze
+Final learnt clause: 56 -26 83 172 168 
+analyze
+Final learnt clause: 114 -168 -3 
+analyze
+Final learnt clause: -44 160 -180 
+analyze
+Final learnt clause: -196 -44 -163 
+analyze
+Final learnt clause: -142 163 
+analyze
+Final learnt clause: 44 80 129 
+analyze
+Final learnt clause: -196 -163 167 
+analyze
+Final learnt clause: -99 1 
+analyze
+Final learnt clause: 120 -50 
+analyze
+Final learnt clause: 3 50 -175 
+analyze
+Final learnt clause: -23 185 -200 -28 
+analyze
+Final learnt clause: 156 36 
+analyze
+Final learnt clause: -36 -38 
+analyze
+Final learnt clause: -65 155 -93 
+analyze
+Final learnt clause: -112 -198 -115 
+analyze
+Final learnt clause: -112 -65 93 
+analyze
+Final learnt clause: 66 -90 195 
+analyze
+Final learnt clause: -23 185 -28 97 
+analyze
+Final learnt clause: 155 53 -65 
+analyze
+Final learnt clause: 40 7 139 
+analyze
+Final learnt clause: -23 88 127 
+analyze
+Final learnt clause: 185 -23 -127 
+
+Statistics: 
+===================
+### Restarts:		0
+### Learned-clauses:	40
+### Decisions:		281
+### Implications:	882
+### Time:		0.019
+Assignment validated
+solution in assignment.txt
+SAT
