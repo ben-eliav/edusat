@@ -44,10 +44,10 @@ void Abort(string s, int i);
 enum class VAR_DEC_HEURISTIC {
 	MINISAT, // VSIDS
 	LRB,  // Basic Learning Rate Branching Heuristic
-	LRB_BS
+	LRB_BS // LRB with epsilon greedy exploration and weighted rewards
  } ;
 
-VAR_DEC_HEURISTIC VarDecHeuristic = VAR_DEC_HEURISTIC::MINISAT;
+VAR_DEC_HEURISTIC VarDecHeuristic = VAR_DEC_HEURISTIC::LRB_BS;  // MINISAT TOOK 639 SECONDS
 
 enum class VAL_DEC_HEURISTIC {
 	/* Same as last value. Initially false*/
@@ -233,6 +233,7 @@ class Solver {
 	double			lrb_alpha;		// Starts at 0.4, decreases over time.
 	double			LRB_BS_EPSILON = 0.05;
 	double			weighted_LRB_BS = 1; // initialised to 1 - no impact - if not LRB_BS
+	unordered_set<Var> lrb_BS_state;
 
 	unsigned int 
 		nvars,			// # vars

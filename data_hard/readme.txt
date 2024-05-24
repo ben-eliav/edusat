@@ -1,0 +1,1 @@
+These are cnf instances from the 2002 (?) competition, that edusat can solve in less than 15 min, and more than 10 sec. 

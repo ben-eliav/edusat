@@ -157,12 +157,16 @@ inline void Solver::lrb_update_score(Var v, double r) {
 inline void Solver::lrb_onAssign(Var v) {
 	lrb_assigned[v] = num_learned;  // The iteration when variable was assigned
 	lrb_participated[v] = 0;  // The number of times the variable participated in a conflict clause since its last assignment
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) {
+		lrb_BS_state.erase(v);
+	}
 }
 
 inline void Solver::lrb_onUnassign(Var v) {
 	double interval = num_learned - lrb_assigned[v];
 	if (interval > 0) {
 		if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS){
+			lrb_BS_state.insert(v);
 			weighted_LRB_BS = 0.7;
 		}
 		double r = (lrb_participated[v] + weighted_LRB_BS * lrb_reasoned[v]) / interval; // TODO : parameter tuning on 0.7 
@@ -215,6 +219,11 @@ void Solver::initialize() {
 		lrb_reasoned.resize(nvars + 1, 0);
 		lrb_assigned.resize(nvars + 1, 0);
 		lrb_last_updated.resize(nvars + 1, 0);
+	}
+	if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) {
+		for (Var i = 0; i <= nvars; i++) {
+			lrb_BS_state.insert(i);
+		}
 	}
 
 
@@ -418,13 +427,16 @@ SolverState Solver::decide(){
 		double random_num = static_cast<double>(rand()) / RAND_MAX;// O-1
 		if (random_num < LRB_BS_EPSILON) {
 				while (true) {
-					int random_num2 = rand() % nvars; // 0->nvars
+					int random_num2 = rand() % lrb_BS_state.size();
+					auto it = lrb_BS_state.begin();
+					for (; random_num2 > 0; random_num2--) it++;
+					Var v = *it;
 					//printf("nvars=");
 					//std::cout.precision(3);
 					//std::cout  << nvars << std::endl;
 					//printf("random_num2 %d\n", random_num2);
-					if (state[random_num2] == VarState::V_UNASSIGNED) {
-						best_lit = getVal(random_num2);
+					if (state[v] == VarState::V_UNASSIGNED) {
+						best_lit = getVal(v);
 						goto Apply_decision;  // done. 
 					}
 				}
@@ -620,7 +632,6 @@ This is Alg. 1 from "HaifaSat: a SAT solver based on an Abstraction/Refinement m
 
 int Solver::analyze(const Clause conflicting) {
 	// if (verbose_now()) 
-	cout << "analyze" << endl;
 	Clause	current_clause = conflicting, 
 			new_clause;
 	int resolve_num = 0,
@@ -693,8 +704,6 @@ int Solver::analyze(const Clause conflicting) {
 	}
 	Lit Negated_u = negate(u);
 	new_clause.cl().push_back(Negated_u);	
-	cout << "Final learnt clause: ";
-	print_vector(new_clause.cl());
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::MINISAT)
 		m_var_inc *= 1 / var_decay; // increasing importance of participating variables.
 	else if ((VarDecHeuristic == VAR_DEC_HEURISTIC::LRB || VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) && lrb_alpha > 0.06) {
