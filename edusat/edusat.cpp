@@ -823,6 +823,12 @@ void Solver::restart() {
 		m_curr_activity = 0; // The activity does not really become 0. When it is reset in decide() it becomes the largets activity. 
 		m_should_reset_iterators = true;
 	}
+	else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) {
+		lrb_BS_state.clear();
+		for (Var i = 1; i <= nvars; i++) {
+			lrb_BS_state.insert(i);
+		}
+	}
 	reset();
 }
 
