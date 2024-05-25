@@ -221,7 +221,7 @@ void Solver::initialize() {
 		lrb_last_updated.resize(nvars + 1, 0);
 	}
 	if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) {
-		for (Var i = 0; i <= nvars; i++) {
+		for (Var i = 1; i <= nvars; i++) {
 			lrb_BS_state.insert(i);
 		}
 	}
