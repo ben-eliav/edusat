@@ -425,60 +425,69 @@ SolverState Solver::decide(){
 		if (m_should_reset_iterators) reset_iterators(m_curr_activity);  // Save current top core for some reason. I don't know why he does this in the original code?
 		if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;
 		double random_num = static_cast<double>(rand()) / RAND_MAX;// O-1
-		if (random_num < LRB_BS_EPSILON) {
-				while (true) {
-					int random_num2 = rand() % lrb_BS_state.size();
-					auto it = lrb_BS_state.begin();
-					for (; random_num2 > 0; random_num2--) it++;
-					Var v = *it;
-					//printf("nvars=");
-					//std::cout.precision(3);
-					//std::cout  << nvars << std::endl;
-					//printf("random_num2 %d\n", random_num2);
-					if (state[v] == VarState::V_UNASSIGNED) {
-						best_lit = getVal(v);
-						goto Apply_decision;  // done. 
-					}
+		int count_errors = 0;
+		if (random_num < LRB_BS_EPSILON) {	
+			while (count_errors < 10) {
+				//int count = 0;
+				//for (VarState vs : state) {
+				//	if (vs == VarState::V_UNASSIGNED) count++;
+				//}
+				//cout << lrb_BS_state.size() << " " << count << endl;
+				int random_num2 = rand() % lrb_BS_state.size();
+				auto it = lrb_BS_state.begin();
+				for (; random_num2 > 0; random_num2--) it++;
+				Var v = *it;
+				//printf("nvars=");
+				//std::cout.precision(3);
+				//std::cout  << nvars << std::endl;
+				//printf("random_num2 %d\n", random_num2);
+				if (state[v] == VarState::V_UNASSIGNED) {
+					best_lit = getVal(v);
+					goto Apply_decision;  // done. 
+				}
+				else {
+					count_errors++; cout << "HOW";
 				}
 			}
-			else
-			{
-				while (true) {
-					auto& vars_with_top_score = lrb_Score2Vars_it->second;
-					for (auto var_it = vars_with_top_score.begin(); var_it != vars_with_top_score.end();) {  // iterate over variables with the top score
-						// printMap(lrb_Score2Vars);
-						Var v = *var_it;
-						if (state[v] == VarState::V_UNASSIGNED) {
-							int prev = lrb_last_updated[v];
-							if (prev == num_learned) {
-								best_lit = getVal(v);  // use heuristic to decide true / false
-								goto Apply_decision;  // done.
-							}
-							else {
-								lrb_last_updated[v] = num_learned;
-								double prev_score = lrb_activity[v];
-								if (lrb_activity[v] == 0) {
-									best_lit = getVal(v);
-									goto Apply_decision;
-								}
-								double decay = pow(0.95, num_learned - prev);
-								double new_score = lrb_activity[v] *= decay;
-								auto var_it_copy = var_it++;
-								lrb_Score2Vars[new_score].insert(v);
-								vars_with_top_score.erase(var_it_copy);
-							}
-
+		}
+		if (random_num >= LRB_BS_EPSILON || count_errors == 10) {
+			if (count_errors == 10) cout << "WHY";
+			while (true) {
+				auto& vars_with_top_score = lrb_Score2Vars_it->second;
+				for (auto var_it = vars_with_top_score.begin(); var_it != vars_with_top_score.end();) {  // iterate over variables with the top score
+					// printMap(lrb_Score2Vars);
+					Var v = *var_it;
+					if (state[v] == VarState::V_UNASSIGNED) {
+						int prev = lrb_last_updated[v];
+						if (prev == num_learned) {
+							best_lit = getVal(v);  // use heuristic to decide true / false
+							goto Apply_decision;  // done.
 						}
 						else {
-							var_it++;
+							lrb_last_updated[v] = num_learned;
+							double prev_score = lrb_activity[v];
+							if (lrb_activity[v] == 0) {
+								best_lit = getVal(v);
+								goto Apply_decision;
+							}
+							double decay = pow(0.95, num_learned - prev);
+							double new_score = lrb_activity[v] *= decay;
+							auto var_it_copy = var_it++;
+							lrb_Score2Vars[new_score].insert(v);
+							vars_with_top_score.erase(var_it_copy);
 						}
 
 					}
-					if (vars_with_top_score.size() == 0) lrb_Score2Vars_it = lrb_Score2Vars.erase(lrb_Score2Vars_it);  // we emptied the set of variables with this score.
-					else ++lrb_Score2Vars_it;  // there were no good variables with this score, go to next highest score.
-					if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;  // no more scores to check.
+					else {
+						var_it++;
+					}
+
 				}
+				if (vars_with_top_score.size() == 0) lrb_Score2Vars_it = lrb_Score2Vars.erase(lrb_Score2Vars_it);  // we emptied the set of variables with this score.
+				else ++lrb_Score2Vars_it;  // there were no good variables with this score, go to next highest score.
+				if (lrb_Score2Vars_it == lrb_Score2Vars.end()) break;  // no more scores to check.
 			}
+		}
 
 		break;
 	}
@@ -826,7 +835,7 @@ void Solver::restart() {
 	else if (VarDecHeuristic == VAR_DEC_HEURISTIC::LRB_BS) {
 		lrb_BS_state.clear();
 		for (Var i = 1; i <= nvars; i++) {
-			lrb_BS_state.insert(i);
+			if (state[i] == VarState::V_UNASSIGNED) lrb_BS_state.insert(i);
 		}
 	}
 	reset();
@@ -858,6 +867,7 @@ void Solver::solve() {
 SolverState Solver::_solve() {
 	SolverState res;
 	while (true) {
+		// cout << cpuTime() - begin_time << endl;
 		if (timeout > 0 && cpuTime() - begin_time > timeout) return SolverState::TIMEOUT;
 		while (true) {
 			res = BCP();
