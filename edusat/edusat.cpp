@@ -445,13 +445,13 @@ SolverState Solver::decide(){
 					best_lit = getVal(v);
 					goto Apply_decision;  // done. 
 				}
-				else {
-					count_errors++; cout << "HOW";
-				}
+				//else {
+				//	count_errors++; cout << "HOW";
+				//}
 			}
 		}
-		if (random_num >= LRB_BS_EPSILON || count_errors == 10) {
-			if (count_errors == 10) cout << "WHY";
+		if (random_num >= LRB_BS_EPSILON) { //|| count_errors == 10) {
+			// if (count_errors == 10) cout << "WHY";
 			while (true) {
 				auto& vars_with_top_score = lrb_Score2Vars_it->second;
 				for (auto var_it = vars_with_top_score.begin(); var_it != vars_with_top_score.end();) {  // iterate over variables with the top score
